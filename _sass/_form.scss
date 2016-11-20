@@ -1,0 +1,42 @@
+form {
+  margin: 2em 0;
+  div {
+    margin: 1.4em 0;
+  }
+}
+
+label,
+input,
+textarea,
+button {
+  font-size: 1em;
+  margin: 0;
+  line-height: 1em;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: .5em;
+  border-radius: 4px;
+  border: 2px solid #ddd;
+}
+
+textarea {
+  height: 8em;
+  max-width: 100%;
+}
+
+button {
+  padding: .7em 1.4em;
+  border-radius: 4px;
+  border: none;
+  background-color: $link-color;
+  color: #fff;
+  font-weight: bold;
+  &:hover {
+    background-color: $link-hover-color;
+    box-shadow: 0 4pt 8pt #ddd;
+    cursor: pointer;
+  }
+}

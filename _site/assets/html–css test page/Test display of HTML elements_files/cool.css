@@ -1,0 +1,182 @@
+/* A cool style sheet to demonstrate how browsers could behave.
+   To be used with reasonably CSS 2.1 conformant browser like Firefox. */
+
+* { margin: 0;
+    padding: 0;
+    font-size: 100%;
+    line-height: 1.3;
+    color: #000;
+    background: #fffff3;
+    text-decoration: none;
+    border: none; }
+
+a[href]:before { content: "\21e8";
+                 font-style: normal;
+                 font-size: 120%; }
+:link:before { color: #090; background: inherit; }
+:visited:before { color: #407; background: inherit; }
+:link:hover, :visited:hover,
+:link:focus, :visited:focus
+ { color : #c33; background : #ffe ;
+   outline: solid 2px #093; }
+:link:focus, :visited:focus
+ { outline-style: dashed; }
+:link:active, :visited:active
+ { outline-style: double;
+   outline-color: red; }
+
+a[href][type]:after { content: " [" attr(type) "] "; }
+
+h1 { text-align : center }
+h1, h2, h3, h4, h5, h6, .h7 {
+  font-weight: bold;
+  font-family: Verdana, Arial, Helvetica, sans-serif; }
+h1 { font-size: 170%; }
+h2 { font-size: 145%; }
+h3 { font-size: 125%; }
+h4 { font-size: 110%; }
+h5 { font-size: 106%; }
+h6 { font-size: 100%; }
+
+h1 { margin: 0.5em 0; }
+h2, h3, h4, h5, h6 {
+  margin: 0.8em 0 0.2em 0; }
+
+body { margin: 0.3em 0.3em 0.3em 1em; }
+
+ul, ol, dl { margin: 0.3em 0 0.5em 0.5em; }
+ul { list-style-type: none; }
+ul li:before { content: "\2013  "; }
+ol { padding-left: 1.5em; }
+dt { margin-top: 0.4em;
+     margin-bottom: 0.2em; }
+dd { margin-left: 2.5em;
+     margin-bottom: 0.6em; }
+
+p, ul, ol, dl, blockquote, address { max-width: 35em; }
+
+p + p { text-indent: 1.2em; }
+
+blockquote {
+   border : solid #696 1px;
+   font-size: 90%;
+   border-left-width: 0.1em;
+   padding : 0.06em 0.2em 0.06em 0.4em; 
+   margin: 0.3em 0.5em 0.3em 1em;
+   background: #f9f9f9;
+   color: #020; }
+@media screen { blockquote {
+   -moz-border-radius: 0.3em; }}
+
+address {
+   font-style: normal;
+   border : dashed #333 1px;
+   padding : 0.06em 0.2em 0.06em 0.4em; 
+   margin: 0.3em 0.5em 0.3em 1em;
+   background: #fff;
+   color: #000; }
+
+body > div { outline: dotted 1px #666; padding: 0 0.1em; }
+
+sub, sup { font-size: 80%; }
+sub sub sub, sup sup sup { font-size: 100%; }
+sub { vertical-align: -0.5ex; }
+sup { vertical-align:  0.5ex; }
+small { font-size: 80%; }
+big   { font-size: 115%; }
+
+dfn, dt,
+strong { font-weight: normal;
+         background: #ffc;
+         color: #000;
+         padding: 0 0.15em; }
+dfn, dt { border: double 3px;
+          margin: 0 0.2em;
+          padding: 0 0.2em 0 0.15em; }
+
+cite { color: #030; 
+       background: #fff; }
+var  { color: #600; 
+       background: #fff; }
+kbd, samp { color: #300; 
+            background: #fff; }
+kbd { font-weight: bold; }
+
+hr { color : #033;
+     background-color : #f0f0f0;
+     padding: 0 0 0.2em 0.2em;
+     margin: 0.5em 0;
+     border: solid 1px;
+     height: 1.6em; }
+
+hr:after { content: "\2014\2014\2014  " attr(title) " \2014\2014\2014" ;
+           font-style: italic;
+           font-size: 90%;
+           font-family: Georgia, serif; }
+
+body, select, textarea { font-family: Georgia, serif; }
+
+input[type=submit], input[type=button], input[type=reset], button
+    { font: caption;
+      font-size: 100%;
+      color: Buttontext;
+      background: ButtonFace;
+      border: solid 1px;  
+      -moz-border-radius: 0.4em; }
+
+input, textarea, select { border: solid #222 1px; margin: 0.3em 0; vertical-align: bottom; }
+
+input { font-family: Courier New, monospace; }
+
+textarea, input { background: #fff; color: #000; padding: 0 0.15em; }
+
+table { font-family: Arial, sans-serif;
+        margin-bottom: 0.4em; }
+
+caption { background : #ffc; color : #000;
+          margin-top: 0.4em; }
+th      { background : #ffd; color : #000; }
+caption { font-weight: bold; }
+
+table, caption, th, td {
+  border: solid #121 1px; }
+table {
+  border-collapse: collapse; }
+caption, th, td {
+  padding : 0 0.3em; }
+
+form { border : solid #040 2px;
+       padding : 3px; }
+fieldset { border : solid #060 1px;
+           padding : 3px; }
+label { border : solid #080 1px; padding: 0.15em 0.1em; }
+form > div { margin: 0.4em 0; }
+form div { margin: 4px 0; }
+
+input:focus, textarea:focus, select:focus, input:hover, button:hover
+  { background : #ffd;
+    color : black; }
+input[type="submit"]:hover { border-color: #900; 
+                             background: #ffd;
+                             color: #600; }
+input[type="submit"]:active { border-color: red;
+                              color: red;
+                              background: #ffc; }
+
+fieldset { margin: 0.5em 0; }
+
+@media screen {
+body { max-width: 40em; }
+}
+
+abbr[title]:after { content: " [" attr(title) "] ";
+                    font-size: 80%; }
+
+del:before, strike:before, s:before { content: "\2326"; }
+del:after, strike:after, s:after { content: "\232b"; }
+
+ins:before { content: "\2380"; }
+ins:hover { outline: dashed 1px;
+            background: #fff;
+            color: #000; }
+

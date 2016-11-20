@@ -1,25 +1,20 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Fri Rasyidi—UX+Visual Designer</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="author" content="Fri Rasyidi">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+---
+layout: default
+date: 2016-11-20
+update: 2016-11-20
+---
 
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<h1>Hi, I'm Fri.</h1>
+<p>I'm a <abbr title="User Experience">UX</abbr> and visual designer. I build useful products and services using common sense and user centric approach.</p>
+<!--<p>I also write articles on user experience, design, and startups that you can check on below:</p>-->
 
-      ga('create', 'UA-73100413-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-  </head>
-
-  <body style="width: 600px; margin: 100px auto; font-family: sans-serif; line-height: 1.35; text-align: center; font-size: 19px; color: 333;">
-    <h1>Fri Rasyidi</h1>
-    <p>UX+Visual Designer who builds useful products using<br/>common sense and user centric approach.</p>
-    <p><small><a href="mailto:fri@frirasyidi.com">fri@frirasyidi.com</a><br/>@frirasyidi on <a href="http://twitter.com/frirasyidi">Twitter</a>, <a href="http://dribbble.com/frirasyidi">Dribbble</a>, and <a href="https://id.linkedin.com/in/frirasyidi">Linkedin</a>.</small></p>
-  </body>
-</html>
+<h2>Logs</h2>
+<ul>
+  {% for post in site.categories.blog %}
+    {% if post.url %}
+      <li>
+				<a href="{{ post.url }}">{{ post.title }}</a>—<time>{{ post.date | date: "%b %-d, %Y" }}</time>
+			</li>
+    {% endif %}
+  {% endfor %}
+</ul>

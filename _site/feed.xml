@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fri Rasyidi—UX+Visual Designer</title>
+    <description>Fri is a UX+Visual Designer who builds useful products with common sense and user centeric approach.
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 21 Nov 2016 00:27:18 +0700</pubDate>
+    <lastBuildDate>Mon, 21 Nov 2016 00:27:18 +0700</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Hello, World!</title>
+        <description>&lt;p&gt;Last month I’ve been thinking to updating my site.&lt;/p&gt;
+
+&lt;p&gt;My old site works just fine for me: it tells people my name, what I do, how to contact me, and showcase some of my works. But I’ve been wanting to improve my writing skills—I suck at it real hard—which means I need to start writing stuffs and post it somewhere for people to read and get feedback from it. So, I decided to add blogging capability to this site.&lt;/p&gt;
+
+&lt;p&gt;&lt;abbr title=&quot;For Your Information&quot;&gt;FYI&lt;/abbr&gt;, I’m a huge fan of &lt;a href=&quot;https://en.wikipedia.org/wiki/Static_web_page&quot;&gt;static sites&lt;/a&gt;. It has incredible performance (&lt;a href=&quot;https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/&quot;&gt;Smashing Magazine&lt;/a&gt;: even with a highly optimized dynamic website, the static version () is more than six times as fast on average!), very little needs of maintenance, and immune to exploits. But nothing is perfect—yeah, there’s always a catch—and it’s the exact reason why dynamic sites was born into existence: &lt;em&gt;it’s hard to manage a static sites with multiple pages&lt;/em&gt;. That’s why it’s not ideal for blogging sites.&lt;/p&gt;
+
+&lt;p&gt;But then I remember something…&lt;/p&gt;
+
+&lt;p&gt;When my client asked me to create their budget site, what I did was buying a Wordpress theme for the interface design. I’m more of a &lt;abbr title=&quot;User Experience&quot;&gt;UX&lt;/abbr&gt; designer so I care more about the content than the looks; buying Wordpress themes has never been an issue for me as long as it serve the purpose. But I did thought of using my own interface design for sites I built in the future, so I tried to learn how to make Wordpress themes. But it was too complex—I know HTML and CSS and can read Java Script; the learning curve was too steep.&lt;/p&gt;
+
+&lt;p&gt;Around a year ago, I looked for another alternative that can be made with pretty much only HTML and CSS which is &lt;em&gt;static sites&lt;/em&gt;. Yes, I’ve told you that static sites are not ideal for blogging sites due to it’s complexity to manage multiple pages; but that’s the only reason of it. Looking at how excellent static sites performances are, I knew that some geeky guys must have thought of using it as a blogging platform. I mean, if I’ve thought about it, someone must have too, right? And I was right! They’re called “&lt;a href=&quot;https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/&quot;&gt;static sites generator&lt;/a&gt;”.&lt;/p&gt;
+
+&lt;p&gt;After doing research, I stumbled upon &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, a static site generator made by &lt;a href=&quot;http://tom.preston-werner.com/&quot;&gt;Tom Preston-Werner&lt;/a&gt;. Jekyll is great because it harnesses the power of markdown and has Sass built in. That makes writing HTML and CSS much easier and more efficient. Not only that, it is also highly compatible with [GitHub pages][github,io]; meaning I can work from my local and simply push it once I’m satisfied; and &lt;em&gt;it offers free hosting&lt;/em&gt;. Needless to say, I’m 100% bought.&lt;/p&gt;
+
+&lt;p&gt;So, here it is. My updated site is hand made using &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; and &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you’re interested on building your own site the same way I did, &lt;a href=&quot;https://www.taniarascia.com/make-a-static-website-with-jekyll/&quot;&gt;here’s a very good written guide by Tania Rascia&lt;/a&gt; that I used to learn and start with. Also, feel free to ask questions or get in touch with me &lt;a href=&quot;/contact&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;notes&quot;&gt;Notes&lt;/h3&gt;
+
+&lt;p&gt;For those who are wondering, I use &lt;a href=&quot;https://www.formingo.co&quot;&gt;Formingo&lt;/a&gt;’s service to run my contact form. I’ve tried some other free contact form services like &lt;a href=&quot;http://formspree.io/&quot;&gt;Formspree&lt;/a&gt; and &lt;a href=&quot;https://formkeep.com&quot;&gt;FormKeep&lt;/a&gt;, but I like Formingo better for it’s ability to redirect, directly reply to, and define the email’s subject.&lt;/p&gt;
+
+&lt;h3 id=&quot;links-to-more-information&quot;&gt;Links to more information&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/&quot;&gt;Why Static Website Generators Are The Next Big Thing&lt;/a&gt; by &lt;a href=&quot;http://www.twitter.com/biilmann&quot;&gt;Mathias Biilmann Christensen&lt;/a&gt;. If you’re not convinced yet about static sites, go ahead and read this.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;. Step by step guide to setup Github Pages.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.taniarascia.com/make-a-static-website-with-jekyll/&quot;&gt;Make a Static Website with Jekyll&lt;/a&gt; by &lt;a href=&quot;https://www.taniarascia.com/&quot;&gt;Tania Rascia&lt;/a&gt;. The best getting started guide I have found.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/tagged/jekyll&quot;&gt;Jekyll on StackOverflow&lt;/a&gt;. If you need quick troubleshooting, check it out on StackOverflow for an answer to your question. Not there? Go ahead and ask a new question.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://sass-lang.com/guide&quot;&gt;Learn SASS&lt;/a&gt;. A good start to learn &lt;dfn&gt;SASS&lt;/dfn&gt;, an extension of CSS that helps keep stylesheets well-organized by allowing you to use variables, nested rules, mixins, inline imports, and more. You can also go directly to &lt;a href=&quot;http://sass-lang.com/documentation/file.SASS_REFERENCE.html&quot;&gt;SASS documentation&lt;/a&gt; for more details.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt; by &lt;a href=&quot;https://daringfireball.net&quot;&gt;Daring Fireball&lt;/a&gt;. Learn the basics of Markdown from its original creator.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://guides.github.com/features/mastering-markdown/&quot;&gt;GitHub Flavored Markdown&lt;/a&gt;. Learn the Markdown syntax that Tania Rascia and I are using for our Jekyll sites. &lt;abbr title=&quot;Github Flavored Markdown&quot;&gt;GFW&lt;/abbr&gt; is one of many Markdown syntax that you can use.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://helloworldcollection.de/&quot;&gt;The Hello World Collection&lt;/a&gt;. Trivia: here’s a collection of “Hello, World!” programs in as many more-or-less well known programming languages and 76 human languages.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 20 Nov 2016 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/blog/2016/11/20/hello-world.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2016/11/20/hello-world.html</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Accessible Web</title>
+        <description>&lt;p&gt;One of the most important but very much neglected in user experience is accessibility.&lt;/p&gt;
+
+&lt;p&gt;Semantic HTML5. HTML5 is made to improve accessibility. Unfortunately, a lot of people only thought of HTML5 as the new requirement to fulfill and neglect the goal behind it’s development reason.&lt;/p&gt;
+
+&lt;p&gt;Here’s a proper HTML5 structure:&lt;/p&gt;
+
+&lt;pre&gt;
+[head]
+
+[body]
+  [header]
+    [nav]
+
+  [main]
+    [article]
+    [section]
+
+  [aside]
+
+  [footer]
+&lt;/pre&gt;
+
+&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 15 Nov 2016 07:10:45 +0700</pubDate>
+        <link>http://localhost:4000/ux/accessibility/2016/11/15/accessible-web.html</link>
+        <guid isPermaLink="true">http://localhost:4000/ux/accessibility/2016/11/15/accessible-web.html</guid>
+        
+        
+        <category>ux</category>
+        
+        <category>accessibility</category>
+        
+      </item>
+    
+      <item>
+        <title>Presenting Date and Time</title>
+        <description>&lt;h2 id=&quot;the-problem-in-presenting-date-and-time&quot;&gt;The problem in presenting date and time.&lt;/h2&gt;
+
+&lt;p&gt;There are different date and time formats in use in different parts of the world and in different contexts. There are two major practical problems:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A date designation such as 5/6/98 is ambiguous: which of the first two numbers is the month and which is the day? It is interpreted as the 5th of June, 1998, in most countries. However, in the United States it is generally interpreted as the 6th of May, 1998. This has caused a lot of confusion.&lt;/li&gt;
+  &lt;li&gt;Date designations that do not explicitly specify the century can cause serious problems in the 21st century. This “millennium problem” or “year 2000 problem” or “Y2K” is definitely not over yet. On the contrary, now that we are in the 21st century, we face the problem in everyday life.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;footnote&quot;&gt;Footnote&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.iso.ch/&quot;&gt;ISO&lt;/a&gt; - International Organization for Standardization, &lt;a href=&quot;http://www.iso.org/iso/en/prods-services/popstds/datesandtime.html&quot;&gt;Numeric representation of Dates and Time&lt;/a&gt; (an informal description of ISO 8601 by ISO)&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 15 Nov 2016 00:10:45 +0700</pubDate>
+        <link>http://localhost:4000/ux/accessibility/2016/11/15/presenting-date-time.html</link>
+        <guid isPermaLink="true">http://localhost:4000/ux/accessibility/2016/11/15/presenting-date-time.html</guid>
+        
+        
+        <category>ux</category>
+        
+        <category>accessibility</category>
+        
+      </item>
+    
+      <item>
+        <title>The Experience of Error Messages</title>
+        <description>&lt;p&gt;Encountering error messages is a bad experience for your users. Since we always think about how to give the best user experience, with perfection in mind, we tend to overlook errors. But shit (errors) happens. So how do you make a good experience from bad experience?&lt;/p&gt;
+
+&lt;p&gt;When encountering errors your users are on the verge of leaving your service. But hey, see the opportunity there? They’re only on the verge of it. Which means, if you’re able to help them address the error, they might stay. Hell, if you give good experience, they might even love you for it. You know, they might think hey, I don’t care if there’s error, this app will help me through with it. No problem.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://2.bp.blogspot.com/-ewBp5XLCa2A/T7BX6nHwuEI/AAAAAAAAAXA/De3gGp0rPoQ/s1600/banda+view+dr+puncak.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Clearly communicate the error
+The most frustrating experience for users when they encounter error messages is when they don’t know what causes the errors. The one thing that you need to keep in mind is understandability of the message. Never use jargon. You know how irritated you are when you encounter smart asses who used hard jargons to show off? Yes, that’s how you sound like when you use jargons in your error messages. It’s even more irritating for your users in error messages since they’re actually in a frustrated state.&lt;/p&gt;
+
+&lt;p&gt;Be helpful
+The second most frustrating experience for users when they encounter error messages is when they don’t know what to do to fix it. Especially when they keep encountering the problem.&lt;/p&gt;
+
+&lt;p&gt;Admit, and own it.&lt;/p&gt;
+
+&lt;p&gt;Humour
+Being humorous can help, but be careful with it. It can definitely backfired. I always tend to move away from this. If you’re not confident with your copywriting skill, and don’t have full understanding on the context of the errors, try to refrain from humouring on the errors.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://readwrite.com/2013/01/09/7-reasons-passwords-are-doomed-finally&quot;&gt;7 Reasons Passwords are Doomed&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 30 Nov 2015 07:10:45 +0700</pubDate>
+        <link>http://localhost:4000/ux/error/2015/11/30/the-ux-of-error.html</link>
+        <guid isPermaLink="true">http://localhost:4000/ux/error/2015/11/30/the-ux-of-error.html</guid>
+        
+        
+        <category>ux</category>
+        
+        <category>error</category>
+        
+      </item>
+    
+      <item>
+        <title>Indonesian User Interface Glossary</title>
+        <description>&lt;p&gt;Localization is important. I’ve done a handful projects on localizing English sites to Indonesian and it’s always challenging.&lt;/p&gt;
+
+&lt;p&gt;Below I’ve collected lists of UI terms in Indonesian. This is a growing list.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;English&lt;/th&gt;
+      &lt;th&gt;Bahasa Indonesia&lt;/th&gt;
+      &lt;th&gt;Note&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;English&lt;/td&gt;
+      &lt;td&gt;Bahasa Inggris&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Indonesian&lt;/td&gt;
+      &lt;td&gt;Bahasa Indonesia&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;home&lt;/td&gt;
+      &lt;td&gt;depan; alt. Beranda&lt;/td&gt;
+      &lt;td&gt;I prefer to use &lt;em&gt;depan&lt;/em&gt; to &lt;em&gt;beranda&lt;/em&gt; since it’s much easier to comprehend for Indonesian. Depan means “front” while beranda is “front porch”. Depan is also easier and much easier to understand when translating homepage which translates into “halaman depan” (see: page/halaman) which is a very friendly and relatable term in Indonesia. See also: Front page/halaman muka.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;page&lt;/td&gt;
+      &lt;td&gt;halaman&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Mon, 30 Nov 2015 07:10:45 +0700</pubDate>
+        <link>http://localhost:4000/ux/accessibility/2015/11/30/indonesian-ui-glossary.html</link>
+        <guid isPermaLink="true">http://localhost:4000/ux/accessibility/2015/11/30/indonesian-ui-glossary.html</guid>
+        
+        
+        <category>ux</category>
+        
+        <category>accessibility</category>
+        
+      </item>
+    
+  </channel>
+</rss>
