@@ -17,11 +17,14 @@ Prior to UX design, Fri worked as a visual design freelancer working mainly in h
 
 Aside from being a designer, Fri also have two years of experience being a business and community manager as the Chief of the first coworking space in Jakarta.
 
-<h2 id="timeline">Timeline</h2>
+<h2 id="timeline">Notable Timeline</h2>
 
 * UX UI Designer for [HappyFresh][happyfresh], <time>2016 to present</time>
 * UX Consultant for <abbr title="Special Task Force for Acceleration of Renewable Energy Development">Satgas P2EBT</abbr> of <abbr title="Ministry of Energy and Mineral Resources">ESDM</abbr>, <time>2016</time>
+* [Lean Startup Machine Jakarta](https://www.leanstartupmachine.com/cities/jakarta) Mentor and Organizer, <time>2015</time>
 * UX UI Designer for [Happy5](https://www.happy5.co/), <time>2015 to 2016</time>
+* UX, Content Manager, and Web Localization Expert for [World Resources Institute](http://wri-indonesia.org/), <time>2014-2015</time>
+* PDF Accessibility Consultant for American Institutes for Research, <time>2013</time>
 * Chief of Comma Coworking Space, <time>2013 to 2015</time>
 * Freelance Designer, <time>2010 to present</time>
 * Business Management Undergraduate at <abbr title="School of Business Management of Institute Teknologi Bandung">SBM-ITB<abbr>, <time>2008 to 2011</time>
