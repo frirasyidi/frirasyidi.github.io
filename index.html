@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
   <head>
@@ -23,3 +24,25 @@
     <p><small><a href="mailto:fri@frirasyidi.com">fri@frirasyidi.com</a><br/>@frirasyidi on <a href="http://twitter.com/frirasyidi">Twitter</a>, <a href="http://dribbble.com/frirasyidi">Dribbble</a>, and <a href="https://id.linkedin.com/in/frirasyidi">Linkedin</a>.</small></p>
   </body>
 </html>
+=======
+---
+layout: default
+date: 2016-11-20
+update: 2016-11-20
+---
+
+<h1>Hi, I'm Fri.</h1>
+<p>I'm a <abbr title="User Experience">UX</abbr> and visual designer. I build useful products and services using common sense and user centric approach.</p>
+<!--<p>I also write articles on user experience, design, and startups that you can check on below:</p>-->
+
+<h2>Logs</h2>
+<ul>
+  {% for post in site.categories.blog %}
+    {% if post.url %}
+      <li>
+				<a href="{{ post.url }}">{{ post.title }}</a>—<time>{{ post.date | date: "%b %-d, %Y" }}</time>
+			</li>
+    {% endif %}
+  {% endfor %}
+</ul>
+>>>>>>> dev
