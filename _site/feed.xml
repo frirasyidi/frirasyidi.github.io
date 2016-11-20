@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 21 Nov 2016 02:12:48 +0700</pubDate>
-    <lastBuildDate>Mon, 21 Nov 2016 02:12:48 +0700</lastBuildDate>
+    <pubDate>Mon, 21 Nov 2016 02:23:43 +0700</pubDate>
+    <lastBuildDate>Mon, 21 Nov 2016 02:23:43 +0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -16,7 +16,7 @@
 
 &lt;p&gt;My old site works just fine for me: it tells people my name, what I do, how to contact me, and showcase some of my works. But I’ve been wanting to improve my writing skills—I suck at it real hard—which means I need to start writing stuffs and post it somewhere for people to read and get feedback from it. So, I decided to add blogging capability to this site.&lt;/p&gt;
 
-&lt;p&gt;&lt;abbr title=&quot;For Your Information&quot;&gt;FYI&lt;/abbr&gt;, I’m a huge fan of &lt;a href=&quot;https://en.wikipedia.org/wiki/Static_web_page&quot;&gt;static sites&lt;/a&gt;. It has incredible performance (&lt;a href=&quot;https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/&quot;&gt;Smashing Magazine&lt;/a&gt;: even with a highly optimized dynamic website, the static version () is more than six times as fast on average!), very little needs of maintenance, and immune to exploits. But nothing is perfect—yeah, there’s always a catch—and it’s the exact reason why dynamic sites was born into existence: &lt;em&gt;it’s hard to manage a static sites with multiple pages&lt;/em&gt;. That’s why it’s not ideal for blogging sites.&lt;/p&gt;
+&lt;p&gt;&lt;abbr title=&quot;For Your Information&quot;&gt;FYI&lt;/abbr&gt;, I’m a huge fan of &lt;a href=&quot;https://en.wikipedia.org/wiki/Static_web_page&quot;&gt;static sites&lt;/a&gt;. It has incredible performance (&lt;cite&gt;&lt;a href=&quot;https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/&quot;&gt;Smashing Magazine&lt;/a&gt;&lt;/cite&gt;: &lt;q&gt;Even with a highly optimized dynamic website, the static version is more than six times as fast on average!&lt;/q&gt;), very little needs of maintenance, and immune to exploits. But nothing is perfect—yeah, there’s always a catch—and it’s the exact reason why dynamic sites was born into existence: &lt;em&gt;it’s hard to manage a static sites with multiple pages&lt;/em&gt;. That’s why it’s not ideal for blogging sites.&lt;/p&gt;
 
 &lt;p&gt;But then I remember something…&lt;/p&gt;
 
@@ -24,7 +24,7 @@
 
 &lt;p&gt;Around a year ago, I looked for another alternative that can be made with pretty much only HTML and CSS which is &lt;em&gt;static sites&lt;/em&gt;. Yes, I’ve told you that static sites are not ideal for blogging sites due to it’s complexity to manage multiple pages; but that’s the only reason of it. Looking at how excellent static sites performances are, I knew that some geeky guys must have thought of using it as a blogging platform. I mean, if I’ve thought about it, someone must have too, right? And I was right! They’re called “&lt;a href=&quot;https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/&quot;&gt;static sites generator&lt;/a&gt;”.&lt;/p&gt;
 
-&lt;p&gt;After doing research, I stumbled upon &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, a static site generator made by &lt;a href=&quot;http://tom.preston-werner.com/&quot;&gt;Tom Preston-Werner&lt;/a&gt;. Jekyll is great because it harnesses the power of markdown and has Sass built in. That makes writing HTML and CSS much easier and more efficient. Not only that, it is also highly compatible with [GitHub pages][github,io]; meaning I can work from my local and simply push it once I’m satisfied; and &lt;em&gt;it offers free hosting&lt;/em&gt;. Needless to say, I’m 100% bought.&lt;/p&gt;
+&lt;p&gt;After doing research, I stumbled upon &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, a static site generator made by &lt;a href=&quot;http://tom.preston-werner.com/&quot;&gt;Tom Preston-Werner&lt;/a&gt;. Jekyll is great because it harnesses the power of markdown and has Sass built in. That makes writing HTML and CSS much easier and more efficient. Not only that, it is also highly compatible with &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub pages&lt;/a&gt;; meaning I can work from my local and simply push it once I’m satisfied; and &lt;em&gt;it offers free hosting&lt;/em&gt;. Needless to say, I’m 100% bought.&lt;/p&gt;
 
 &lt;p&gt;So, here it is. My updated site is hand made using &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; and &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
 

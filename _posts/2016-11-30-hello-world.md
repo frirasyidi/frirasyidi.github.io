@@ -9,7 +9,7 @@ Last month I’ve been thinking to updating my site.
 
 My old site works just fine for me: it tells people my name, what I do, how to contact me, and showcase some of my works. But I’ve been wanting to improve my writing skills—I suck at it real hard—which means I need to start writing stuffs and post it somewhere for people to read and get feedback from it. So, I decided to add blogging capability to this site.
 
-<abbr title="For Your Information">FYI</abbr>, I’m a huge fan of [static sites][wiki-staticSite]. It has incredible performance ([Smashing Magazine][smashing]: even with a highly optimized dynamic website, the static version () is more than six times as fast on average!), very little needs of maintenance, and immune to exploits. But nothing is perfect—yeah, there’s always a catch—and it’s the exact reason why dynamic sites was born into existence: *it’s hard to manage a static sites with multiple pages*. That’s why it’s not ideal for blogging sites.
+<abbr title="For Your Information">FYI</abbr>, I’m a huge fan of [static sites][wiki-staticSite]. It has incredible performance (<cite>[Smashing Magazine][smashing]</cite>: <q>Even with a highly optimized dynamic website, the static version is more than six times as fast on average!</q>), very little needs of maintenance, and immune to exploits. But nothing is perfect—yeah, there’s always a catch—and it’s the exact reason why dynamic sites was born into existence: *it’s hard to manage a static sites with multiple pages*. That’s why it’s not ideal for blogging sites.
 
 But then I remember something…
 
@@ -17,7 +17,7 @@ When my client asked me to create their budget site, what I did was buying a Wor
 
 Around a year ago, I looked for another alternative that can be made with pretty much only HTML and CSS which is *static sites*. Yes, I’ve told you that static sites are not ideal for blogging sites due to it’s complexity to manage multiple pages; but that’s the only reason of it. Looking at how excellent static sites performances are, I knew that some geeky guys must have thought of using it as a blogging platform. I mean, if I’ve thought about it, someone must have too, right? And I was right! They’re called “[static sites generator][smashing]”.
 
-After doing research, I stumbled upon [Jekyll][jekyll], a static site generator made by [Tom Preston-Werner][tom]. Jekyll is great because it harnesses the power of markdown and has Sass built in. That makes writing HTML and CSS much easier and more efficient. Not only that, it is also highly compatible with [GitHub pages][github,io]; meaning I can work from my local and simply push it once I’m satisfied; and *it offers free hosting*. Needless to say, I’m 100% bought.
+After doing research, I stumbled upon [Jekyll][jekyll], a static site generator made by [Tom Preston-Werner][tom]. Jekyll is great because it harnesses the power of markdown and has Sass built in. That makes writing HTML and CSS much easier and more efficient. Not only that, it is also highly compatible with [GitHub pages][github.io]; meaning I can work from my local and simply push it once I’m satisfied; and *it offers free hosting*. Needless to say, I’m 100% bought.
 
 So, here it is. My updated site is hand made using [Jekyll][jekyll] and [GitHub Pages][github.io].
 

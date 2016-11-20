@@ -38,7 +38,7 @@ a { color: #08c; text-decoration: underline; }
 a:visited { color: #2e3191; }
 a:hover { color: #2e3191; }
 
-ul, li { line-height: 1.8; }
+ul, li { line-height: 1.4; margin: .7em 0; }
 
 main { padding: 0 30px; max-width: 700px; margin: 0 auto; }
 
