@@ -56,7 +56,7 @@ header .logo { display: inline-block; margin: 0 auto 5px; padding: 10px; font: "
 header .logo a { text-decoration: none; color: #2E2F30; }
 header nav { display: inline-block; float: right; margin: 0 auto; font-size: .8em; }
 header nav ul { margin: 0; padding: 0; list-style: none; }
-header nav ul li { float: left; position: relative; }
+header nav ul li { float: left; position: relative; margin: 0; }
 header nav ul li a, header nav ul li a:visited { color: #2E2F30; text-decoration: none; display: block; padding: 15px; }
 header nav ul li a:hover, header nav ul li a:visited:hover { text-decoration: underline; color: #08c; }
 
