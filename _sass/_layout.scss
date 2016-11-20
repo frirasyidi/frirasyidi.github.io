@@ -1,14 +1,40 @@
 /*---------------------------------------
 Global
 ---------------------------------------*/
-body {
+html {
 	margin: 0;
+	padding: 0;
 	color: $font-color;
 	font-family: $font-style;
 	font-size: 62.5%;
-	line-height: 1.6;
+	line-height: $line-height;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
+}
+
+body {
+	font-size: $font-size;
+	max-width: 100%;
+}
+
+/*---------------------------------------
+Footer
+---------------------------------------*/
+
+footer {
+	text-align: center;
+	padding: 40px;
+	font-size: .8em;
+	border-top: .5pt solid #dcddde;
+	margin: 6em 0 0;
+	width: 100%;
+	.contacts {
+		margin-bottom: 4em;
+
+		a {
+		padding: 10px;
+		}
+	}
 }
 
 /*---------------------------------------
@@ -20,48 +46,76 @@ h3 {
 	font-weight: 600;
 	color: $heading-font-color;
 	font-family: $heading-font;
-	line-height: 1.5;
-}
-h1 {
-	color: $main;
-	font-size: 2.5em;
+	margin: 1.4em 0 .7em;
+	line-height: 1;
 	a,
 	a:visited {
 		text-decoration: none;
-		color: $main;
+		color: $font-color;
+	}
+	a:hover {
+		text-decoration: underline;
 	}
 }
-h2 {
-	font-size: 2em;
+
+h1 {
+	color: $main;
+	font-size: 2.4em;
 }
-a,
-a:visited {
+
+h1 + p {
+	font-size: 1.2em;
+	margin: 0 0 2em;
+}
+
+h2 {
+	font-size: 1.6em;
+}
+
+h3 {
+	font-size: 1.2em;
+}
+
+p {
+	margin: 0 0 1em;
+}
+
+a {
 	color: $link-color;
 	text-decoration: underline;
-	font-weight: bold;
-}
-a:hover {
+	&:visited {
+		color: $link-visited-color;
+	}
+	&:hover {
 	color: $link-hover-color;
-	text-decoration: underline;
+	}
 }
-header {
-	background: $header;
-	padding: 0px 15px;
-	text-align: center;
-	margin: 50px 0 0;
-	height: 50vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+
+ul,
+li {
+	line-height: 1.8;
 }
+
 main {
-	padding: 0 15px;
+	padding: 0 30px;
 	max-width: $content-width;
 	margin: 0 auto;
 }
+
+main header {
+	margin-bottom: 2em;
+	border-bottom: none;
+}
 time {
 	color: #898989;
+	line-height: 1;
 }
+
+img {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
 .container {
 	max-width: $content-width;
 	margin: 0 auto;
@@ -69,19 +123,27 @@ time {
 
 /* Aside */
 
-aside {
-	position: fixed;
-	top: 0;
-	left: 0;
-	background: #fff;
-	width: 100%;
-	z-index: 2;
-	border-bottom: 1px solid lighten($light, 30%);
-	box-shadow: 0px 1px 1px RGBA(4, 25, 54, .1);
+header {
+	max-width: 800px;
+	display: block;
+	margin: 1em auto;
+	border-bottom: .5pt solid #dcddde;
+	.logo {
+		display: inline-block;
+		margin: 0 auto 5px;
+		padding: 10px;
+		font: $heading-font;
+		font-size: 1em;
+		a {
+			text-decoration: none;
+			color: $font-color;
+		}
+	}
 	nav {
-		float: left;
-		max-width: 800px;
+		display: inline-block;
+		float: right;
 		margin: 0 auto;
+		font-size: .8em;
 		ul {
 			margin: 0;
 			padding: 0;
@@ -89,31 +151,58 @@ aside {
 			li {
 				float: left;
 				position: relative;
-				a {
+				a,
+				a:visited {
+					color: $font-color;
 					text-decoration: none;
 					display: block;
 					padding: 15px;
-					font-family: 'Muli', sans-serif;
-					line-height: 20px;
-					margin-bottom: -1px;
-					box-shadow: 0;
-					&:hover,
-					&:active {
-						background: $header;
-						text-decoration: none;
-						color: $main;
+					&:hover {
+						text-decoration: underline;
+						color: $link-color;
 					}
 				}
 			}
 		}
-		&:after {
-			content: '';
-			display: table;
-			clear: both;
+	}
+}
+
+/* Specialy Behaved Objects */
+
+.hideOnWeb {
+	display: none;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 680px) {
+	.hideOnWeb {
+		display: inline-block;
+	}
+
+	header {
+		width: 100%;
+  	.logo {
+			display: block;
+			width: 100%;
+    	text-align: center;
+			margin: 0;
+  	}
+		nav {
+			display: block;
+			width: 100%;
+			float: none;
+			text-align: center;
+			ul {
+				display: inline-block;
+				margin: auto;
+			}
 		}
 	}
 }
-footer {
-	text-align: center;
-	padding: 40px;
+
+@media screen and (max-width: 390px) {
+	.hideOnWeb {
+		display: none;
+	}
 }

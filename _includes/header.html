@@ -1,15 +1,15 @@
 <header>
 	<div class="header-inner">
 		<div class="logo">
-			<a href="/">Fri Rasyidi</a>
+			<a href="/"><strong>Fri&nbsp;Rasyidi</strong>—UX&nbsp;and&nbsp;Visual&nbsp;Designer</a>
 		</div>
 
 		<nav>
 			<ul>
-				{% for page in site.pages %} {% if page.title %}
+				<li><a href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
+				{% for page in site.pages %} {% unless page.exclude %} {% if page.title %}
 				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-				{% endif %} {% endfor %}
-				<li><a href="{{ "/blog" | prepend: site.baseurl }}">Blog</a></li>
+				{% endif %} {% endunless %} {% endfor %}
 			</ul>
 		</nav>
 	</div>

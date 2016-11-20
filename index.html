@@ -1,7 +1,20 @@
 ---
 layout: default
+date: 2016-11-20
+update: 2016-11-20
 ---
 
-<h2>UX+Visual Designer</h2>
+<h1>Hi, I'm Fri.</h1>
+<p>I'm a <abbr title="User Experience">UX</abbr> and visual designer. I build useful products and services using common sense and user centric approach.</p>
+<!--<p>I also write articles on user experience, design, and startups that you can check on below:</p>-->
 
-Fri builds useful products using common sense and user centric approach.
+<h2>Logs</h2>
+<ul>
+  {% for post in site.categories.blog %}
+    {% if post.url %}
+      <li>
+				<a href="{{ post.url }}">{{ post.title }}</a>—<time>{{ post.date | date: "%b %-d, %Y" }}</time>
+			</li>
+    {% endif %}
+  {% endfor %}
+</ul>
