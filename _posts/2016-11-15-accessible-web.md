@@ -1,9 +1,31 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2015-11-30 00:10:45
-categories: blog
+title:  Accessible Web
+date:   2016-11-15 00:10:45
+categories: ux accessibility
 ---
+One of the most important but very much neglected in user experience is accessibility.
+
+Semantic HTML5. HTML5 is made to improve accessibility. Unfortunately, a lot of people only thought of HTML5 as the new requirement to fulfill and neglect the goal behind it's development reason.
+
+Here's a proper HTML5 structure:
+
+<pre>
+[head]
+
+[body]
+  [header]
+    [nav]
+
+  [main]
+    [article]
+    [section]
+
+  [aside]
+
+  [footer]
+</pre>
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
