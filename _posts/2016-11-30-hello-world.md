@@ -2,7 +2,7 @@
 layout: post
 title:  Hello, World!
 date:   2016-11-20
-update: 2016-11-20
+update: 2016-11-21
 categories: blog
 ---
 Last month I’ve been thinking to updating my site.
@@ -32,6 +32,7 @@ For those who are wondering, I use [Formingo][formingo]’s service to run my co
 * [Why Static Website Generators Are The Next Big Thing][smashing] by [Mathias Biilmann Christensen](http://www.twitter.com/biilmann). If you’re not convinced yet about static sites, go ahead and read this.
 * [Github Pages][github.io]. Step by step guide to setup Github Pages.
 * [Make a Static Website with Jekyll][tania] by [Tania Rascia](https://www.taniarascia.com/). The best getting started guide I have found.
+* [Sites](https://github.com/jekyll/jekyll/wiki/Sites) on Jekyll's GitHub page. This page showcases sites that use Jekyll. You can use this for source of inspirations and learnings. Remember what the famous painter <cite>Pablo Picasso</cite> said: <q>Good artists copy; great artists steal</q>.
 * [Jekyll on StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). If you need quick troubleshooting, check it out on StackOverflow for an answer to your question. Not there? Go ahead and ask a new question.
 * [Learn SASS](http://sass-lang.com/guide). A good start to learn <dfn>SASS</dfn>, an extension of CSS that helps keep stylesheets well-organized by allowing you to use variables, nested rules, mixins, inline imports, and more. You can also go directly to [SASS documentation](http://sass-lang.com/documentation/file.SASS_REFERENCE.html) for more details.
 * [Markdown](https://daringfireball.net/projects/markdown/) by [Daring Fireball](https://daringfireball.net). Learn the basics of Markdown from its original creator.

@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 21 Nov 2016 01:54:16 +0700</pubDate>
-    <lastBuildDate>Mon, 21 Nov 2016 01:54:16 +0700</lastBuildDate>
+    <pubDate>Mon, 21 Nov 2016 02:12:48 +0700</pubDate>
+    <lastBuildDate>Mon, 21 Nov 2016 02:12:48 +0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -40,6 +40,7 @@
   &lt;li&gt;&lt;a href=&quot;https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/&quot;&gt;Why Static Website Generators Are The Next Big Thing&lt;/a&gt; by &lt;a href=&quot;http://www.twitter.com/biilmann&quot;&gt;Mathias Biilmann Christensen&lt;/a&gt;. If you’re not convinced yet about static sites, go ahead and read this.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;. Step by step guide to setup Github Pages.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.taniarascia.com/make-a-static-website-with-jekyll/&quot;&gt;Make a Static Website with Jekyll&lt;/a&gt; by &lt;a href=&quot;https://www.taniarascia.com/&quot;&gt;Tania Rascia&lt;/a&gt;. The best getting started guide I have found.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jekyll/jekyll/wiki/Sites&quot;&gt;Sites&lt;/a&gt; on Jekyll’s GitHub page. This page showcases sites that use Jekyll. You can use this for source of inspirations and learnings. Remember what the famous painter &lt;cite&gt;Pablo Picasso&lt;/cite&gt; said: &lt;q&gt;Good artists copy; great artists steal&lt;/q&gt;.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/tagged/jekyll&quot;&gt;Jekyll on StackOverflow&lt;/a&gt;. If you need quick troubleshooting, check it out on StackOverflow for an answer to your question. Not there? Go ahead and ask a new question.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://sass-lang.com/guide&quot;&gt;Learn SASS&lt;/a&gt;. A good start to learn &lt;dfn&gt;SASS&lt;/dfn&gt;, an extension of CSS that helps keep stylesheets well-organized by allowing you to use variables, nested rules, mixins, inline imports, and more. You can also go directly to &lt;a href=&quot;http://sass-lang.com/documentation/file.SASS_REFERENCE.html&quot;&gt;SASS documentation&lt;/a&gt; for more details.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt; by &lt;a href=&quot;https://daringfireball.net&quot;&gt;Daring Fireball&lt;/a&gt;. Learn the basics of Markdown from its original creator.&lt;/li&gt;
