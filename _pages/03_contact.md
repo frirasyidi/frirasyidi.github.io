@@ -25,7 +25,7 @@ Like something I wrote? Have a suggestion for an article, things to share about,
   </div>
   <input type="hidden" name="__subject" value="New contact from frirasyidi.com">
   <input type="hidden" name="__redirect" value="http://frirasyidi.com/contact/thank-you">
-  <button class="g-recaptcha" data-sitekey="6LeGPw8UAAAAAF8XB-_5vcTFs3yEdph9yFC_YuX0" data-callback="YourOnSubmitFn" type="submit">Send</button>
+  <button type="submit">Send</button>
 </form>
 
 <small>*Or, you can send email to [fri@frirasyidi.com][frimail]. Whichever works best for you.</small>
