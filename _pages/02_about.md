@@ -19,15 +19,15 @@ Aside from being a designer, Fri also have two years of experience being a busin
 
 <h2 id="timeline">Notable Timeline</h2>
 
-* UX UI Designer for [HappyFresh][happyfresh], <time>2016 to present</time>
-* UX Consultant for <abbr title="Special Task Force for Acceleration of Renewable Energy Development">Satgas P2EBT</abbr> of <abbr title="Ministry of Energy and Mineral Resources">ESDM</abbr>, <time>2016</time>
+* UX UI Designer for [HappyFresh][happyfresh], <time>2016 to present</time>
+* UX Consultant for <abbr title="Special Task Force for Acceleration of Renewable Energy Development">Satgas P2EBT</abbr> of <abbr title="Ministry of Energy and Mineral Resources">Kementerian ESDM</abbr>, <time>2016</time>
 * Mentor and Organizer for [Lean Startup Machine Jakarta](https://www.leanstartupmachine.com/cities/jakarta), <time>2015</time>
-* UX UI Designer for [Happy5](https://www.happy5.co/), <time>2015 to 2016</time>
-* UX, Content Manager, and Web Localization Expert for [World Resources Institute](http://wri-indonesia.org/), <time>2014-2015</time>
-* PDF Accessibility Expert for OVAE Online Courses Design Evaluation and Repair of American Institutes for Research, <time>2013</time>
-* Chief of Comma Coworking Space, <time>2013 to 2015</time>
-* Freelance Designer, <time>2010 to present</time>
-* Business Management Undergraduate at <abbr title="School of Business Management of Institute Teknologi Bandung">SBM-ITB<abbr>, <time>2008 to 2011</time>
+* UX UI Designer for [Indonesia Untuk Dunia](https://www.happy5.co/), <time>2015 to 2016</time>
+* UX, Content Manager, and Web Localization Expert for [World Resources Institute](http://wri-indonesia.org/),&nbsp;<time>2014&nbsp;to&nbsp;2015</time>
+* PDF Accessibility Expert for OVAE Online Courses Design Evaluation and Repair of American Institutes for Research, <time>2013</time>
+* Chief of Comma Coworking Space,&nbsp;<time>2013&nbsp;to&nbsp;2015</time>
+* Freelance Designer, <time>2010 to present</time>
+* Business Management Undergraduate at <abbr title="School of Business Management of Institute Teknologi Bandung">SBM-ITB<abbr>,&nbsp;<time>2008&nbsp;to&nbsp;2011</time>
 
-[HappyFresh]:    https://happyfresh.com
+[HappyFresh]:    https://www.happyfresh.com
 [Fri Rasyidi]:   http://frirasyidi.com
