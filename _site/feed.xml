@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 21 Nov 2016 02:28:32 +0700</pubDate>
-    <lastBuildDate>Mon, 21 Nov 2016 02:28:32 +0700</lastBuildDate>
+    <pubDate>Mon, 02 Jan 2017 18:29:13 +0700</pubDate>
+    <lastBuildDate>Mon, 02 Jan 2017 18:29:13 +0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -59,211 +59,38 @@
       </item>
     
       <item>
-        <title>Accessible Web</title>
-        <description>&lt;p&gt;One of the most important but very much neglected in user experience is accessibility.&lt;/p&gt;
+        <title>Divelogs Banda_neira Batu_kapal</title>
+        <description>&lt;p&gt;My first time doing negative entry, it was amazing and not as hard as I thought it would be. The current is pretty strong, so I need to keep moving my feet especially above 10m. We saw no sharks, but the corals and fishes are amazing.&lt;/p&gt;
 
-&lt;p&gt;Semantic HTML5. HTML5 is made to improve accessibility. Unfortunately, a lot of people only thought of HTML5 as the new requirement to fulfill and neglect the goal behind it’s development reason.&lt;/p&gt;
-
-&lt;p&gt;Here’s a proper HTML5 structure:&lt;/p&gt;
-
-&lt;pre&gt;
-[head]
-
-[body]
-  [header]
-    [nav]
-
-  [main]
-    [article]
-    [section]
-
-  [aside]
-
-  [footer]
-&lt;/pre&gt;
-
-&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;memorable-sea-creatures&quot;&gt;Memorable sea creatures&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Moray_eel&quot;&gt;Moray eels&lt;/a&gt; in different colors, &lt;a href=&quot;https://en.wikipedia.org/wiki/Hydrophiinae&quot;&gt;sea snake&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Scorpaenidae&quot;&gt;scorpion fishes&lt;/a&gt;, and &lt;a href=&quot;https://en.wikipedia.org/wiki/Synanceia&quot;&gt;stone fishes&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 15 Nov 2016 07:10:45 +0700</pubDate>
-        <link>http://localhost:4000/ux/accessibility/2016/11/15/accessible-web.html</link>
-        <guid isPermaLink="true">http://localhost:4000/ux/accessibility/2016/11/15/accessible-web.html</guid>
+        <pubDate>Tue, 08 Nov 2016 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/divelogs/2016/11/08/divelogs-banda_neira-batu_kapal.html</link>
+        <guid isPermaLink="true">http://localhost:4000/divelogs/2016/11/08/divelogs-banda_neira-batu_kapal.html</guid>
         
         
-        <category>ux</category>
-        
-        <category>accessibility</category>
+        <category>divelogs</category>
         
       </item>
     
       <item>
-        <title>Presenting Date and Time</title>
-        <description>&lt;h2 id=&quot;the-problem-in-presenting-date-and-time&quot;&gt;The problem in presenting date and time.&lt;/h2&gt;
+        <title>Divelogs Banda_neira Goa_hatta</title>
+        <description>&lt;p&gt;&lt;em&gt;The best wall I’ve seen so far!&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;There are different date and time formats in use in different parts of the world and in different contexts. There are two major practical problems:&lt;/p&gt;
+&lt;p&gt;The entry is spectacular: we passed through a bridge made out of corals. Right after you passed it, you’ll see that the wall is tall and full of corals from far down below up to 10m. Visibility is incredible that far in the blue you can see big fishes—I’m not sure, but perhaps they are Barracudas—schooling.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;A date designation such as 5/6/98 is ambiguous: which of the first two numbers is the month and which is the day? It is interpreted as the 5th of June, 1998, in most countries. However, in the United States it is generally interpreted as the 6th of May, 1998. This has caused a lot of confusion.&lt;/li&gt;
-  &lt;li&gt;Date designations that do not explicitly specify the century can cause serious problems in the 21st century. This “millennium problem” or “year 2000 problem” or “Y2K” is definitely not over yet. On the contrary, now that we are in the 21st century, we face the problem in everyday life.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;footnote&quot;&gt;Footnote&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.iso.ch/&quot;&gt;ISO&lt;/a&gt; - International Organization for Standardization, &lt;a href=&quot;http://www.iso.org/iso/en/prods-services/popstds/datesandtime.html&quot;&gt;Numeric representation of Dates and Time&lt;/a&gt; (an informal description of ISO 8601 by ISO)&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h3 id=&quot;memorable-sea-creatures&quot;&gt;Memorable sea creatures&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Sea_turtle&quot;&gt;Sea turtle&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Moray_eel&quot;&gt;moray eels&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Mandarinfish&quot;&gt;mandarinfishes&lt;/a&gt;, and &lt;a href=&quot;https://en.wikipedia.org/wiki/Hoplophrys&quot;&gt;candy crab&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 15 Nov 2016 00:10:45 +0700</pubDate>
-        <link>http://localhost:4000/ux/accessibility/2016/11/15/presenting-date-time.html</link>
-        <guid isPermaLink="true">http://localhost:4000/ux/accessibility/2016/11/15/presenting-date-time.html</guid>
+        <pubDate>Mon, 07 Nov 2016 00:00:00 +0700</pubDate>
+        <link>http://localhost:4000/divelogs/2016/11/07/divelogs-banda_neira-goa_hatta.html</link>
+        <guid isPermaLink="true">http://localhost:4000/divelogs/2016/11/07/divelogs-banda_neira-goa_hatta.html</guid>
         
         
-        <category>ux</category>
-        
-        <category>accessibility</category>
-        
-      </item>
-    
-      <item>
-        <title>The Experience of Error Messages</title>
-        <description>&lt;p&gt;Encountering error messages is a bad experience for your users. Since we always think about how to give the best user experience, with perfection in mind, we tend to overlook errors. But shit (errors) happens. So how do you make a good experience from bad experience?&lt;/p&gt;
-
-&lt;p&gt;When encountering errors your users are on the verge of leaving your service. But hey, see the opportunity there? They’re only on the verge of it. Which means, if you’re able to help them address the error, they might stay. Hell, if you give good experience, they might even love you for it. You know, they might think hey, I don’t care if there’s error, this app will help me through with it. No problem.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://2.bp.blogspot.com/-ewBp5XLCa2A/T7BX6nHwuEI/AAAAAAAAAXA/De3gGp0rPoQ/s1600/banda+view+dr+puncak.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Clearly communicate the error
-The most frustrating experience for users when they encounter error messages is when they don’t know what causes the errors. The one thing that you need to keep in mind is understandability of the message. Never use jargon. You know how irritated you are when you encounter smart asses who used hard jargons to show off? Yes, that’s how you sound like when you use jargons in your error messages. It’s even more irritating for your users in error messages since they’re actually in a frustrated state.&lt;/p&gt;
-
-&lt;p&gt;Be helpful
-The second most frustrating experience for users when they encounter error messages is when they don’t know what to do to fix it. Especially when they keep encountering the problem.&lt;/p&gt;
-
-&lt;p&gt;Admit, and own it.&lt;/p&gt;
-
-&lt;p&gt;Humour
-Being humorous can help, but be careful with it. It can definitely backfired. I always tend to move away from this. If you’re not confident with your copywriting skill, and don’t have full understanding on the context of the errors, try to refrain from humouring on the errors.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://readwrite.com/2013/01/09/7-reasons-passwords-are-doomed-finally&quot;&gt;7 Reasons Passwords are Doomed&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 30 Nov 2015 07:10:45 +0700</pubDate>
-        <link>http://localhost:4000/ux/error/2015/11/30/the-ux-of-error.html</link>
-        <guid isPermaLink="true">http://localhost:4000/ux/error/2015/11/30/the-ux-of-error.html</guid>
-        
-        
-        <category>ux</category>
-        
-        <category>error</category>
-        
-      </item>
-    
-      <item>
-        <title>Indonesian User Interface Glossary</title>
-        <description>&lt;p&gt;Localization is important. I’ve done a handful projects on localizing English sites to Indonesian and it’s always challenging.&lt;/p&gt;
-
-&lt;p&gt;Below I’ve collected lists of UI terms in Indonesian. This is a growing list.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;English&lt;/th&gt;
-      &lt;th&gt;Bahasa Indonesia&lt;/th&gt;
-      &lt;th&gt;Note&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;English&lt;/td&gt;
-      &lt;td&gt;Bahasa Inggris&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Indonesian&lt;/td&gt;
-      &lt;td&gt;Bahasa Indonesia&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;home&lt;/td&gt;
-      &lt;td&gt;depan; alt. Beranda&lt;/td&gt;
-      &lt;td&gt;I prefer to use &lt;em&gt;depan&lt;/em&gt; to &lt;em&gt;beranda&lt;/em&gt; since it’s much easier to comprehend for Indonesian. Depan means “front” while beranda is “front porch”. Depan is also easier and much easier to understand when translating homepage which translates into “halaman depan” (see: page/halaman) which is a very friendly and relatable term in Indonesia. See also: Front page/halaman muka.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;page&lt;/td&gt;
-      &lt;td&gt;halaman&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-        <pubDate>Mon, 30 Nov 2015 07:10:45 +0700</pubDate>
-        <link>http://localhost:4000/ux/accessibility/2015/11/30/indonesian-ui-glossary.html</link>
-        <guid isPermaLink="true">http://localhost:4000/ux/accessibility/2015/11/30/indonesian-ui-glossary.html</guid>
-        
-        
-        <category>ux</category>
-        
-        <category>accessibility</category>
+        <category>divelogs</category>
         
       </item>
     

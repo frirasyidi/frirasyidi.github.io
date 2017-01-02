@@ -20,37 +20,6 @@ footer .contacts a { padding: 10px; }
 /*---------------------------------------
 Header
 ---------------------------------------*/
-h1, h2, h3 { font-weight: 600; color: #2E2F30; font-family: "Work Sans", sans-serif; margin: 1.4em 0 .7em; line-height: 1; }
-h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited { text-decoration: none; color: #2E2F30; }
-h1 a:hover, h2 a:hover, h3 a:hover { text-decoration: underline; }
-
-h1 { color: #2E2F30; font-size: 2.4em; }
-
-h1 + p { font-size: 1.2em; margin: 0 0 2em; }
-
-h2 { font-size: 1.6em; }
-
-h3 { font-size: 1.2em; }
-
-p { margin: 0 0 1em; }
-
-a { color: #08c; text-decoration: underline; }
-a:visited { color: #2e3191; }
-a:hover { color: #2e3191; }
-
-ul, li { line-height: 1.4; margin: .7em 0; }
-
-main { padding: 0 30px; max-width: 700px; margin: 0 auto; }
-
-main header { margin-bottom: 2em; border-bottom: none; }
-
-time { color: #898989; line-height: 1; }
-
-img { max-width: 100%; margin: 0 auto; }
-
-.container { max-width: 700px; margin: 0 auto; }
-
-/* Aside */
 header { max-width: 800px; display: block; margin: 1em auto; border-bottom: .5pt solid #dcddde; }
 header .logo { display: inline-block; margin: 0 auto 5px; padding: 10px; font: "Work Sans", sans-serif; font-size: 1em; }
 header .logo a { text-decoration: none; color: #2E2F30; }
@@ -60,16 +29,68 @@ header nav ul li { float: left; position: relative; margin: 0; }
 header nav ul li a, header nav ul li a:visited { color: #2E2F30; text-decoration: none; display: block; padding: 15px; }
 header nav ul li a:hover, header nav ul li a:visited:hover { text-decoration: underline; color: #08c; }
 
+/*---------------------------------------
+Main
+---------------------------------------*/
+main { padding: 0 30px; max-width: 700px; margin: 0 auto; }
+
+main header { margin-bottom: 2em; border-bottom: none; }
+
+img { max-width: 100%; margin: 0 auto; }
+
+.container { max-width: 700px; margin: 0 auto; }
+
 /* Specialy Behaved Objects */
 .hideOnWeb { display: none; }
 
-/* Responsive */
+/*---------------------------------------
+Making this Responsive
+---------------------------------------*/
 @media screen and (max-width: 680px) { .hideOnWeb { display: inline-block; }
   header { width: 100%; }
   header .logo { display: block; width: 100%; text-align: center; margin: 0; }
   header nav { display: block; width: 100%; float: none; text-align: center; }
   header nav ul { display: inline-block; margin: auto; } }
 @media screen and (max-width: 390px) { .hideOnWeb { display: none; } }
+/*---------------------------------------
+Headings
+---------------------------------------*/
+h1, h2, h3 { font-weight: 600; color: #2E2F30; font-family: "Work Sans", sans-serif; margin: 1.4em 0 .7em; line-height: 1; }
+h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited { text-decoration: none; color: #2E2F30; }
+h1 a:hover, h2 a:hover, h3 a:hover { text-decoration: underline; }
+
+h1 { color: #2E2F30; font-size: 2.4em; }
+
+h2 { font-size: 1.6em; }
+
+h3 { font-size: 1.2em; }
+
+/*---------------------------------------
+Block Body Texts
+---------------------------------------*/
+p, blockquote, pre { margin: 0 0 1em; }
+
+h1 + p { font-size: 1.2em; margin: 0 0 2em; }
+
+pre { padding: 10pt; background-color: #ddd; border-radius: 8pt; font-family: "Inconslata", monospace; }
+
+/*---------------------------------------
+Lists
+---------------------------------------*/
+ul, ol, li dl, dt, dd { line-height: 1.4; margin: .7em 0; }
+
+/*---------------------------------------
+Text level markups
+---------------------------------------*/
+code, kbd, samp, var { font-family: "Inconslata", monospace; }
+
+/*---------------------------------------
+Links
+---------------------------------------*/
+a { color: #08c; text-decoration: underline; }
+a:visited { color: #2e3191; }
+a:hover { color: #2e3191; }
+
 form { margin: 2em 0; }
 form div { margin: 1.4em 0; }
 
@@ -81,6 +102,10 @@ textarea { height: 8em; max-width: 100%; }
 
 button { padding: .7em 1.4em; border-radius: 4px; border: none; background-color: #08c; color: #fff; font-weight: bold; }
 button:hover { background-color: #2e3191; box-shadow: 0 4pt 8pt #ddd; cursor: pointer; }
+
+table { margin: 0 0 1em; border-collapse: collapse; max-width: 100%; }
+
+td, th { padding: 2px 2em 0 0; }
 
 /** Syntax highlighting styles */
 .highlight { background: #fff; }
