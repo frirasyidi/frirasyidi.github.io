@@ -17,6 +17,8 @@ Prior to UX design, Fri worked as a visual design freelancer working mainly in h
 
 Aside from being a designer, Fri also have two years of experience being a business and community manager as the Chief of the first coworking space in Jakarta.
 
+Fri do cycling, hiking, and [diving](/divelogs) for fun!
+
 <h2 id="timeline">Notable Timeline</h2>
 
 * UX UI Designer for [HappyFresh][happyfresh], <time>2016 to present</time>
