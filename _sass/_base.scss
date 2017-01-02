@@ -2,19 +2,19 @@ $content-width: 700px;
 $main: #2E2F30;
 
 $font-style: 'f', sans-serif;
-$data-font: 'Work Sans', sans-serif;
+$heading-font: 'Work Sans', sans-serif;
 $code-font: 'Inconslata', monospace;
 $font-color: #2E2F30;
+$heading-font-color: $font-color;
 $font-size: 2.0em;
 $line-height: 1.4;
-$heading-font: $data-font;
-$heading-font-color: $font-color;
 
 $link-color: #08c;
 $link-visited-color: #2e3191;
 $link-hover-color: #2e3191;
 
 $light: #E7EDF4;
+$dark: $main;
 $header:  #1D1425;
 
 *,

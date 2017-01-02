@@ -40,89 +40,6 @@ footer {
 /*---------------------------------------
 Header
 ---------------------------------------*/
-h1,
-h2,
-h3 {
-	font-weight: 600;
-	color: $heading-font-color;
-	font-family: $heading-font;
-	margin: 1.4em 0 .7em;
-	line-height: 1;
-	a,
-	a:visited {
-		text-decoration: none;
-		color: $font-color;
-	}
-	a:hover {
-		text-decoration: underline;
-	}
-}
-
-h1 {
-	color: $main;
-	font-size: 2.4em;
-}
-
-h1 + p {
-	font-size: 1.2em;
-	margin: 0 0 2em;
-}
-
-h2 {
-	font-size: 1.6em;
-}
-
-h3 {
-	font-size: 1.2em;
-}
-
-p {
-	margin: 0 0 1em;
-}
-
-a {
-	color: $link-color;
-	text-decoration: underline;
-	&:visited {
-		color: $link-visited-color;
-	}
-	&:hover {
-	color: $link-hover-color;
-	}
-}
-
-ul,
-li {
-	line-height: 1.4;
-	margin: .7em 0;
-}
-
-main {
-	padding: 0 30px;
-	max-width: $content-width;
-	margin: 0 auto;
-}
-
-main header {
-	margin-bottom: 2em;
-	border-bottom: none;
-}
-time {
-	color: #898989;
-	line-height: 1;
-}
-
-img {
-	max-width: 100%;
-	margin: 0 auto;
-}
-
-.container {
-	max-width: $content-width;
-	margin: 0 auto;
-}
-
-/* Aside */
 
 header {
 	max-width: 800px;
@@ -169,13 +86,40 @@ header {
 	}
 }
 
+/*---------------------------------------
+Main
+---------------------------------------*/
+
+main {
+	padding: 0 30px;
+	max-width: $content-width;
+	margin: 0 auto;
+}
+
+main header {
+	margin-bottom: 2em;
+	border-bottom: none;
+}
+
+img {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.container {
+	max-width: $content-width;
+	margin: 0 auto;
+}
+
 /* Specialy Behaved Objects */
 
 .hideOnWeb {
 	display: none;
 }
 
-/* Responsive */
+/*---------------------------------------
+Making this Responsive
+---------------------------------------*/
 
 @media screen and (max-width: 680px) {
 	.hideOnWeb {
