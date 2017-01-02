@@ -8,55 +8,106 @@
   <meta name="keywords" content="HTML, HTML5, CSS, CSS3, test">
   <meta name="author" content="Fri Rasyidi">
 
-  <link rel="stylesheet" type="text/css" href="html–css-test.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
 
   <title>Test display of HTML5 elements</title>
 </head>
 
 <body>
   <header>
+    <h1>Test display of HTML5 elements</h1>
+
     <nav>
       <ul>
-        <li><a href="/">Your menu</a></li>
-        <li><a href="/">Your menu</a></li>
-        <li><a href="/">Your menu</a></li>
+        <li><a href="">Sample menu</a></li>
+        <li><a href="#headings">Headings</a></li>
+        <li><a href="#blockElements">Basic block elements</a></li>
+        <li><a href="#textLevelMarkups">Text-level markups</a></li>
+        <li><a href="#lists">Lists</a></li>
+        <li><a href="#table">Table</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section>
-      <h1>Testing display of HTML5 elements</h1>
-      <p>This is the first paragraph right below 1st level heading. You can use this element as lead paragraph to briefly describe to user the general gist of the page/article.</p>
-      <h2>This is 2nd level heading</h2>
-      <p>This is a test paragraph.</p>
-      <h3>This is 3rd level heading</h3>
-      <p>This is a test paragraph.</p>
-      <h4>This is 4th level heading</h4>
-      <p>This is a test paragraph.</p>
-      <h5>This is 5th level heading</h5>
-      <p>This is a test paragraph.</p>
-      <h6>This is 6th level heading</h6>
-      <p>This is a test paragraph.</p>
+    <section id="headings">
+      <h1>This is 1st level heading.</h1>
+      <p>This is the first paragraph right below 1st level heading in which you may use/style it as lead paragraph if you wanted.</p>
+
+      <h2>A 2nd level heading.</h2>
+      <p>This is a test paragraph right below 2nd level heading.</p>
+
+      <h3>A 3rd level heading.</h3>
+      <p>This is a test paragraph below 3rd level heading.</p>
+
+      <h4>A 4th level heading.</h4>
+      <p>This is a test paragraph below the 4th.</p>
+
+      <h5>A 5th level heading.</h5>
+      <p>This is a test paragraph below the 5th.</p>
+
+      <h6>A 6th level heading.</h6>
+      <p>This is a test paragraph below the 6th.</p>
     </section>
 
-    <section>
-      <h2>Basic block elements</h2>
+    <article id="blockElements">
+      <h2>Basic block elements.</h2>
+      <p>This is how a normal paragraph (<code>p</code> element) look. This page was primarily written for testing the effect of <strong>user style sheets</strong>. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.</p>
 
-      <p>This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of <strong>user style sheets</strong>. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.</p>
-      <p>This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.</p>
+      <p>In this other paragraph, I would like to shout out to <a href="https://www.cs.tut.fi/~jkorpela/personal.html">Jukka Korpela</a> who writes the <a href="https://www.cs.tut.fi/~jkorpela/www/testel.html">original test document</a> in which this document is based on. I decided to rewrite the document to cover the needs of HTML5 semantics and structure which is not yet covered&mdash;at least according to my personal needs.</p>
+
+      <p>Unlike other parts that wrapped in <code>section</code> element, this Basic block elements part is wrapped in <code>article</code> for testing purpose. Article is a self-contained, standalone section of an HTML document in which its content should make sense on its own and should be possible to distribute it independently from the rest of the site (e.g. blog post).</p>
+
       <blockquote>
         <p>This is a block quotation containing a single paragraph. Well, not quite, since this is not <em>really</em> quoted text, but I hope you understand the point. After all, this page does not use HTML markup very normally anyway.</p>
       </blockquote>
-      <p>The above blockquote doesn't have <code>cite</code> attribute since it's not directly quoted from a site. In case that you're quoting from a site, you should add <code>cite</code> attribute and a link directing to it. A sample of <code>blockquote</code> with <code>cite</code> attribute can be found below where I quoted a paragraph from W3C wiki.
+
+      <p>The above blockquote doesn't have <code>cite</code> attribute since it's not directly quoted from a site. For accessibility reason, in case that you're quoting from a site, you should add <code>cite</code> attribute and a link directing to it. A sample of <code>blockquote</code> with <code>cite</code> attribute can be found below where I quoted a paragraph from W3C wiki:</p>
+
       <blockquote cite="https://www.w3.org/wiki/Marking_up_textual_content_in_HTML">
         <p>If the quote comes from another web page, you can indicate this using the <code>cite</code> attribute ... The cite attribute is not required in a case where the quote is taken from a novel, magazine or other form of offline content.</p>
       </blockquote>
+
+      <p>The following is preformatted text. Preformatted text is defined with <code>pre</code> and is an unusual HTML tags that takes notice of every character in it (as illustration, other elements will ignore a consecutive space or a line-break). It is most commonly used for blocks of code, where spacing, such as indentations, can be relevant.</p>
+
+      <pre>
+        This     tag     will     render
+      the     consecutive     spaces,
+    the     indents,     and
+  all     the     line-breaks
+    exactly     as     how
+      it     is     written
+        in     the     HTML     doc.
+      </pre>
+
+      <p>Another basic block element that's worth mentioning is <code>address</code>. <code>address</code> element should only used to specifies contact informations of the entire web page, or or to an article element. Hence, it usually only used once and placed at the top or bottom of the document. Check <a href="#footer">the footer section of this document</a> to see how it looks.</p>
+    </article>
+
+    <section id="textLevelMarkups">
+      <h2>Text-level markups</h2>
+
+      <ul>
+        <li><abbr title="Cascading Style Sheets">CSS</abbr>; this is a sample of <code>abbr</code>, a tag that you use for abbreviation, a shortened form of a word or phrase. Keep in mind that <code>accronym</code> element is not supported in HTML5 and you should use <code>abbr</code> instead.</li>
+
+        <li><em>See this</em>; this is a sample of <code>em</code>, a tag that you use to stress a word or phrase in a sentence.</li>
+
+        <li><strong>Attention here</strong>; this is a sample of <code>strong</code>, a tag that you use to highlight part of a sentence that matters most, a warning, or something the user should act on quickly, etc.</li>
+
+        <li><q lang="en"><mark>HTML5</mark> is the thing!</q>; this is a sample of <code>mark</code> inside of a quotation, a tag that you use to highlight a word or phrase that the original source/author did not intend to emphasize.</li>
+
+        <li><i lang="id">Lihat sini</i>; this is a sample of <code>i</code>, a tag that you use to italic a word or phrase that is not for emphasizing, but only to visually present text of different quality. This tag is usually used for foreign words or latin names.</li>
+
+        <li><b>Unimportant bold</b>; this is a sample of <code>b</code>, a tag that you use to bold a word or phrase that is not for emphasizing, but only to visually present text of different quality. This tag is almost unneeded but part of HTML5 spec nonetheless.</li>
+
+        <li>q</li>
+        <li>cite</li>
+        <li>code</li>
+        <li>kbd</li>
+      </ul>
     </section>
 
-    <section>
+    <section id="lists">
       <h2>Lists</h2>
-
       <p>This is a paragraph before an <strong>unnumbered</strong> list: (<code>ul</code>). Note that
       the spacing between a paragraph and a list before or after that is hard
       to tune in a user style sheet. You can't guess which paragraphs are
@@ -115,17 +166,29 @@
         <dd>a word or other expression taken into specific use in a well-defined meaning, which is often defined rather rigorously, even formally, and may differ quite a lot from an everyday meaning</dd>
       </dl>
     </section>
+
+    <section id="table">
+      <h2>Table</h2>
+
+      <table>
+      </tabel>
+    </section>
   </main>
 
   <aside>
   </aside>
 
-  <footer>
+  <footer id="footer">
+    <h2>Footer</h2>
+
     <address>
-      <a href="http://frirasyidi.com">Fri Rasyidi</a>
+      <a href="http://frirasyidi.com">Fri Rasyidi</a><br/>
+      <a href="mailto:fri@frirasyidi.com">fri@frirasyidi.com</a><br/>
+      DKI Jakarta, Indonesia<br/>
+      <a href="tel:+62811999374">+62 811-999-FRI</a>
     </address>
+
     <p>Last update: <time datetime="2016-02-11" pubdate>28<sup>th</sup> February 2016</time></p>
-    <p>This document was made based on <a href="https://www.cs.tut.fi/~jkorpela/www/testel.html">Test display of HTML elements document</a> by <a href="https://www.cs.tut.fi/~jkorpela/personal.html">Jukka Korpela</a> with tweaks to fit HTML5 semantics and structure.</p>
   </footer>
 </body>
 
