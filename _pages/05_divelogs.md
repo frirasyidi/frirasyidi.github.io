@@ -7,8 +7,6 @@ exclude: true
 ---
 # Dive Logs
 
-As you can see, I love diving. here you can see my
-
 <div class="divelogs">
   {% for post in site.categories.divelogs %}
     {% if post.url %}
