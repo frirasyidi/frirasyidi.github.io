@@ -1,19 +1,8 @@
 /*---------------------------------------
 Global
 ---------------------------------------*/
-html {
-	margin: 0;
-	padding: 0;
-	color: $font-color;
-	font-family: $font-style;
-	font-size: 62.5%;
-	line-height: $line-height;
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizeLegibility;
-}
 
 body {
-	font-size: $font-size;
 	max-width: 100%;
 }
 

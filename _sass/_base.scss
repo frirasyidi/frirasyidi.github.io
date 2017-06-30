@@ -1,9 +1,13 @@
+/*---------------------------------------
+Variables
+---------------------------------------*/
+
 $content-width: 700px;
 $main: #2E2F30;
 
 $font-style: 'f', sans-serif;
 $heading-font: 'Work Sans', sans-serif;
-$code-font: 'Inconslata', monospace;
+$code-font: 'Inconsolata', monospace;
 $font-color: #2E2F30;
 $heading-font-color: $font-color;
 $font-size: 2.0em;
@@ -17,6 +21,10 @@ $light: #E7EDF4;
 $dark: $main;
 $header:  #1D1425;
 
+/*---------------------------------------
+Normalize
+---------------------------------------*/
+
 *,
 *::before,
 *::after {
@@ -26,6 +34,23 @@ $header:  #1D1425;
 	margin: 0;
 	padding: 0;
 }
+
+html {
+	color: $font-color;
+	font-family: $font-style;
+	font-size: 62.5%; /* rem size to 10px */
+	line-height: $line-height;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+body {
+	font-size: $font-size;
+}
+
+/*---------------------------------------
+Typeface
+---------------------------------------*/
 
 @font-face {
   font-family: 'f';
