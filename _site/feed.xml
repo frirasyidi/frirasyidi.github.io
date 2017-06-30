@@ -4,10 +4,10 @@
     <title>Fri Rasyidi—UX+Visual Designer</title>
     <description>Fri is a UX+Visual Designer who builds useful products with common sense and user centeric approach.
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 02 Jan 2017 18:55:58 +0700</pubDate>
-    <lastBuildDate>Mon, 02 Jan 2017 18:55:58 +0700</lastBuildDate>
+    <link>http://frirasyidi.com/</link>
+    <atom:link href="http://frirasyidi.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 01 Jul 2017 01:10:32 +0700</pubDate>
+    <lastBuildDate>Sat, 01 Jul 2017 01:10:32 +0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -50,8 +50,8 @@
 
 </description>
         <pubDate>Sun, 20 Nov 2016 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/blog/2016/11/20/hello-world.html</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2016/11/20/hello-world.html</guid>
+        <link>http://frirasyidi.com/blog/2016/11/20/hello-world.html</link>
+        <guid isPermaLink="true">http://frirasyidi.com/blog/2016/11/20/hello-world.html</guid>
         
         
         <category>blog</category>
@@ -67,8 +67,8 @@
 
 </description>
         <pubDate>Tue, 08 Nov 2016 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/divelogs/2016/11/08/divelogs-banda_neira-batu_kapal.html</link>
-        <guid isPermaLink="true">http://localhost:4000/divelogs/2016/11/08/divelogs-banda_neira-batu_kapal.html</guid>
+        <link>http://frirasyidi.com/divelogs/2016/11/08/divelogs-banda_neira-batu_kapal.html</link>
+        <guid isPermaLink="true">http://frirasyidi.com/divelogs/2016/11/08/divelogs-banda_neira-batu_kapal.html</guid>
         
         
         <category>divelogs</category>
@@ -86,8 +86,8 @@
 
 </description>
         <pubDate>Mon, 07 Nov 2016 00:00:00 +0700</pubDate>
-        <link>http://localhost:4000/divelogs/2016/11/07/divelogs-banda_neira-goa_hatta.html</link>
-        <guid isPermaLink="true">http://localhost:4000/divelogs/2016/11/07/divelogs-banda_neira-goa_hatta.html</guid>
+        <link>http://frirasyidi.com/divelogs/2016/11/07/divelogs-banda_neira-goa_hatta.html</link>
+        <guid isPermaLink="true">http://frirasyidi.com/divelogs/2016/11/07/divelogs-banda_neira-goa_hatta.html</guid>
         
         
         <category>divelogs</category>
