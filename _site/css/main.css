@@ -62,7 +62,8 @@ Making this Responsive
   header .logo { display: block; width: 100%; text-align: center; margin: 0; }
   header nav { display: block; width: 100%; float: none; text-align: center; }
   header nav ul { display: inline-block; margin: auto; } }
-@media screen and (max-width: 390px) { .hideOnWeb { display: none; } }
+@media screen and (max-width: 390px) { .hideOnWeb { display: none; }
+  body { font-size: 1.8em; } }
 /*---------------------------------------
 Headings
 ---------------------------------------*/
@@ -105,7 +106,7 @@ a:hover { color: #2e3191; }
 /*---------------------------------------
 Forms
 ---------------------------------------*/
-label, input, textarea, button { font-size: 1em; margin: 0; line-height: 1em; }
+label, input, textarea, button { font-size: 1em; margin: 0; line-height: 1.4em; }
 
 label { font-weight: 600; }
 

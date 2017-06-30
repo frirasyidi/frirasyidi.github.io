@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Articles
-permalink: /articles/
+title: Writings
+permalink: /writings/
 date:   2016-11-20
-update: 2016-11-20
-exclude: true
+update: 2017-07-01
+exclude: false
 ---
-# Articles
+# Writings
 
 ## Logs
 <ul>
