@@ -66,7 +66,7 @@ Making this Responsive
 /*---------------------------------------
 Headings
 ---------------------------------------*/
-h1, h2, h3 { font-weight: 700; color: #2E2F30; font-family: "Work Sans", sans-serif; margin: 1.4em 0 .7em; line-height: 1; }
+h1, h2, h3 { font-weight: 600; color: #2E2F30; font-family: "Work Sans", sans-serif; margin: 1.4em 0 .7em; line-height: 1; }
 h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited { text-decoration: none; color: #2E2F30; }
 h1 a:hover, h2 a:hover, h3 a:hover { text-decoration: underline; }
 
@@ -102,12 +102,18 @@ a { color: #08c; text-decoration: underline; }
 a:visited { color: #2e3191; }
 a:hover { color: #2e3191; }
 
+/*---------------------------------------
+Forms
+---------------------------------------*/
+label, input, textarea, button { font-size: 1em; margin: 0; line-height: 1em; }
+
+label { font-weight: 600; }
+
 form { margin: 2em 0; }
 form div { margin: 1.4em 0; }
 
-label, input, textarea, button { font-size: 1em; margin: 0; line-height: 1em; }
-
 input, textarea { width: 100%; padding: .5em; border-radius: 4px; border: 2px solid #ddd; }
+input:hover, textarea:hover { border: 2px solid #aaa; }
 
 textarea { height: 8em; max-width: 100%; }
 

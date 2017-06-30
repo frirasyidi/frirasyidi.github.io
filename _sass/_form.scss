@@ -5,21 +5,15 @@ form {
   }
 }
 
-label,
-input,
-textarea,
-button {
-  font-size: 1em;
-  margin: 0;
-  line-height: 1em;
-}
-
 input,
 textarea {
   width: 100%;
   padding: .5em;
   border-radius: 4px;
   border: 2px solid #ddd;
+  &:hover {
+    border: 2px solid #aaa;
+  }
 }
 
 textarea {
