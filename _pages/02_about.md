@@ -9,13 +9,13 @@ exclude: false
 
 # About Me
 
-The name is Fri; the designer with the easiest name to remember.
+The name is Fri; designer with well-designed name to remember.
 
 I work as a designer whose primary goal is to make products and services **useful** for people like you, me, and everyone else by using *common sense* and *user centric approach*.
 
 I am currently working as UX UI Designer for [HappyFresh][HappyFresh] and writes about user experience, design, and startups at [http://frirasyidi.com][Fri Rasyidi].
 
-With 5 years of experience in digital design and business and management understanding from my undergraduate study, I've helped private businesses, NGOs, and the government designed their products.
+With 5 years of experience in digital design and business management understanding from my undergraduate study, I've helped private businesses, NGOs, and the government to design their products.
 
 Aside from being a designer, I have two years of experience being a business and community manager as the Chief of the first coworking space in Jakarta.
 
