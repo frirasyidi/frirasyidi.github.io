@@ -9,9 +9,9 @@ exclude: false
 
 # About Me
 
-My name is Fri; the easiest name to remember.
+The name is Fri; the designer with the easiest name to remember.
 
-I work as a designer whose primary goal is to make products and services <strong>useful</strong> for people like you, me, and everyone else by using <em>common sense</em> and <em>user centric approach</em>.</p>
+I work as a designer whose primary goal is to make products and services **useful** for people like you, me, and everyone else by using *common sense* and *user centric approach*.
 
 I am currently working as UX UI Designer for [HappyFresh][HappyFresh] and writes about user experience, design, and startups at [http://frirasyidi.com][Fri Rasyidi].
 
