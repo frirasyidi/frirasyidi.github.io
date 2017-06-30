@@ -3,7 +3,7 @@ Variables
 ---------------------------------------*/
 
 $content-width: 700px;
-$main: #2E2F30;
+$background: #f2f2f2;
 
 $font-style: 'f', sans-serif;
 $heading-font: 'Work Sans', sans-serif;
@@ -16,10 +16,6 @@ $line-height: 1.4;
 $link-color: #08c;
 $link-visited-color: #2e3191;
 $link-hover-color: #2e3191;
-
-$light: #E7EDF4;
-$dark: $main;
-$header:  #1D1425;
 
 /*---------------------------------------
 Normalize
@@ -46,6 +42,7 @@ html {
 
 body {
 	font-size: $font-size;
+	background-color: $background;
 }
 
 /*---------------------------------------
