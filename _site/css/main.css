@@ -66,7 +66,7 @@ Making this Responsive
 /*---------------------------------------
 Headings
 ---------------------------------------*/
-h1, h2, h3 { font-weight: 600; color: #2E2F30; font-family: "Work Sans", sans-serif; margin: 1.4em 0 .7em; line-height: 1; }
+h1, h2, h3 { font-weight: 700; color: #2E2F30; font-family: "Work Sans", sans-serif; margin: 1.4em 0 .7em; line-height: 1; }
 h1 a, h1 a:visited, h2 a, h2 a:visited, h3 a, h3 a:visited { text-decoration: none; color: #2E2F30; }
 h1 a:hover, h2 a:hover, h3 a:hover { text-decoration: underline; }
 
