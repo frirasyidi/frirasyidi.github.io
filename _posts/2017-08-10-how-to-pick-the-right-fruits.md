@@ -15,7 +15,7 @@ Sorted alphabetically:
 
 * **No defects**; inspect its looks. There should be no bruising, soft spots or cracks.
 * **Firm**; avoid taking apples that are soft, discolored, or easily indented when lightly pressed.
-* **Red or yellowish color**; most of the time, get the most red you can find. Find green and yellow for Granny Smith and Golden delicious apples.
+* **Shiny red or yellowish color**; most of the time, get the most red you can find. Find green and yellow for Granny Smith and Golden delicious apples.
 * **Pleasant aroma**; smell the apple. A good and fresh apple should have a pleasant aroma.
 
 ## Melon
@@ -24,6 +24,13 @@ Sorted alphabetically:
 * **Smell sweet**; a good melons should smell sweet and fragrant on the part where the vine is attached.
 * **Dull skin**; a ripe melon has shiny skins with a green or white colors. Always choose the yellowish dull colored melons.
 * **Heavy for its size**; pick up a handful of melons, and if you find one that feels relatively heavy for it's size, pick that one.
+
+## Orange
+
+* **No defects**; inspect its looks. There should be no bruising or soft spots.
+* **Heavy for its size**; heavier oranges are juicier. Pick up a handful of oranges and find one that feels relatively heavy for it's size.
+* **Smell citrusy**; quick sniff the stem area at the top. It should smell like orange peel.
+* **Firm smooth skins**; hold it in your hand and check if it feels firm and smooth.
 
 ## Watermelon
 
