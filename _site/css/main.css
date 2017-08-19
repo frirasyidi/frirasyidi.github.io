@@ -38,7 +38,7 @@ header nav { display: inline-block; float: right; margin: 0 auto; font-size: .8e
 header nav ul { margin: 0; padding: 0; list-style: none; }
 header nav ul li { float: left; position: relative; margin: 0; }
 header nav ul li a, header nav ul li a:visited { color: #2E2F30; text-decoration: none; display: block; padding: 15px; }
-header nav ul li a:hover, header nav ul li a:visited:hover { text-decoration: underline; color: #08c; }
+header nav ul li a:hover, header nav ul li a:visited:hover { text-decoration: underline; color: #0E4EAD; }
 
 /*---------------------------------------
 Main
@@ -89,7 +89,7 @@ pre { padding: 10pt; background-color: #ddd; border-radius: 8pt; font-family: "I
 /*---------------------------------------
 Lists
 ---------------------------------------*/
-ul, ol, li dl, dt, dd { line-height: 1.4; margin: 1em 0; }
+ul, ol, li dl, dt, dd { line-height: 1.4em; margin: 1em 0; }
 
 /*---------------------------------------
 Text level markups
@@ -99,9 +99,9 @@ code, kbd, samp, var { font-family: "Inconsolata", monospace; }
 /*---------------------------------------
 Links
 ---------------------------------------*/
-a { color: #08c; text-decoration: underline; }
-a:visited { color: #2e3191; }
-a:hover { color: #2e3191; }
+a { color: #0E4EAD; text-decoration: underline; }
+a:visited { color: #0B108C; }
+a:hover { color: #0C0F66; }
 
 /*---------------------------------------
 Forms
@@ -118,8 +118,8 @@ input:hover, textarea:hover { border: 2px solid #aaa; }
 
 textarea { height: 8em; max-width: 100%; }
 
-button { padding: .7em 1.4em; border-radius: 4px; border: none; background-color: #08c; color: #fff; font-weight: bold; }
-button:hover { background-color: #2e3191; box-shadow: 0 4pt 8pt #ddd; cursor: pointer; }
+button { padding: .7em 1.4em; border-radius: 4px; border: none; background-color: #0E4EAD; color: #fff; font-weight: bold; }
+button:hover { background-color: #0C0F66; box-shadow: 0 4pt 8pt #ddd; cursor: pointer; }
 
 table { margin: 0 0 1em; border-collapse: collapse; max-width: 100%; }
 
