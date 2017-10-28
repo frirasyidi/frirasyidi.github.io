@@ -7,17 +7,15 @@ update: 2017-07-01
 exclude: false
 ---
 
-# About Me
+# About Fri
 
-The name is Fri; designer with well-designed name to remember.
+I am Fri; designer with well-designed name to remember.
 
-I work as a designer whose primary goal is to make products and services **useful** for people like you, me, and everyone else by using *common sense* and *user centric approach*.
+As a product designer, I use *common sense* and *user centric approach* to design products and services that are **useful** and valuable for people like you, me, and everyone else. With 5 years of experience in digital design and business understadning from my business management undergraduate study, I’ve helped private businesses, NGOs, and the government to design their products.
 
-I am currently working as UX UI Designer for [HappyFresh][HappyFresh] and writes about user experience, design, and startups at [http://frirasyidi.com][Fri Rasyidi].
+I am currently working as UX UI Designer and Acting Product Manager of Growth team for [HappyFresh][HappyFresh]. I also writes about user experience, design, and startups at [http://frirasyidi.com][Fri Rasyidi].
 
-With 5 years of experience in digital design and business management understanding from my undergraduate study, I've helped private businesses, NGOs, and the government to design their products.
-
-Aside from being a designer, I have two years of experience being a business and community manager as the Chief of the first coworking space in Jakarta.
+Aside of my career as a designer, I have two years of experience in connecting people and sparks collaboration from being a business and community manager as the Chief of the first coworking space in Jakarta.
 
 I also cycle, hike, and [dive](/divelogs) for fun! :-)
 
