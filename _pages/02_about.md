@@ -11,7 +11,7 @@ exclude: false
 
 I am Fri; designer with well-designed name to remember.
 
-As a product designer, I use *common sense* and *user centric approach* to design products and services that are **useful** and valuable for people like you, me, and everyone else. With 5 years of experience in digital design and business understadning from my business management undergraduate study, I’ve helped private businesses, NGOs, and the government to design their products.
+As a product designer, I use *common sense* and *user centric approach* to design products and services that are **useful** and valuable for people like you, me, and everyone else. With 5 years of experience in digital design and business understanding from my business management undergraduate study, I’ve helped private businesses, NGOs, and the government to design their products.
 
 I am currently working as UX UI Designer and Acting Product Manager of Growth team for [HappyFresh][HappyFresh]. I also writes about user experience, design, and startups at [http://frirasyidi.com][Fri Rasyidi].
 
