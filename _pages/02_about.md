@@ -11,7 +11,9 @@ exclude: false
 
 I am Fri; designer with well-designed name to remember.
 
-As a product designer, I use *common sense* and *user centric approach* to design products and services that are **useful** and valuable for people like you, me, and everyone else. With 5 years of experience in digital design and business understanding from my business management undergraduate study, I’ve helped private businesses, NGOs, and the government to design their products.
+As a product designer, I use *common sense* and *user centric approach* to design products and services that are **useful** and valuable for people like you, me, and everyone else.
+
+With 5 years of experience in digital design and business understanding from my business management undergraduate study, I’ve helped private businesses, NGOs, and the government to design their products.
 
 I am currently working as UX UI Designer and Acting Product Manager of Growth team for [HappyFresh][HappyFresh]. I also writes about user experience, design, and startups at [http://frirasyidi.com][Fri Rasyidi].
 
@@ -21,6 +23,7 @@ I also cycle, hike, and [dive](/divelogs) for fun! :-)
 
 <h2 id="timeline">Notable Timeline</h2>
 
+* Growth Product Manager for [HappyFresh][happyfresh], <time>2017 to present</time>
 * UX UI Designer for [HappyFresh][happyfresh], <time>2016 to present</time>
 * UX Consultant for <abbr title="Special Task Force for Acceleration of Renewable Energy Development">Satgas P2EBT</abbr> of <abbr title="Ministry of Energy and Mineral Resources">Kementerian ESDM</abbr>, <time>2016</time>
 * Mentor and Organizer for [Lean Startup Machine Jakarta](https://www.leanstartupmachine.com/cities/jakarta), <time>2015</time>
