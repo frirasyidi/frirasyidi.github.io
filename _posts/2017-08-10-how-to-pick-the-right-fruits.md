@@ -2,7 +2,7 @@
 layout: post
 title:  How to Pick the Right Fruits
 date:   2017-08-10
-update: 2017-08-10
+update: 2017-11-14
 categories: blog
 ---
 For the past year, I've been working in HappyFresh&mdash;a groceries delivery startup. Last week, I was trusted by my friends to pick the best fruits but I have no idea how to do it.
@@ -17,6 +17,13 @@ Sorted alphabetically:
 * **Firm**; avoid taking apples that are soft, discolored, or easily indented when lightly pressed.
 * **Shiny red or yellowish color**; most of the time, get the most red you can find. Find green and yellow for Granny Smith and Golden delicious apples.
 * **Pleasant aroma**; smell the apple. A good and fresh apple should have a pleasant aroma.
+
+## Banana
+
+* **No defects**; inspect its looks. There should be no sunken moist-looking dark areas, have their stem ends and skins intact, and not dull.
+* **Bright in color**; choose those mostly yellow with a small amount of green at both ends.
+* **Brown spots** for immediate consumption; the fullest flavor is derived from bananas that begin to develop tiny dark specks, known as sugar specks.
+* **Full and plump**; depressed, moist, and dark areas on the skin usually signal the fruit inside is bruised.
 
 ## Melon
 
