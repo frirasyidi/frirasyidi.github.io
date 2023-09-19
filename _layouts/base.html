@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  <style>
+    @font-face {
+      font-family: "Preahvihear";
+      src: url("/assets/fonts/Preahvihear-Regular.ttf");
+      font-weight: normal;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "IBMPlexSans";
+      src: url("/assets/fonts/IBMPlexSans-Bold.ttf");
+      font-weight: bold;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "IBMPlexSans";
+      src: url("/assets/fonts/IBMPlexSans-Regular.ttf");
+      font-weight: normal;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "IBMPlexSans";
+      src: url("/assets/fonts/IBMPlexSans-BoldItalic.ttf");
+      font-weight: bold;
+      font-style: italic;
+    }
+    @font-face {
+      font-family: "IBMPlexSans";
+      src: url("/assets/fonts/IBMPlexSans-Italic.ttf");
+      font-weight: normal;
+      font-style: italic;
+    }
+    @font-face {
+      font-family: "IBMPlexSerif";
+      src: url("/assets/fonts/IBMPlexSerif-Regular.ttf");
+      font-weight: normal;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "IBMPlexSerif";
+      src: url("/assets/fonts/IBMPlexSerif-Italic.ttf");
+      font-weight: normal;
+      font-style: italic;
+    }
+
+    body {
+      font-family: IBMPlexSans !important;
+    }
+    h1 {
+      font-family: IBMPlexSerif !important;
+      font-style: italic;
+      margin-top: 48pt !important;
+      margin-bottom: 24pt !important;
+    }
+    h2,
+    h3,
+    h4 {
+      font-family: IBMPlexSerif !important;
+      margin-top: 32pt !important;
+    }
+  </style>
+
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">{{ content }}</div>
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>

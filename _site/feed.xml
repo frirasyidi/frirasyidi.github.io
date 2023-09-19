@@ -1,22 +1,615 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Fri Rasyidi—Product Designer</title>
-    <description>Fri is a Product Designer who design stuffs to be useful for people by using common sense and user centric approach.
-</description>
-    <link>http://frirasyidi.com/</link>
-    <atom:link href="http://frirasyidi.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 10 Aug 2017 18:52:44 +0700</pubDate>
-    <lastBuildDate>Thu, 10 Aug 2017 18:52:44 +0700</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
-    
-      <item>
-        <title>How to Pick the Right Fruits</title>
-        <description>&lt;p&gt;For the past years, I’ve been working in HappyFresh—a groceries delivery startup. Last week, I was trusted by my friends to pick the best fruits but I have no idea how to do it.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-19T12:42:30+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Fri Rasyidi</title><subtitle>Fri is a digital product craftsman; he crafts useful digital products by understanding the users and their goals.
+</subtitle><entry><title type="html">Continuous Delivery</title><link href="http://localhost:4000/books/2023/09/10/continuous-delivery.html" rel="alternate" type="text/html" title="Continuous Delivery" /><published>2023-09-10T00:00:00+08:00</published><updated>2023-09-10T00:00:00+08:00</updated><id>http://localhost:4000/books/2023/09/10/continuous-delivery</id><content type="html" xml:base="http://localhost:4000/books/2023/09/10/continuous-delivery.html">&lt;p&gt;This is my blog where I share what I learned; mostly about digital product design and development, sometimes about other things.&lt;/p&gt;</content><author><name></name></author><category term="books" /><summary type="html">This is my blog where I share what I learned; mostly about digital product design and development, sometimes about other things.</summary></entry><entry><title type="html">Great UX can be designed, baked from the start—nope.</title><link href="http://localhost:4000/blog/2021/01/25/great-ux-can-be-designed-baked-from-the-start-nope.html" rel="alternate" type="text/html" title="Great UX can be designed, baked from the start—nope." /><published>2021-01-25T00:00:00+08:00</published><updated>2021-01-25T00:00:00+08:00</updated><id>http://localhost:4000/blog/2021/01/25/great-ux-can-be-designed-baked-from-the-start-nope</id><content type="html" xml:base="http://localhost:4000/blog/2021/01/25/great-ux-can-be-designed-baked-from-the-start-nope.html">&lt;p&gt;Let me make it clear:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Great UX is the result of refinement processes.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Unfortunately, a lot of us forgotten about this.&lt;/p&gt;
+
+&lt;p&gt;When we build products, we think that good UX is inherited. We think that having great taste, awareness of UX, entitled us to great UX.&lt;/p&gt;
+
+&lt;p&gt;We thought that with a handful of researches and workshops, UX greatness shall be bestowed on our works. It’s not. The reason is because great UX requires time and extra works to achieve.&lt;/p&gt;
+
+&lt;p&gt;Think about why we appreciate products with great UX and great people who made them. It is not only because of how helpful and easy the products are to use but also because we admired the thoughtfulness of the maker.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-do-we-forget&quot;&gt;Why do we forget?&lt;/h2&gt;
+
+&lt;p&gt;The reason for this is the same reason why I fell in love with a good design: &lt;em&gt;it’s invisible&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Every time you encounter a good design, it feels natural and intuitive, as if it should always be like that since forever; that it only makes sense to do it like that and never the other way. It makes us automatically think that people who built bad design is just stupid, lazy, or wrong in the head. But it’s not.&lt;/p&gt;
+
+&lt;p&gt;And then there’s the commoditization of technology. Today, more and more people gain access to good design, especially in technology. But because good design is now everywhere, we feel like it’s a common thing. We forgot that they are not built in a single night.&lt;/p&gt;
+
+&lt;p&gt;Since it becomes clearer that great UX is largely preferred by the customers, we are now fully aware of how important great UX is to a product. So we expect them to naturally be in our requirement and forgot to count the effort to build them.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-what-can-we-do&quot;&gt;So, what can we do?&lt;/h2&gt;
+
+&lt;p&gt;As with all problems, let’s first acknowledge that great UX is not built overnight. Done? Now, let’s plan around them.&lt;/p&gt;
+
+&lt;p&gt;Since our problem lies in the realm of effort, let me introduce you to my favorite triangle: &lt;em&gt;the project management triangle&lt;/em&gt; or also known as &lt;em&gt;the quality triangle&lt;/em&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;A triangle where on each edge written &apos;resources&apos;, &apos;time&apos;, and &apos;scope&apos; where the center is &apos;quality&apos; &quot; src=&quot;/assets/2021-01-25-great-ux-can-be-designed-baked-from-the-start-nope/the-quality-triangle.webp&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;The Quality Triangle or also known as The Project Management Triangle.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The triangle helps illustrate that when running a project (yes, I can see you Scrum hardcore fans, developing a product is also a project), these four things are entangled with each other: quality, scope, resources, and time. And because they’re entangled, you cannot get all four; you need to compromise at least one.&lt;/p&gt;
+
+&lt;p&gt;Meaning, if we want to get great UX, we cannot do it with a large scope of work, a small number of resources, and a short amount of time. You need to at least compromise on one factor; be it smaller scope, larger resources, or longer time. So you need to pick your battle.&lt;/p&gt;
+
+&lt;p&gt;For most of us startup owners, it’s pretty easy to navigate. We usually have very limited resources and we want our product to ship quickly so that we can learn fast. So, the answer is to play around with scope.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-lets-talk-about-managing-the-scope&quot;&gt;So let’s talk about managing the scope.&lt;/h2&gt;
+
+&lt;p&gt;To be able to plan, I want us to break down what constitutes a great UX by taking a look at UX’s Maslow’s pyramid.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;A triangle where its horizontally split into three parts; written on each part top-to-bottom: &apos;delightful&apos;, &apos;usable&apos;, &apos;useful&apos;&quot; src=&quot;/assets/2021-01-25-great-ux-can-be-designed-baked-from-the-start-nope/the-quality-triangle.webp&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;There are versions of these pyramids that essentially tell you the same thing, so I’ll stick to this one for simplicity.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The pyramid illustrates that a product with great UX should have all three those components: Useful, Usable, and Delightful. Obvious.&lt;/p&gt;
+
+&lt;p&gt;But what’s not obvious is that when you’re building a product, it should be useful first before delightful. Think about why your customers pay for your product: it’s to help them achieve something. As long as you’re not in the business to simply delight, you can make as many beautiful micro-interactions as you want, but if by the end of the day it does not help your customer, it does not matter.&lt;/p&gt;
+
+&lt;p&gt;So aim to fulfill functionality first. If you have nailed the core, then you move towards usability and then the delight components.&lt;/p&gt;
+
+&lt;p&gt;When you understand this, it will be clear that research and iterative processes are your best tools to build great UX. This mindset allows us to quickly start, fail, and learn throughout the design process; to see it as a journey to uncover the true solution rather than stunned by the impossible task of striving for perfection on the first try.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;A ball drawing evolved from rough sketch to a realistic one&quot; src=&quot;/assets/2021-01-25-great-ux-can-be-designed-baked-from-the-start-nope/refinement-process.webp&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;Great UX is the result of refinement processes.&lt;/figcaption&gt;
+&lt;/figure&gt;</content><author><name></name></author><category term="blog" /><category term="design" /><summary type="html">Let me make it clear:</summary></entry><entry><title type="html">Tips for Running a Remote Research</title><link href="http://localhost:4000/blog/2020/04/23/tips-for-running-a-remote-research.html" rel="alternate" type="text/html" title="Tips for Running a Remote Research" /><published>2020-04-23T00:00:00+08:00</published><updated>2020-04-23T00:00:00+08:00</updated><id>http://localhost:4000/blog/2020/04/23/tips-for-running-a-remote-research</id><content type="html" xml:base="http://localhost:4000/blog/2020/04/23/tips-for-running-a-remote-research.html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt; (1) we’re talking about moderated sessions here. (2) Unfortunately, this post does not address research in remote areas where there’s no decent internet connection, so if you happen to work for that particular demographic, sorry, this article is not for you.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;COVID-19 definitely caught us off-guard. We have several projects planned at the beginning of the year but the situation forced us to make changes on the approach.&lt;/p&gt;
+
+&lt;p&gt;These are the things that we learned from doing a series of remote researches from In-depth Interviews to Usability Test. They have been proven to be helpful for us in &lt;a href=&quot;https://somiacx.com&quot;&gt;Somia Customer Experience&lt;/a&gt;, and we hoped that they can help you too.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-general-setup&quot;&gt;The general setup&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Limit the study duration to 60 minutes or 90 minutes max rather than the normal 120 minutes.&lt;/strong&gt; There are a lot more distractions at home and as you’re not going to be there, limiting the time to 60 minutes makes it easier to keep the participant and yourself focus. We found that keeping it shorter also makes people more willing to join the study.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Focus on what you wanted to get from the session.&lt;/strong&gt; Having limited time, we need to focus on what we need to get from the session early on. We feel that this is really empowering us to make the best of the time and be thoughtful when we’re making our discussion guide.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Plan the details and plan more&lt;/strong&gt;—especially on the study where the participant does activities like Usability Testing (&lt;a href=&quot;/blog/2023/04/23/remote-usability-testing-learnings.html&quot;&gt;which setup I explained in length here&lt;/a&gt;). Unlike offline sessions, being fully remote means you will not be there to control the situation. That means you will need your participant to be able to tackle issues along with the session. To do that, you need to be aware of all the troubles that you might encounter and help your participant to tackle those problems.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;overcoming-the-connection-issues&quot;&gt;Overcoming the connection issues&lt;/h2&gt;
+
+&lt;p&gt;I’ve been—and I know you’ve also been—in a lot of online calls where the connection gets bad you need to ask the other person to repeat what they said multiple times or the other person’s cut off from the connection; it’s a mess.&lt;/p&gt;
+
+&lt;p&gt;Essentially, you are at the mercy of yours and your participants’ internet connection. Here’s what you can do to solve this:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Screen for the participant so they have a decent internet connection.&lt;/strong&gt; As you are at the mercy of an internet connection, this is the first thing that you would want to check. Ideally, you want your participant to connect to private wifi so that it’s relatively more stable, but if you can’t have that, we learned from some conference call platform’s support page (&lt;a href=&quot;https://support.zoom.us/hc/en-us/articles/201362023-System-Requirements-for-PC-Mac-and-Linux#bandwidth&quot;&gt;Zoom&lt;/a&gt;, &lt;a href=&quot;https://docs.microsoft.com/en-us/microsoftteams/prepare-network#bandwidth-requirements&quot;&gt;Microsoft Teams&lt;/a&gt;, &lt;a href=&quot;https://support.goto.com/meeting/help/how-much-bandwidth-is-used-during-a-session-g2m010029&quot;&gt;GoToMeeting&lt;/a&gt;) that a 4G connection should be good enough.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Minimize your bandwidth requirements.&lt;/strong&gt; Every video, screen shares, or audios run simultaneously will add up to your bandwidth needs. You need to be efficient with this. For example, if you run an In-depth Interview and there are a lot of observers joining in, make sure to mute and turn off their video.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;My setup when running a remote usability testing session&quot; src=&quot;/assets/2020-04-23-tips-for-running-a-remote-research/my-ut-setup.webp&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;When we did remote Usability Testing, we always tried to have the participant to share their screen, voice, and video so that we can fully see their reaction. This requires pretty big bandwidth so we take measures when we do our recruitment.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;prepping-for-your-session&quot;&gt;Prepping for your session&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Make sure your participant fully on-board before the study.&lt;/strong&gt; As there is a handful of things to prepare before a study session, you don’t want your participant to be in the session due to misunderstanding or misaligned expectations. Let your participant knows what the study is about, what expected of them, and how much rewards would they get from participating in the session, and give them your consent and Non-disclosure Agreement beforehand (&lt;a href=&quot;/blog/2019/07/17/what-needs-to-be-said-about-nda-in-design-research.html&quot;&gt;read here to learn how we did it&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Help your participants prepare before the session.&lt;/strong&gt; This is the key to a smooth session. You need to be transparent and instructive on prepping your participants prior to the session. We use a combination of a call and follow it up as a written email to do this. Generally, you wanted to cover: General info about the study and topic, what is expected from the participant, the time and how long it runs, the link and password to the call, the preparation that is required (such as install app, hardware setup, notepads, etc.). We also asked the participant to stand by 15 minutes prior to the session to assist them with the technical setup.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;My colleague Andra running an in-depth interview session via WhatsApp with everyone&apos;s cameras on&quot; src=&quot;/assets/2020-04-23-tips-for-running-a-remote-research/whatsapp-for-in-depth-interview.webp&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;WhatsApp can be a nice platform option for an In-depth Interview, as most people already have them on phone, but it requires a bigger bandwidth than a proper conference call software.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Use a platform that’s easy to access and set up.&lt;/strong&gt; You don’t want your participants to get frustrated before even going to your session as it will make it tough for you to proceed with them. If it’s unavoidable, make sure that you assist them along the way. Prepare visual documentation that you can share ahead or walkthrough 15 minutes before the session so that it’s less frustrating for your participant to do. We love using WhatsApp for its simplicity and easiness, but we use Zoom for more complex research as it provides lots of useful features, widely used, and easy to install&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Ensure the security and privacy of your participants.&lt;/strong&gt; It’s your responsibility to keep your participant safe from harm and that’s why you signed your Consent and Non-disclosure Agreement Form—how’s so? &lt;a href=&quot;/blog/2019/07/17/what-needs-to-be-said-about-nda-in-design-research.html&quot;&gt;read my article on it here&lt;/a&gt;. So you want to make sure that you don’t use the same conference call link to multiple participants. You wanted to make sure that each is unique—and better, requires a password to access. We also noticed that lately there have been stories of Zoom’s security being compromised; if you’re using Zoom, you might want to &lt;a href=&quot;https://www.google.com/search?q=zoom+security&amp;amp;tbm=nws&quot;&gt;check that out&lt;/a&gt; and &lt;a href=&quot;https://www.forbes.com/sites/kateoflahertyuk/2020/04/03/use-zoom-here-are-7-essential-steps-you-can-take-to-secure-it/&quot;&gt;read steps to minimize the risk&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Prepare to assist your users in troubleshooting issues.&lt;/strong&gt; Unlike offline testing, you don’t have enough control to make sure all the issues during the remote study as you have limited control and you need your participant to be able to help you solve technical problems. You might not always need this, but when you do, you’ll thank me.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Plan on how you would share a stimulus/prototype with your participant.&lt;/strong&gt; As you cannot just hand over a phone, piece of paper, or dummy products, you need to think of a way to convert it online. When needed, also think about how your participant would interact with them and how you can observe them while interacting. For example, with a mobile app Usability Testing, you might consider asking your participant to access your prototype’s link and use them on their phone, but you might not be able to see their screen well enough or if they share screen, you might not know which part of the screen they tap.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;moderating&quot;&gt;Moderating&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Keep the video running.&lt;/strong&gt; We find it very humane to see each other. Make sure that yours and your participants can see each other’s faces. When talking to someone, there’s nothing more assuring to see their faces and expression. Also, this is great as you can better learn about the participant from their face and body language.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;Moderator and participant&apos;s face can be seen during the whole session&quot; src=&quot;/assets/2020-04-23-tips-for-running-a-remote-research/camera-on-for moderator-and-participant.webp&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;Video helps both the moderator and participant be engaged through the conversation.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Be extra clear when giving instruction.&lt;/strong&gt; In a remote session, your participant relies largely on your verbal communication and less about your gestures. Think about the instruction carefully so that it’s easy for them to follow. Make a visual instruction that you can share from your screen, or share a scenario to be read together on the chat. For studies like Usability Test, think about the mechanism of screen-sharing.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Consider a platform that has robust host features.&lt;/strong&gt; We found that features that enable you to mute call participants, auto-mute when they join the room are useful to not disrupt the session, especially when there’s an observer that might drop-in or out due to technical issues. What we found the most useful though, feature to limit recording permission (to make sure confidentiality) and for Usability Test, ability to screen share while simultaneously doing video calls, so that we can see what the participant does on-screen while looking at their expression and body language.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Put everything in the Discussion Guide&lt;/strong&gt;. With offline, we usually print the documents or artifact we need and simply lay them around on the moderator area. But it’s not doable online. During the session, we wanted to make sure where things are so that we don’t scramble around looking for that particular link we need. So we found it really helpful to use our discussion guide as a collection of all the needed references.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;Discussion guide detailing details on what needs to be covered and clear instruction for moderator to read&quot; src=&quot;/assets/2020-04-23-tips-for-running-a-remote-research/my-discussion-guide-sample.webp&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;Our discussion guide has all the things that we need to run the session smoothly.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Embrace your background, don’t use the graphic custom background.&lt;/strong&gt; You might want to use a graphic custom background because you do not like how your room looks, or you see it as this cool fun thing people on the internet do. Well, you should not. The reason is that if you choose a funny background, you give the impression that you don’t take the session seriously. Even if you choose a decent one, it may still felt as if you’re not genuine, that you’re trying to hide something. What you can do though, try to move to a room with a background that you think is good enough, or just try to sit with a wall on your back. By the end of the day, you should embrace the background and try to be genuine. Your participant would appreciate it too.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Those are the tips. I hope they help!&lt;/p&gt;</content><author><name></name></author><category term="blog" /><category term="research" /><summary type="html">Disclaimer: (1) we’re talking about moderated sessions here. (2) Unfortunately, this post does not address research in remote areas where there’s no decent internet connection, so if you happen to work for that particular demographic, sorry, this article is not for you.</summary></entry><entry><title type="html">Remote Usability Testing Learnings</title><link href="http://localhost:4000/blog/2020/04/23/remote-usability-testing-learnings.html" rel="alternate" type="text/html" title="Remote Usability Testing Learnings" /><published>2020-04-23T00:00:00+08:00</published><updated>2020-04-23T00:00:00+08:00</updated><id>http://localhost:4000/blog/2020/04/23/remote-usability-testing-learnings</id><content type="html" xml:base="http://localhost:4000/blog/2020/04/23/remote-usability-testing-learnings.html">&lt;p&gt;In &lt;a href=&quot;https://www.somiacx.com&quot;&gt;Somia CX&lt;/a&gt;, we believe that direct observation to be preferable than remote as you can get immersed with the context so we hardly ever do remote Usability Testing sessions. Unfortunately, the situation provides us with no choice. We know this will not be easy, but we accepted the challenge, and here’s what we learned.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;If you just wanted to know the setup, go to the last part of this post.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-majority-of-communication-comes-from-non-verbal&quot;&gt;The majority of communication comes from non-verbal&lt;/h2&gt;
+
+&lt;p&gt;The tricky thing with an online setup is that you cannot see the participant directly.&lt;/p&gt;
+
+&lt;p&gt;So we’ve decided early on that we wanted to see participants so that we know how they react when interacting with our prototype. As we’re doing a mobile app, we tackled this by asking the participant to join via both Laptop and Mobile phone.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;Screen capture of a call where the moderator&apos;s and participant&apos;s faces can be seen as well as the screensharing&quot; src=&quot;/assets/2020-04-23-remote-usability-testing-learnings/see-participant-through-camera.webp&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;We’ve decided early on that we wanted to see the participant while they’re using the prototype.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The laptop is used to cast the video of the participant while they’re using the prototype, and the mobile is used as a platform for the user to interact while being screen-shared at the same time. Both are connected to a single conference call platform so that the moderator and the observer can see both the video and screen-shared at the same time.&lt;/p&gt;
+
+&lt;p&gt;Of course, you can switch the other way around if you wanted to test a desktop app.&lt;/p&gt;
+
+&lt;h2 id=&quot;streaming-with-voice-video-and-screen&quot;&gt;Streaming with voice, video, and screen&lt;/h2&gt;
+
+&lt;p&gt;As the participant will stream three things at the same time: voice, video, and screen, we need to make sure that the participants have a decent internet connection.&lt;/p&gt;
+
+&lt;p&gt;In Indonesia, we generally have a very low upload stream rate compared to the download, based on my experience, they’re usually only around less than half of the download rate.&lt;/p&gt;
+
+&lt;p&gt;Looking at the requirements, most platforms (&lt;a href=&quot;https://support.zoom.us/hc/en-us/articles/201362023-System-Requirements-for-PC-Mac-and-Linux#bandwidth&quot;&gt;Zoom&lt;/a&gt;, &lt;a href=&quot;https://docs.microsoft.com/en-us/microsoftteams/prepare-network#bandwidth-requirements&quot;&gt;Microsoft Teams&lt;/a&gt;, &lt;a href=&quot;https://support.goto.com/meeting/help/how-much-bandwidth-is-used-during-a-session-g2m010029&quot;&gt;GoToMeeting&lt;/a&gt;) require 1Mbps of download and upload rate minimum for a conference call with both video and screen-share. That means a minimum 4G connection is required. Despite this, we usually still screen for private wifi connection availability to ensure a smooth session.&lt;/p&gt;
+
+&lt;p&gt;As for the platform, we’ve tried using several different platforms out there (Lookback.io, GoToMeeting, Microsoft Teams, Skype, Google Hangout/Meet, Cisco, and even TeamViewer for seeing mobile screens remotely) and convinced that Zoom is the one to go with. We chose it for multiple reasons, but on this specific context, it’s due to it:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;allows video to be displayed simultaneously with a screen-share&lt;/li&gt;
+  &lt;li&gt;allows screen sharing from mobile phone&lt;/li&gt;
+  &lt;li&gt;requires relatively low bandwidth when streaming all three simultaneously&lt;/li&gt;
+  &lt;li&gt;is easy to install; as the participant was not required to create an account and can simply join from a provided link&lt;/li&gt;
+  &lt;li&gt;has a record feature&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;thinking-out-loud-for-the-win&quot;&gt;Thinking out loud for the win&lt;/h2&gt;
+
+&lt;p&gt;I also notice that this is where the thinking out loud protocol shine. As we’re using an online setup, we don’t have a way to identify where the participant is tapping on the screen, so we need to ask them to inform us where they tap. So we make additional effort to make sure the thinking out loud process is clear.&lt;/p&gt;
+
+&lt;p&gt;Not that I am not aware of the ability to turn on Show Tap area on Android, but it has its own flaws. For (1) there’s none in iOS, (2) even if we go with Android user only, it’s troublesome to tell the user how to do it by themselves—not to mention there are a lot of different Android skin making it more troublesome for us to prepare the instruction or would definitely take time to dingle dangle when guiding the user through the setting.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;Screen capture of &apos;Show tap area&apos; setting in Android&quot; src=&quot;/assets/2020-04-23-remote-usability-testing-learnings/show-tap-area.webp&quot; width=&quot;100%&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;For those who don’t know where the Show Tap area (also known as Show Touches in other versions) setting is, you need to go and activate Developer Options first by tapping your Android build number in some subcategory of your setting (varies among Android skins) eight times, then open the developer option, look for the setting, and turn it on. &lt;em&gt;Imagine explaining that to someone on a call.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;prepare-in-details&quot;&gt;Prepare in details&lt;/h2&gt;
+
+&lt;p&gt;As we limited the session time to 60 minutes (one of &lt;a href=&quot;/blog/2020/04/23/tips-for-running-a-remote-research.html&quot;&gt;our quick tips on remote research that you can read here&lt;/a&gt;), we wanted to make sure that the session runs as effectively and efficiently possible.&lt;/p&gt;
+
+&lt;p&gt;We wanted to make sure our participants felt their time is valued and fully appreciated. We don’t want to waste our time fixing technical issues that we can prevent prior, or look unprepared for the session. We wanted the session to be less stressful for us. So we prepare more than we think we need.&lt;/p&gt;
+
+&lt;p&gt;I personally believe this is the one thing that ended up really help us get through the session.&lt;/p&gt;
+
+&lt;p&gt;Not only that it makes the sessions more enjoyable and less stressful for everyone, but it also helps us can focus on the content rather than the technicals during and after the session. It also makes running back to back sessions and their transitions much easier.&lt;/p&gt;
+
+&lt;p&gt;I know it’s called planning, but the way I see it, it’s about designing the experience of the study session. So that’s the way we did it. We planned by making the participant’s journey and identify things that can go well or not during the session and prepare for it.&lt;/p&gt;
+
+&lt;p&gt;We started planning from the recruitment up to the end of the session:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;when we need to send an email to inform about the study, we think about the wording and what needs to be there;&lt;/li&gt;
+  &lt;li&gt;when we need to make sure the participant is ready before the session, we make the protocols and the visualized step-by-steps on how to do that step;&lt;/li&gt;
+  &lt;li&gt;for the consent and non-disclosure agreement form, we make it so that it’s easy to access online (&lt;a href=&quot;2020/04/23/making-a-remote-consent-and-nda-form.html&quot;&gt;read here on how we did it&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Essentially, we planned in detail. We also make sure to do this in a single document so that we don’t have to scramble around looking for stuff and have everything we need within reach.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;Screen capture of our pilot test session where the moderator&apos;s and participant&apos;s faces can be seen as well as the screensharing&quot; src=&quot;/assets/2020-04-23-remote-usability-testing-learnings/our-pilot-test-session.webp&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;Our pilot test to check all the setup and identify other preps that might miss.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Then we did a pilot test of how the session runs while taking notes on things that we might have yet to cover. We did it like it’s the real deal. We acted the parts and the role, we run the whole study from the recruitment to the session. We make sure we know when to start recording, and who will record. We evaluate what to say during instructions and information parts to make sure it’s crystal clear. We even have a person enacting the role of note-taking so that we know how to do it well. This is so that we’re familiar with the setup we made and it paid well.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-overall-setup&quot;&gt;The overall setup&lt;/h2&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;My screen setup during remote usability testing session: TOP-LEFT is the call app with participant list control open for easy access to muting unwanted voice and private chat open for sharing links and scenarios with the participant; BOTTOM-LEFT for note-taking; BOTTOM-MIDDLE for chat for internal discussion with observer; RIGHT is the discussion-guide&quot; src=&quot;/assets/2020-04-23-remote-usability-testing-learnings/my-overall-setup.webp&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;This is my overall setup when running the Usability Testing where I can see and monitor everything I need. Note that I used a 27&quot; screen so you might want to adjust when using a smaller one such as a laptop screen.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;For the reasons mentioned above, we used Zoom for the session call with each participant to have their own link and password to access their session.&lt;/li&gt;
+  &lt;li&gt;We asked the participant to join the Zoom call via both laptop and mobile phone; laptop for video capturing the participant’s face and body and use the mobile to screen-share when using the prototype.&lt;/li&gt;
+  &lt;li&gt;We used one Google Docs that the moderator’s use for Discussion Guide where it contains all the information and instructions needed including but not limited to:
+    &lt;ol&gt;
+      &lt;li&gt;links to join each session call,&lt;/li&gt;
+      &lt;li&gt;links to the prototype to be shared with the participant,&lt;/li&gt;
+      &lt;li&gt;links to document for technical preparation and troubleshooting that can be shown to the participant,&lt;/li&gt;
+      &lt;li&gt;the testing scenario itself,&lt;/li&gt;
+      &lt;li&gt;the profile of the participant as a reference.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Split the roles of:
+    &lt;ol&gt;
+      &lt;li&gt;recording and uploading after it ends,&lt;/li&gt;
+      &lt;li&gt;note-taking,&lt;/li&gt;
+      &lt;li&gt;making sure the participant join on time and do the technical briefing before the session starts.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;A chat platform on standby outside of Zoom so that observers can post questions to be followed up by the moderator and discuss technical issues between ourselves on the background during the session.&lt;/li&gt;
+  &lt;li&gt;As I moderate, I personally open an additional note-taking platform to note down my take-outs to be shared on the debrief session.&lt;/li&gt;
+  &lt;li&gt;Alternative call conference area to be used by the team for debriefing after the session (we used different platforms from Zoom so that we did not accidentally be heard by any of the participants—yes, we’re that cautious).&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="blog" /><category term="research" /><summary type="html">In Somia CX, we believe that direct observation to be preferable than remote as you can get immersed with the context so we hardly ever do remote Usability Testing sessions. Unfortunately, the situation provides us with no choice. We know this will not be easy, but we accepted the challenge, and here’s what we learned.</summary></entry><entry><title type="html">Making a Remote Consent and NDA Form</title><link href="http://localhost:4000/blog/2020/04/23/making-a-remote-consent-and-nda-form.html" rel="alternate" type="text/html" title="Making a Remote Consent and NDA Form" /><published>2020-04-23T00:00:00+08:00</published><updated>2020-04-23T00:00:00+08:00</updated><id>http://localhost:4000/blog/2020/04/23/making-a-remote-consent-and-nda-form</id><content type="html" xml:base="http://localhost:4000/blog/2020/04/23/making-a-remote-consent-and-nda-form.html">&lt;p&gt;As I’ve mentioned in my other article, a &lt;a href=&quot;/blog/2019/07/17/what-needs-to-be-said-about-nda-in-design-research&quot;&gt;Non-disclosure Agreement is a very important piece of an ethical research study&lt;/a&gt;. It serves as the researcher’s commitment to ensure our participant’s privacy.&lt;/p&gt;
+
+&lt;p&gt;In &lt;a href=&quot;https://www.somiacx.com&quot;&gt;Somia CX&lt;/a&gt;, we usually do it with both the moderator and the participant signed the documents together just before the session started. Due to the COVID-19 situation, this is not possible so we need to think of a different way.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;Photo of me and a participant signing consent and NDA form&quot; src=&quot;/assets/2020-04-23-making-a-remote-consent-and-nda-form/signing-nda.png&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;We usually signed the Consent and NDA Form alongside our participant before the session&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;So when I did our remote Usability Testing session, I’ve decided for us to make an online form that the participant needs to fill in. Pretty simple right?&lt;/p&gt;
+
+&lt;p&gt;Generally, we already ensure the participants are okay with the terms written in the Non-disclosure Agreement and Consent form during recruitment, it’s just the signing that’s done during the meeting to make it formal. As we can still let them know during remote recruitment, we simply tried to tap in that opportunity to actually do the signing.&lt;/p&gt;
+
+&lt;p&gt;When we provide our participants with the form, we usually walk them through each statement to make sure our participant knows what they signed for, but this is technically very challenging to do online:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;reading it via call would make it harder to understand as the participant needs to rely fully on the moderator and their memory on what’s given and we don’t have written proof that they actually agree on it,&lt;/li&gt;
+  &lt;li&gt;sending it online does not guarantee that the participant really read each of the statement and signing just for the sake of signing but then drop off on D-day as they apparently have things that they disagree with on the form,&lt;/li&gt;
+  &lt;li&gt;we know there’s Docusign or Privy ID, but we realized it can be too complex for some people to use without proper instruction and we don’t want them to feel overwhelmed before even participating in the study.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So what we did is that we made a form that is constructed of multiple statements that the participants need to respond with an agreement. At the end of the form, we asked them their full name and email in substitute for their signature.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Voila!&lt;/em&gt; Using this setup, we were able to get a written response, while, to a certain degree, ensuring the participants read each statement and know what they signed for while keeping it easy to do.&lt;/p&gt;
+
+&lt;p&gt;What I also learned from this is that despite the situation, there’s always a way to tackle them. And this is only one of the things we learned from doing full remote research, if you’re curious, &lt;a href=&quot;&quot;&gt;read here to learn more&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="blog" /><category term="research" /><summary type="html">As I’ve mentioned in my other article, a Non-disclosure Agreement is a very important piece of an ethical research study. It serves as the researcher’s commitment to ensure our participant’s privacy.</summary></entry><entry><title type="html">Shut Up!</title><link href="http://localhost:4000/blog/2020/03/04/shut-up.html" rel="alternate" type="text/html" title="Shut Up!" /><published>2020-03-04T00:00:00+08:00</published><updated>2020-03-04T00:00:00+08:00</updated><id>http://localhost:4000/blog/2020/03/04/shut-up</id><content type="html" xml:base="http://localhost:4000/blog/2020/03/04/shut-up.html">&lt;p&gt;As part of my work in Somia Customer Experience (check us out at &lt;a href=&quot;https://www.somiacx.com&quot;&gt;somiacx.com&lt;/a&gt;), I’ve been running and teaching a lot of Usability Testing. Despite being a very simple form of research, I found that a lot of professionals are still confused about how to conduct good Usability Testing.&lt;/p&gt;
+
+&lt;p&gt;Here’s one good pro tip: &lt;em&gt;shut up!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Usability Testing is an observational type of research. That means the only thing that you should do is to observe how the participants work on the given task. You are not supposed to ask questions, probe, or disturb them when they’re working on it.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;Photo of me training a room full of VPs&quot; src=&quot;/assets/2020-03-04-shut-up/giving-training.webp&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;From my experience training people from VP levels to juniors, because of its simplicity, Usability Testing can be one of the toughest to digest as people tend to overthink and worry about not getting the most of the session by sitting silent and observing.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Why? &lt;em&gt;To avoid bias.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Bias is the enemy of research and there are a lot of them that you can encounter whether it is before, during, or after the research sessions (&lt;em&gt;go ahead look these research bias up on the internet as I would not discuss in length about them here—or you can leave comments below and force me to discuss it in later posts&lt;/em&gt;). The more bias there is in a study, the less accurate its results are.&lt;/p&gt;
+
+&lt;p&gt;When you’re doing observational research, you want to observe your participants in their most natural state. You want them to act like they should when there’s no one around watching them so that you know exactly what happened.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;Photo of a fictional young girl named Jenny (image generated by AI)&quot; src=&quot;/assets/2020-03-04-shut-up/non-existant-jenny.webp&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;Jenny looks sweet, but she’s something else if your teacher’s not there.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Here’s a story: &lt;em&gt;You probably have that one friend in the class who is a bully, let’s call her Jenny. You and your friends are fed up and have complained about her behavior, but the teacher never really does anything as your teacher thinks Jenny is a sweet girl—and yes, that’s because she’s always acting nice when the teacher’s around.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Yep, Jenny changed her behavior when she’s aware that the teacher’s around so that she’s not getting into trouble. The same goes for your participant too.&lt;/p&gt;
+
+&lt;p&gt;Just from them knowing you’re there, your participant might shift their behavior. Whether it is to make you feel it’s worthwhile to invite them there, to avoid hurting your feelings, or simply to not look like a fool in front of you. In any case, they shift their behavior to a degree. You want to actively manage the degree of that shifting so that it’s not over skewed your research results.&lt;/p&gt;
+
+&lt;p&gt;Now, with that issue already at hand when you start asking questions, you essentially introduced even more bias in the process. When you asked them a question midway, you make them think and that might be about something that they’ve probably never thought about when doing the task. This ends up cutting off their train of thoughts, or worse, change the next course of action.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;A participant seen talking to impress&quot; src=&quot;/assets/2020-03-04-shut-up/talk-to-impress.webp&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;When you probe, the participants can end up talking too much about their past experiences and less about experiencing the product that’s being tested. This might give you good insights on her past experience, but in a Usability Testing, you want to see them experiencing the product more than hearing stories of it.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;If you think this never happened to you, think again. Because most likely, when I told you to “&lt;em&gt;look these research bias up on the internet&lt;/em&gt;” in the fifth paragraph above, you’ve got your train of thoughts cut off—or worse, changed your course of action from continuing reading to literally looked for research bias online. Even if you don’t, I’m pretty sure there are a lot of moments when you got distracted from reading on Medium because you’ve stumbled on an interesting link in the article.&lt;/p&gt;
+
+&lt;p&gt;Now that you understand and can sympathize, as a moderator, what should you do then? Simple: &lt;em&gt;just shut up and observe what your participants do.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;What you need to remember is that you can always ask the questions when your participant’s done with their task at the end of the session.&lt;/p&gt;
+
+&lt;p&gt;“But what about those &lt;em&gt;thinking out loud&lt;/em&gt; things I’ve read a lot like in Steve Krug’s books?” you asked?&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;A clip from Ed Sheeran&apos;s song&quot; src=&quot;/assets/2020-03-04-shut-up/thinking-out-loud.webp&quot; width=&quot;100%&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;To be clear, by ‘thinking out loud’, Steve Krug’s not talking about Ed Sheeran’s song. And if you’re wondering about the books I’m referring to, they’re called &lt;a href=&quot;http://sensible.com/downloads-rsme.html&quot;&gt;Rocket Surgery Made Easy&lt;/a&gt; and &lt;a href=&quot;http://sensible.com/downloads-dmmt.html&quot;&gt;Don’t Make Me Think&lt;/a&gt;. They’re good starting points to learn about Usability.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Asking your participant to think out loud is a different thing from probing. It’s just requesting your participants to speak up on anything that’s one their minds during the process. Sure, it creates bias too—like some people who don’t read texts might end up reading the text—but far less disruptive than making your participants answer questions on stuff that’s not in their train of thought.&lt;/p&gt;
+
+&lt;p&gt;Now, let me teach you some mantra for you to learn. I suggest that you try to repeat after me, okay?&lt;/p&gt;
+
+&lt;p&gt;Ready? Here we go:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;When your participant says “I think this is not right”, you say: “…”&lt;/li&gt;
+  &lt;li&gt;When you notice your participant did not take the right path, you say: “…”&lt;/li&gt;
+  &lt;li&gt;When your participant did something interesting, you say: “…”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Great, you did well!&lt;/p&gt;
+
+&lt;p&gt;Remember, all you got to do during the session is to take notes on interesting things your participants do and ask them later at the end of the session. &lt;em&gt;Silence is golden.&lt;/em&gt;&lt;/p&gt;</content><author><name></name></author><category term="blog" /><category term="research" /><summary type="html">As part of my work in Somia Customer Experience (check us out at somiacx.com), I’ve been running and teaching a lot of Usability Testing. Despite being a very simple form of research, I found that a lot of professionals are still confused about how to conduct good Usability Testing.</summary></entry><entry><title type="html">What needs to be said about Non-Disclosure Agreement and Consent in Design Research</title><link href="http://localhost:4000/blog/2019/07/17/what-needs-to-be-said-about-nda-in-design-research.html" rel="alternate" type="text/html" title="What needs to be said about Non-Disclosure Agreement and Consent in Design Research" /><published>2019-07-17T00:00:00+08:00</published><updated>2019-07-17T00:00:00+08:00</updated><id>http://localhost:4000/blog/2019/07/17/what-needs-to-be-said-about-nda-in-design-research</id><content type="html" xml:base="http://localhost:4000/blog/2019/07/17/what-needs-to-be-said-about-nda-in-design-research.html">&lt;h2 id=&quot;more-about-your-participants-than-you&quot;&gt;More about your participants than you&lt;/h2&gt;
+
+&lt;p&gt;Let’s make it clear: &lt;em&gt;it’s not about your security, it’s your participant’s security.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;If you think otherwise, then you’re looking at it wrong. Here are some reasons why:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;By the end of the day, what you shared to them might no longer be relevant. You might find a lot of new stuff from talking to them.&lt;/li&gt;
+  &lt;li&gt;You want them to feel comfortable and safe so they are willing to share more. Meaning: more insights for you.&lt;/li&gt;
+  &lt;li&gt;Your participant’s safety is your number one responsibility. They should not get any repercussion from having the session with you. If they are at risk due to exposure with you, no one should be advised to have a session with you.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“it’s not about your security, it’s your participant’s security”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;Helpful staffs. MRT Staffs politely help customers understand how to use MRT for the first time and navigate their way.&quot; src=&quot;/assets/2019-07-17-what-needs-to-be-said-about-nda-in-design-research/blurred-mugshots.webp&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;&lt;strong&gt;The famous blurred mugshots.&lt;/strong&gt; Keeping people’s privacy means putting a glass plate in front of their faces.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;what-you-should-cover-in-your-nda&quot;&gt;What you should cover in your NDA&lt;/h2&gt;
+
+&lt;p&gt;First and foremost, state that you will cover their privacy. What this means is that you will try your best to ensure to make it hard for people to trace back who the participants are. Even if it sounds like overdoing it, it’s necessary.&lt;/p&gt;
+
+&lt;p&gt;The next is to let them know that there are some mechanics that would allow you to record the session: such as writing, video, audio, or image. If they decide to not use any on some of them, respect their decision.&lt;/p&gt;
+
+&lt;p&gt;When covering the recording part, it is best when you also help them know where the recording tools are. Not only that this shows them that you respect their privacy, but it also helps them understand the context and should they ask for an off the record remarks, they can be certain that you’ve respected his request.&lt;/p&gt;
+
+&lt;p&gt;That’s it. Those are the two main things.&lt;/p&gt;
+
+&lt;p&gt;But what about yours or your client’s data privacy? Well, it’s optional. You’re the one who runs the session and actively collecting the data, so it’s your call. But by the end of the day, your first goal is to ensure your participant’s safety.
+A consent form is different from an NDA&lt;/p&gt;
+
+&lt;h2 id=&quot;a-consent-form-is-a-form-of-willingness-to-participate-in-the-study&quot;&gt;A consent form is a form of willingness to participate in the study.&lt;/h2&gt;
+
+&lt;p&gt;A consent form is used in the process of reaching an informed consent: to help research participants make an educated decision about whether they want to take part in your research, and when signed, show that they are willing to participate.&lt;/p&gt;
+
+&lt;p&gt;Here’s what usually is in a consent document:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Participation is voluntary. They are not forced and they are doing this out of their willingness.&lt;/li&gt;
+  &lt;li&gt;Know and understand what is expected. They are informed and have a general understanding of what the session is going to talk about, for, and expected to do from them.&lt;/li&gt;
+  &lt;li&gt;That ideas and discussion points that emerged from the discussion would be owned by the researcher and shall not be used by the participants.&lt;/li&gt;
+  &lt;li&gt;It is acceptable to stop the session without consequences. That should you promise to give them a payment, it will not be reflected with the payment.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;As you can see above, it does not mention keeping any information secret and definitely not about you keeping secrecy on their privacy.&lt;/p&gt;
+
+&lt;p&gt;Sure, you can have them in the same document, but you still need to make sure that both are there.&lt;/p&gt;
+
+&lt;h2 id=&quot;always-prepare-two-copies&quot;&gt;Always prepare two copies&lt;/h2&gt;
+
+&lt;p&gt;I’ve seen multiple times that a lot of people only prepare one copy of NDA for them to keep, which is the wrong thing to do. If you wanted to keep one copy for yourself, you should bring two copies: one for the participant and one for you.&lt;/p&gt;
+
+&lt;p&gt;As we’ve established that it’s actually more about your participants than yourself, what’s important is actually for your participant to have the document copy. Keep in mind that should anything happened as the outcome of your session, you are actually the one to be held accountable—and when it happened, your participant should have a way to uphold that accountability.&lt;/p&gt;
+
+&lt;p&gt;If you think this all sounds scary, then probably you should rethink your approach or motive when doing research; as these are the basic ethics of doing research.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;Helpful staffs. MRT Staffs politely help customers understand how to use MRT for the first time and navigate their way.&quot; src=&quot;/assets/2019-07-17-what-needs-to-be-said-about-nda-in-design-research/our-field-setup.webp&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;&lt;strong&gt;My colleague Andrea with our usual field setup.&lt;/strong&gt; The camera (A) and the voice recorder (B) is visible to the participants at all times, there are two copies of NDA and consent form, one for the participant (C) and another for the researcher (D). Notice that we blurred the participant’s face on publication (E).&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;conclusion-tldr&quot;&gt;Conclusion (TLDR)&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;NDA is more about protecting the participants than yourself.&lt;/li&gt;
+  &lt;li&gt;A consent form is not a replacement of NDA and vice versa; you need to ask both.&lt;/li&gt;
+  &lt;li&gt;Always have two copies, one for the participant and one for you.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="blog" /><category term="research" /><summary type="html">More about your participants than you</summary></entry><entry><title type="html">MRT Jakarta Experience Evaluation — an Independent Study</title><link href="http://localhost:4000/blog/2019/05/03/mrt-jakarta-experience-evaluation.html" rel="alternate" type="text/html" title="MRT Jakarta Experience Evaluation — an Independent Study" /><published>2019-05-03T00:00:00+08:00</published><updated>2019-05-03T00:00:00+08:00</updated><id>http://localhost:4000/blog/2019/05/03/mrt-jakarta-experience-evaluation</id><content type="html" xml:base="http://localhost:4000/blog/2019/05/03/mrt-jakarta-experience-evaluation.html">&lt;p&gt;&lt;img src=&quot;/assets/2019-05-03-mrt-jakarta-experience-evaluation/cover.webp&quot; alt=&quot;test&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;MRT was just being introduced last March by the Government of Jakarta. My colleague, &lt;a href=&quot;https://id.linkedin.com/in/donofirman&quot;&gt;Dono Firman&lt;/a&gt;, and I were interested in the experience so last April 2019, we took a full day and went on a series of rides and talk to passengers to evaluate the experience.&lt;/p&gt;
+
+&lt;p&gt;From our perspective, MRT is definitely a huge improvement for Jakarta, a tool for Jakartans to face the fierce traffic, a storm of vehicles, if you will. I have been riding the train almost on a day to day basis afterward and I can say that aside from the long unfriendly walk, it’s pretty helpful, especially for those who live/work nearby like us.&lt;/p&gt;
+
+&lt;h2 id=&quot;we-applaud-mrt-for-its-culture-shaping&quot;&gt;We applaud MRT for its culture shaping&lt;/h2&gt;
+
+&lt;p&gt;The greatest thing about MRT that we witnessed is the culture it helped to shape: helpful and approachable. We see that this is the culture that we’ve missed from the city and MRT was able to reestablish again—at least in its premise.&lt;/p&gt;
+
+&lt;p&gt;Since the first time we get to MRT, we were struck at how approachable, respectful, and helpful are the staffs. They are ready and would politely help you when you have confusion.&lt;/p&gt;
+
+&lt;p&gt;We witnessed security personnel approach and get approached to help people in purchasing tickets on the Ticket Vending Machine, provide directions and even information of which station they should disembark on.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;Helpful staffs. MRT Staffs politely help customers understand how to use MRT for the first time and navigate their way.&quot; src=&quot;/assets/2019-05-03-mrt-jakarta-experience-evaluation/helpful-staffs.png&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;&lt;strong&gt;Helpful staffs.&lt;/strong&gt; MRT Staffs politely help customers understand how to use MRT for the first time and navigate their way.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The success of MRT in shaping this helpful and approachable culture really shines when we tried to talk to people there. Our experience doing field research, especially when intercepting, led us to believe it would be very hard to get people to stop and talk to us. We assumed that the same will happen in MRT, but our experience begs the differ: people were very approachable and helpful, which astonished us.&lt;/p&gt;
+
+&lt;p&gt;For us who are interested in service experience design, this is the greatest learning that we can get from MRT: shape by example; that how your customers behave are largely shaped by how you interact with them. From experiencing MRT, it comes to our realization that ambiance is not only set up by how the building or interior is designed but also from how the host/service provider interacts with you.&lt;/p&gt;
+
+&lt;p&gt;From the perspective of the management, we also see that this type of attitude really shine when it comes to controlling the crowd. We see that the security personnel has easier times compared to other services to establish the rules as people are more abiding and understanding. People are even willing to properly queue for lengths of time, an uncommon sight in Jakarta.&lt;/p&gt;
+
+&lt;p&gt;Despite the friendly and helpful staffs, we found that there are several other areas that still need improvements which gets us to the next point:&lt;/p&gt;
+
+&lt;h2 id=&quot;3-main-issues-the-walk-the-ticketing-and-the-wayfinding&quot;&gt;3 main issues: the walk, the ticketing, and the wayfinding&lt;/h2&gt;
+
+&lt;p&gt;We keep having problems in navigating our way throughout our experience with MRT.&lt;/p&gt;
+
+&lt;p&gt;As a disclaimer, we notice that each station has different standards as some would have one information/setup while the others don’t. But we’re mainly going to point out where the issues are so that it can be improved especially in stations that have yet to do so.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-walk&quot;&gt;The walk&lt;/h3&gt;
+
+&lt;p&gt;Getting to MRT is the first barrier. For those who walk, it can be long and daunting as the pedestrian walk is still limited. Those who are going to MRT stations might need to walk directly under sun heat, jaywalk, or even compete for space in the street with motorcycles and car. The fact that the government had tried to extend and create a proper pedestrian walk along the route is a good start, but yet to suffice.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;Three images depicting lack of good pedestrian walk; left: broken pavements; middle: crowded with motorcycle; right: no pedestrian walk at all&quot; src=&quot;/assets/2019-05-03-mrt-jakarta-experience-evaluation/insufficient-pedestrian-walk.png&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;The road leading to and from MRT is tough to walk on and sometimes requires you to go against motorcycle and cars.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;When you arrived at the station, then comes the climbing. To reach MRT, you need to go through a series of stairs and the climbing can be very steep and long, it would not even farfetched to think that MRT might actually stand for “Mendaki Ratusan Tangga” (Climbing Hundreds of Stairs). This is definitely a challenge, and we’re concerned about older people’s safety. Granted, there are some elevator and escalators available, but not always for the latter.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;Left: very long stairs going up, and no elevator visible; right: a person shows accomplishment while bathing in light from the surface after reaching the top of the floor looks like a person achieved heaven&quot; src=&quot;/assets/2019-05-03-mrt-jakarta-experience-evaluation/stairway-to-heaven.png&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;&lt;strong&gt;Stairway to heaven.&lt;/strong&gt; This one that we took has 74 steps, it’s a very long climb that you’ll felt immense relief once you’re up there; exactly like in heaven.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Not all live nearby the station, for those who did not and still willing to use MRT, they get to the nearest station by other means of transportation. The only issue is that some stations do not have a proper drop off zone which can disrupt the traffic which happened in Fatmawati Station (right image below). We see a proper one in Blok A area, but there is no clear signed that some people still drop off on the main road.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;Left: A drop-off zone under Blok A station; middle &amp;amp; right: Lack of drop off zone in Lebak Bulus &amp;amp; Fatmawati.&quot; src=&quot;/assets/2019-05-03-mrt-jakarta-experience-evaluation/lack-dropzone.png&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;&lt;strong&gt;LEFT: A drop-off zone under Blok A station; MIDDLE &amp;amp; RIGHT: Lack of drop off zone in Lebak Bulus &amp;amp; Fatmawati.&lt;/strong&gt; A lot of police are situated at the front of Lebak Bulus Grab’s station to ensure no clogging from people dropping off passengers at the traffic whilst a clog happened in Fatmawati station caused by the lack of drop-off zone.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;left: very long stairs going up, and no elevator visible; right: a person shows accomplishment while bathing in light from the surface after reaching the top of the floor looks like a person achieved heaven&quot; src=&quot;/assets/2019-05-03-mrt-jakarta-experience-evaluation/no-dropoff-sign.png&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;&lt;strong&gt;LEFT: No visible sign for drop off area; RIGHT: Our recommendation.&lt;/strong&gt; The lack of visible signage causes people to stop for drop off on the main road that might disturb the traffic.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;the-ticketing&quot;&gt;The ticketing&lt;/h3&gt;
+
+&lt;p&gt;Once you’re in the station, the biggest hurdle for the first time is always on ticketing.&lt;/p&gt;
+
+&lt;p&gt;First of all, we appreciated that some station has a standing banner or poster indicating possible payment methods, but most do not have. This causes confusion and a lot of people ended up looking for an explanation from the helpful security personnel or queuing to buy a ticket despite having an acceptable payment card.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;A few lockets have a clear banner on acceptable payment (LEFT) methods while most don’t (RIGHT).&quot; src=&quot;/assets/2019-05-03-mrt-jakarta-experience-evaluation/inconsistent-ticketing-information.png&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;&lt;strong&gt;A few lockets have a clear banner on acceptable payment (LEFT) methods while most don’t (RIGHT).&lt;/strong&gt; Having the banner is beneficial and should be the standard across all stations as we noticed that lockets without the banner usually have a long queue from people who don’t know that they can pay with other methods.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;As you can see on the image above, some locket has additional information on all the acceptable payment method, which is great to help people know and avoid queueing. But we criticized it’s location as by putting it on top of the locket, it might send the wrong message: that instead of using the cards as an alternative to payment, you can use it to pay for purchasing a single pass ticket in the locket. We suggest to put them nearby the tapping area to avoid this misperception like some of the station do, and change the wording from “Kami menerima/We accept” to “Dapat digunakan sebagai tiket/Can be used as ticket”.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;Banner text is changed from &apos;Kami menerima/We accept&apos; to &apos;Dapat digunakan sebagai tiket/Can be used as ticket&apos;&quot; src=&quot;/assets/2019-05-03-mrt-jakarta-experience-evaluation/we-accept-payment.png&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;Change the wording on the banner so that it’s clear that it can be used in alternative to the ticket, not to purchase the ticket itself.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We also noticed that the queue to get the ticket can be very long, the longest one exceeds 25 people queuing in Blok M. From our calculation, it took around 45 seconds per person to purchase a ticket meaning you might need to wait more than 20 minutes to just buy a ticket. Especially for those who are in a hurry, such as businessmen, this definitely will not do.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;Three images depicting long queue&quot; src=&quot;/assets/2019-05-03-mrt-jakarta-experience-evaluation/long-queue.png&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;The queue can be very long that it can take almost half an hour just to get the ticket.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The Ticket Vending Machine has the same issue, it’s not faster than the counter as some people are just learning how to use the machine.&lt;/p&gt;
+
+&lt;p&gt;We encountered people who initially tried to buy tickets from the machine but ended up going to the locket instead. When we asked, they said that they don’t have the exact money to pay and were not sure if they will get the change or that it will stay as the balance on the card.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I only got a hundred thousand bill, I’m not sure if it’s going to give me the change so better asked the locket rather than not getting the change.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;— Guy in a group of 5&lt;/strong&gt;, used MRT to go for lunch at Blok M.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;Group of 5 people queueing in locket while no one use the ticketing machine next to it&quot; src=&quot;/assets/2019-05-03-mrt-jakarta-experience-evaluation/confused-five.webp&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;&lt;strong&gt;Group of 5 decided to drop off from the Automatic Ticketing Machine.&lt;/strong&gt; They ended up not using the Automatic Ticketing Machine and ask the locket to help them purchase their ticket as they’re not comfortable using it.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We’re also pretty confused the first time we used it, which makes our purchase longer than necessary the system ended up terminated our initial purchase and we’re needed to start over. The biggest hiccup is that we did not realize it required us to put some deposit in the card and we ended up waiting for the system to do something but nothing happened.&lt;/p&gt;
+
+&lt;p&gt;We understand that in the long run, the queuing issue might be gone as people would learn that using electronic money would be the best options to go with and the Ticket Vending Machine would be reserved for tourists. But in the short run, we still see the need for MRT management to provide a clearly visible acceptable payment method list nearby the gates and fix the usability concerns in the machine so that people don’t need to ask around or unnecessarily queue in front of the locket.&lt;/p&gt;
+
+&lt;p&gt;Another thing that we experienced is that as we moved around from station to station, we found a situation where our electronic money’s balance is no longer sufficient, that we need to top it up. But it’s difficult as there is no place to do so in the MRT so we were required to get out of the station to find the nearest ATM. Before getting out, we do get the chance to ask the information staff and she said you will soon be able to top-up your electronic money in the locket, so look out for it.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-wayfinding&quot;&gt;The wayfinding&lt;/h3&gt;
+
+&lt;p&gt;This is the main issue when you’re using MRT; especially on your first trips.&lt;/p&gt;
+
+&lt;p&gt;Despite us have been using them multiple times in the day, revisiting stations and all, we still found ourselves can hardly navigate on where we should go. We also noticed that people were facing the same issues in navigating around the station.&lt;/p&gt;
+
+&lt;p&gt;While we were on Blok M station, we saw a person stopped on his way, right after tapping the ticket. We noticed that he was contemplating on which stairs to take: is it the left or the right one? He looked around a couple of times and then blindly chose the stairs on the right simply because it’s closer to him. Seconds later, we saw him climbing down the stairs and took the stairs on the left.&lt;/p&gt;
+
+&lt;p&gt;We were intrigued, so approached him and asked what just had happened. He explained that the first stairs (the right side) he took was leading to the wrong train direction so he climbed down again and took the left side. He was confused as there was no signage or direction that tell him which way to go.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;No clear directional sign after arriving at the main hall&quot; src=&quot;/assets/2019-05-03-mrt-jakarta-experience-evaluation/left-or-right.png&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;It’s not clear if people should go to the right or left. We saw people move from the left-right back and forth to decide which platform they should be on. The sign on the left and right does not help as it’s meant to be read by people who are coming down the stairs.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;Signage is added right at the entrance of the main hall&quot; src=&quot;/assets/2019-05-03-mrt-jakarta-experience-evaluation/add-signage.webp&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;&lt;strong&gt;Add direction signage.&lt;/strong&gt; We recommend adding signage close to the entrance so that people don’t need to guess if they should go to the left or to the right.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Once people are in the platform, there’s not much of an issue except for the waiting. Some people that we talked to are businessmen who valued their time, so their main concern is the 10 minutes wait between the trains. They mostly understood that it’s due to the currently low utilization number, but he still wished that at least the train can be in 5 minutes increments.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“10 minutes wait is too long. Well, for more than 2 stations that’s make sense, but [for 2 or less] I can just walk or use a taxi and save some time! … It [MRT compared to taxi] is cheaper, but IDR 2,500 vs IDR 15,000 is not much of a difference.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;— Business guy&lt;/strong&gt; who needs to wait for the next train, use MRT to go for a meeting with a client&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;On the 12 hours venturing the MRT, we found some people took off on the wrong station. We talked to two of them.&lt;/p&gt;
+
+&lt;p&gt;The first one gets off later as she dozed off on the station and did not realize that she already skipped her station. She‘s a student who used to go by bus to her campus where she usually used an alarm so that even if she dozed off, she can still get off on time. But this time, as she used MRT, she did not prepare the alarm as she has yet to know how long it takes to get from a station to station and ended up missing the station.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I usually setup an alarm on my phone so that I can sleep [when riding the bus] but because this is quick, I did not set it up, but then I dozed off and realized the door is already closed on my destination station.”&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;— Girl who exit late&lt;/strong&gt;, used MRT to go to her campus.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The second one gets off too soon, he was worried that he might skip his station that he gets off right away. He felt that it’s better to get off sooner than later as he felt more comfortable getting off earlier and wait for the next train than later and needed to switch platform to go back to the right station.&lt;/p&gt;
+
+&lt;p&gt;We recommend MRT to show the estimated arrival time to a station so that people know how long it would take to their destination station.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img alt=&quot;Signage with added time estimate on arrival to each of the next stations&quot; src=&quot;/assets/2019-05-03-mrt-jakarta-experience-evaluation/add-arrival-time-estimate.webp&quot; /&gt;
+&lt;figcaption style=&quot;width:100%; text-align:center;&quot;&gt;We recommend adding the estimated travel time so that people can know the time needed for travel and don’t need to be too anxious about getting off in the wrong station.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Another idea that we came up is to create a tune for each station to make it easier for people to be aware of where they should drop off. You know that moment where you know the tunes but cannot recall the lyrics? It’s because of tunes are easier to grasp than just words.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2776393/#B22&quot;&gt;Based on research&lt;/a&gt;, this is because when processing music, we use the part of the brain that evokes emotions. Because of the emotional response elicited from a piece of music, the associated memory tends to be strong. If there were tunes attached to each station, the audio will serve as a reminder, an audio stamp, so that she would be more aware of which station the train is approaching.&lt;/p&gt;
+
+&lt;p&gt;We’re also thinking that these tunes can be a fun gimmick to illustrate the destination areas. For example, Senayan can have a very sporty theme song, or Monas can have a very patriotic theme song:&lt;/p&gt;
+
+&lt;figure style=&quot;position: relative; width: 100%; padding-bottom: 56.25%; margin-bottom:40px;&quot;&gt;
+  &lt;iframe style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;border: 0;&quot; src=&quot;https://www.youtube.com/embed/Os4FRE7FT0k?si=bFvDIZqYvrmRg34n&quot; title=&quot;Illustration video on our theme song concept of Monas Station or as we cheesily call it: MRTunes 😎.&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;figcaption style=&quot;position: absolute; top: 100%; left: 0; text-align: center; width:100%;&quot;&gt;Illustration video on our theme song concept of Monas Station or as we cheesily call it: MRTunes 😎.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;As you might have realized from the video, we also rewrote the script for the announcement. The current announcement emphasizes too much on the end station information instead of the next station which is less important. We also think that the current one announces the next station way too close to the station that it does not allow people to prepare earlier.&lt;/p&gt;
+
+&lt;p&gt;Once arrived at the right station, the next important thing to do is to find the right exit.&lt;/p&gt;
+
+&lt;p&gt;In general, there are 4 exit points in each MRT station (2 on each side of the road). Hence it would be cumbersome if we find ourselves on the wrong exit point. To avoid that, MRT has given the code for each of the exits, which are exit A, B, C and D so that people will know where to go.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, these coded exits were not that visible and easily understood. The signage leading to those exits were not guiding people from the moment they go out from the train until they left the station. We observed that people were confused about which direction they should take and eventually they asked the security guard for direction.&lt;/p&gt;
+
+&lt;p&gt;In addition, we saw that MRT has developed a map of these exits, while we considered this as a good effort, we found that the map was not easy to read and digest as we were having the struggle to correlate which landmarks to which sections.&lt;/p&gt;
+
+&lt;h2 id=&quot;tldr&quot;&gt;TLDR;&lt;/h2&gt;
+
+&lt;p&gt;Here’s what we found from the research:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We applaud that MRT has successfully created a culture in its premise, making it a very friendly place and in return allowed them to easily control the crowd.&lt;/li&gt;
+  &lt;li&gt;We noticed that not all MRT stations are the same, they each have different information/setup available on their premise, so one station can have an overall better experience than another.&lt;/li&gt;
+  &lt;li&gt;The government still needs to improve the vicinity facilities so that getting to MRT is more comfortable.&lt;/li&gt;
+  &lt;li&gt;MRT should make acceptable payment method information available on all stations so that people don’t need to queue or ask at the locket.&lt;/li&gt;
+  &lt;li&gt;Some people are getting off at the wrong station. Adding estimated travel time and station theme song would help people avoid it.&lt;/li&gt;
+  &lt;li&gt;Improve overall signage visibility so that they can easily navigate in and out of the station.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="blog" /><category term="research" /><summary type="html"></summary></entry><entry><title type="html">How to Pick the Right Fruits</title><link href="http://localhost:4000/blog/2017/08/10/how-to-pick-the-right-fruits.html" rel="alternate" type="text/html" title="How to Pick the Right Fruits" /><published>2017-08-10T00:00:00+08:00</published><updated>2017-08-10T00:00:00+08:00</updated><id>http://localhost:4000/blog/2017/08/10/how-to-pick-the-right-fruits</id><content type="html" xml:base="http://localhost:4000/blog/2017/08/10/how-to-pick-the-right-fruits.html">&lt;p&gt;For the past year, I’ve been working in HappyFresh—a groceries delivery startup. Last week, I was trusted by my friends to pick the best fruits but I have no idea how to do it.&lt;/p&gt;
 
 &lt;p&gt;This post is my attempt to catalogue the key to get the best fruits. Keep in mind that this would be a growing list.&lt;/p&gt;
 
 &lt;p&gt;Sorted alphabetically:&lt;/p&gt;
+
+&lt;h2 id=&quot;apple&quot;&gt;Apple&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;No defects&lt;/strong&gt;; inspect its looks. There should be no bruising, soft spots or cracks.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Firm&lt;/strong&gt;; avoid taking apples that are soft, discolored, or easily indented when lightly pressed.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Shiny red or yellowish color&lt;/strong&gt;; most of the time, get the most red you can find. Find green and yellow for Granny Smith and Golden delicious apples.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Pleasant aroma&lt;/strong&gt;; smell the apple. A good and fresh apple should have a pleasant aroma.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;banana&quot;&gt;Banana&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;No defects&lt;/strong&gt;; inspect its looks. There should be no sunken moist-looking dark areas, have their stem ends and skins intact, and not dull.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Bright in color&lt;/strong&gt;; choose those mostly yellow with a small amount of green at both ends.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Brown spots&lt;/strong&gt; for immediate consumption; the fullest flavor is derived from bananas that begin to develop tiny dark specks, known as sugar specks.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Full and plump&lt;/strong&gt;; depressed, moist, and dark areas on the skin usually signal the fruit inside is bruised.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;melon&quot;&gt;Melon&lt;/h2&gt;
 
@@ -27,6 +620,15 @@
   &lt;li&gt;&lt;strong&gt;Heavy for its size&lt;/strong&gt;; pick up a handful of melons, and if you find one that feels relatively heavy for it’s size, pick that one.&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h2 id=&quot;orange&quot;&gt;Orange&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;No defects&lt;/strong&gt;; inspect its looks. There should be no bruising or soft spots.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Heavy for its size&lt;/strong&gt;; heavier oranges are juicier. Pick up a handful of oranges and find one that feels relatively heavy for it’s size.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Smell citrusy&lt;/strong&gt;; quick sniff the stem area at the top. It should smell like orange peel.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Firm smooth skins&lt;/strong&gt;; hold it in your hand and check if it feels firm and smooth.&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&quot;watermelon&quot;&gt;Watermelon&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -34,100 +636,10 @@
   &lt;li&gt;&lt;strong&gt;Sounds hollow&lt;/strong&gt;; tap the watermelon. If it sounds hollow, that means your watermelon is ripe, watery, and sweet.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Yellowish bottom&lt;/strong&gt;; the bottom part of your watermelon, the opposite part from the vine, should be creamy yellow. This is where it touches the ground.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Heavy for its size&lt;/strong&gt;; pick up a handful of watermelons, and if you find one that feels relatively heavy for it’s size, pick that one.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 10 Aug 2017 00:00:00 +0700</pubDate>
-        <link>http://frirasyidi.com/blog/2017/08/10/how-to-pick-the-right-fruits.html</link>
-        <guid isPermaLink="true">http://frirasyidi.com/blog/2017/08/10/how-to-pick-the-right-fruits.html</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Hello, World!</title>
-        <description>&lt;p&gt;Last month I’ve been thinking to updating my site.&lt;/p&gt;
-
-&lt;p&gt;My old site works just fine for me: it tells people my name, what I do, how to contact me, and showcase some of my works. But I’ve been wanting to improve my writing skills—I suck at it real hard—which means I need to start writing stuffs and post it somewhere for people to read and get feedback from it. So, I decided to add blogging capability to this site.&lt;/p&gt;
-
-&lt;p&gt;&lt;abbr title=&quot;For Your Information&quot;&gt;FYI&lt;/abbr&gt;, I’m a huge fan of &lt;a href=&quot;https://en.wikipedia.org/wiki/Static_web_page&quot;&gt;static sites&lt;/a&gt;. It has incredible performance (&lt;cite&gt;&lt;a href=&quot;https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/&quot;&gt;Smashing Magazine&lt;/a&gt;&lt;/cite&gt;: &lt;q&gt;Even with a highly optimized dynamic website, the static version is more than six times as fast on average!&lt;/q&gt;), very little needs of maintenance, and immune to exploits. But nothing is perfect—yeah, there’s always a catch—and it’s the exact reason why dynamic sites was born into existence: &lt;em&gt;it’s hard to manage a static sites with multiple pages&lt;/em&gt;. That’s why it’s not ideal for blogging sites.&lt;/p&gt;
-
-&lt;p&gt;But then I remember something…&lt;/p&gt;
-
-&lt;p&gt;When my client asked me to create their budget site, what I did was buying a Wordpress theme for the interface design. I’m more of a &lt;abbr title=&quot;User Experience&quot;&gt;UX&lt;/abbr&gt; designer so I care more about the content than the looks; buying Wordpress themes has never been an issue for me as long as it serve the purpose. But I did thought of using my own interface design for sites I built in the future, so I tried to learn how to make Wordpress themes. But it was too complex—I know HTML and CSS and can read Java Script; the learning curve was too steep.&lt;/p&gt;
-
-&lt;p&gt;Around a year ago, I looked for another alternative that can be made with pretty much only HTML and CSS which is &lt;em&gt;static sites&lt;/em&gt;. Yes, I’ve told you that static sites are not ideal for blogging sites due to it’s complexity to manage multiple pages; but that’s the only reason of it. Looking at how excellent static sites performances are, I knew that some geeky guys must have thought of using it as a blogging platform. I mean, if I’ve thought about it, someone must have too, right? And I was right! They’re called “&lt;a href=&quot;https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/&quot;&gt;static sites generator&lt;/a&gt;”.&lt;/p&gt;
-
-&lt;p&gt;After doing research, I stumbled upon &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, a static site generator made by &lt;a href=&quot;http://tom.preston-werner.com/&quot;&gt;Tom Preston-Werner&lt;/a&gt;. Jekyll is great because it harnesses the power of markdown and has Sass built in. That makes writing HTML and CSS much easier and more efficient. Not only that, it is also highly compatible with &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub pages&lt;/a&gt;; meaning I can work from my local and simply push it once I’m satisfied; and &lt;em&gt;it offers free hosting&lt;/em&gt;. Needless to say, I’m 100% bought.&lt;/p&gt;
-
-&lt;p&gt;So, here it is. My updated site is hand made using &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; and &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;If you’re interested on building your own site the same way I did, &lt;a href=&quot;https://www.taniarascia.com/make-a-static-website-with-jekyll/&quot;&gt;here’s a very good written guide by Tania Rascia&lt;/a&gt; that I used to learn and start with. Also, feel free to ask questions or get in touch with me &lt;a href=&quot;/contact&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;notes&quot;&gt;Notes&lt;/h3&gt;
-
-&lt;p&gt;For those who are wondering, I use &lt;a href=&quot;https://www.formingo.co&quot;&gt;Formingo&lt;/a&gt;’s service to run my contact form. I’ve tried some other free contact form services like &lt;a href=&quot;http://formspree.io/&quot;&gt;Formspree&lt;/a&gt; and &lt;a href=&quot;https://formkeep.com&quot;&gt;FormKeep&lt;/a&gt;, but I like Formingo better for it’s ability to redirect, directly reply to, and define the email’s subject.&lt;/p&gt;
-
-&lt;h3 id=&quot;links-to-more-information&quot;&gt;Links to more information&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/&quot;&gt;Why Static Website Generators Are The Next Big Thing&lt;/a&gt; by &lt;a href=&quot;http://www.twitter.com/biilmann&quot;&gt;Mathias Biilmann Christensen&lt;/a&gt;. If you’re not convinced yet about static sites, go ahead and read this.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;. Step by step guide to setup Github Pages.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.taniarascia.com/make-a-static-website-with-jekyll/&quot;&gt;Make a Static Website with Jekyll&lt;/a&gt; by &lt;a href=&quot;https://www.taniarascia.com/&quot;&gt;Tania Rascia&lt;/a&gt;. The best getting started guide I have found.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/jekyll/jekyll/wiki/Sites&quot;&gt;Sites&lt;/a&gt; on Jekyll’s GitHub page. This page showcases sites that use Jekyll. You can use this for source of inspirations and learnings. Remember what the famous painter &lt;cite&gt;Pablo Picasso&lt;/cite&gt; said: &lt;q&gt;Good artists copy; great artists steal&lt;/q&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/tagged/jekyll&quot;&gt;Jekyll on StackOverflow&lt;/a&gt;. If you need quick troubleshooting, check it out on StackOverflow for an answer to your question. Not there? Go ahead and ask a new question.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://sass-lang.com/guide&quot;&gt;Learn SASS&lt;/a&gt;. A good start to learn &lt;dfn&gt;SASS&lt;/dfn&gt;, an extension of CSS that helps keep stylesheets well-organized by allowing you to use variables, nested rules, mixins, inline imports, and more. You can also go directly to &lt;a href=&quot;http://sass-lang.com/documentation/file.SASS_REFERENCE.html&quot;&gt;SASS documentation&lt;/a&gt; for more details.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt; by &lt;a href=&quot;https://daringfireball.net&quot;&gt;Daring Fireball&lt;/a&gt;. Learn the basics of Markdown from its original creator.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://guides.github.com/features/mastering-markdown/&quot;&gt;GitHub Flavored Markdown&lt;/a&gt;. Learn the Markdown syntax that Tania Rascia and I are using for our Jekyll sites. &lt;abbr title=&quot;Github Flavored Markdown&quot;&gt;GFW&lt;/abbr&gt; is one of many Markdown syntax that you can use.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://helloworldcollection.de/&quot;&gt;The Hello World Collection&lt;/a&gt;. Trivia: here’s a collection of “Hello, World!” programs in as many more-or-less well known programming languages and 76 human languages.&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Sun, 20 Nov 2016 00:00:00 +0700</pubDate>
-        <link>http://frirasyidi.com/blog/2016/11/20/hello-world.html</link>
-        <guid isPermaLink="true">http://frirasyidi.com/blog/2016/11/20/hello-world.html</guid>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Divelogs Banda_neira Batu_kapal</title>
-        <description>&lt;p&gt;My first time doing negative entry, it was amazing and not as hard as I thought it would be. The current is pretty strong, so I need to keep moving my feet especially above 10m. We saw no sharks, but the corals and fishes are amazing.&lt;/p&gt;
-
-&lt;h3 id=&quot;memorable-sea-creatures&quot;&gt;Memorable sea creatures&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Moray_eel&quot;&gt;Moray eels&lt;/a&gt; in different colors, &lt;a href=&quot;https://en.wikipedia.org/wiki/Hydrophiinae&quot;&gt;sea snake&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Scorpaenidae&quot;&gt;scorpion fishes&lt;/a&gt;, and &lt;a href=&quot;https://en.wikipedia.org/wiki/Synanceia&quot;&gt;stone fishes&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 08 Nov 2016 00:00:00 +0700</pubDate>
-        <link>http://frirasyidi.com/divelogs/2016/11/08/divelogs-banda_neira-batu_kapal.html</link>
-        <guid isPermaLink="true">http://frirasyidi.com/divelogs/2016/11/08/divelogs-banda_neira-batu_kapal.html</guid>
-        
-        
-        <category>divelogs</category>
-        
-      </item>
-    
-      <item>
-        <title>Divelogs Banda_neira Goa_hatta</title>
-        <description>&lt;p&gt;&lt;em&gt;The best wall I’ve seen so far!&lt;/em&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="blog" /><summary type="html">For the past year, I’ve been working in HappyFresh—a groceries delivery startup. Last week, I was trusted by my friends to pick the best fruits but I have no idea how to do it.</summary></entry><entry><title type="html">Divelogs Banda_neira Goa_hatta</title><link href="http://localhost:4000/divelogs/2017/01/02/divelogs-banda_neira-goa_hatta.html" rel="alternate" type="text/html" title="Divelogs Banda_neira Goa_hatta" /><published>2017-01-02T00:00:00+08:00</published><updated>2017-01-02T00:00:00+08:00</updated><id>http://localhost:4000/divelogs/2017/01/02/divelogs-banda_neira-goa_hatta</id><content type="html" xml:base="http://localhost:4000/divelogs/2017/01/02/divelogs-banda_neira-goa_hatta.html">&lt;p&gt;&lt;em&gt;The best wall I’ve seen so far!&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;The entry is spectacular: we passed through a bridge made out of corals. Right after you passed it, you’ll see that the wall is tall and full of corals from far down below up to 10m. Visibility is incredible that far in the blue you can see big fishes—I’m not sure, but perhaps they are Barracudas—schooling.&lt;/p&gt;
 
 &lt;h3 id=&quot;memorable-sea-creatures&quot;&gt;Memorable sea creatures&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Sea_turtle&quot;&gt;Sea turtle&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Moray_eel&quot;&gt;moray eels&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Mandarinfish&quot;&gt;mandarinfishes&lt;/a&gt;, and &lt;a href=&quot;https://en.wikipedia.org/wiki/Hoplophrys&quot;&gt;candy crab&lt;/a&gt;.&lt;/p&gt;
 
-</description>
-        <pubDate>Mon, 07 Nov 2016 00:00:00 +0700</pubDate>
-        <link>http://frirasyidi.com/divelogs/2016/11/07/divelogs-banda_neira-goa_hatta.html</link>
-        <guid isPermaLink="true">http://frirasyidi.com/divelogs/2016/11/07/divelogs-banda_neira-goa_hatta.html</guid>
-        
-        
-        <category>divelogs</category>
-        
-      </item>
-    
-  </channel>
-</rss>
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Sea_turtle&quot;&gt;Sea turtle&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Moray_eel&quot;&gt;moray eels&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Mandarinfish&quot;&gt;mandarinfishes&lt;/a&gt;, and &lt;a href=&quot;https://en.wikipedia.org/wiki/Hoplophrys&quot;&gt;candy crab&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="divelogs" /><summary type="html">The best wall I’ve seen so far!</summary></entry></feed>

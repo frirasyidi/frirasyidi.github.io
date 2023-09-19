@@ -1,0 +1,22 @@
+---
+layout: base
+---
+
+<div class="home">
+  {{ content }}
+
+  <h2 class="post-list-heading">My writings</h2>
+  {% assign date_format = "%Y&nbsp;%b&nbsp;%-d" %}
+  <table>
+    {% for post in site.categories.blog %}
+    <tr>
+      <td>{{ post.date | date: date_format }}</td>
+      <td>
+        <a href="{{ post.url | relative_url }}"> {{ post.title | escape }} </a
+        ><br />
+        <small>{{ post.subtitle | escape }}</small>
+      </td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
