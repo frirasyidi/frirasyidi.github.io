@@ -7,7 +7,7 @@ hideFromMenu: true
 
 ## **Fri**, a digital product craftsman
 
-I define a _digital product craftsman_ as a person who makes _useful_ digital products such as websites, apps, and alike. To accomplish it, this person will _mindfully_ use their _research_, _design_, _development_, _business_, _teamwork_, and _communication_ skills to:
+I define a _digital product craftsman_ as a person who makes _useful_ digital products such as websites, apps, and alike. To accomplish it, this person will _mindfully_ and _pragmatically_ use their _research_, _design_, _development_, _business_, _teamwork_, and _communication_ skills to:
 
 - _understand_ the product's users, their context, and their goals,
 - conduct _experiments_ to find a satifying solution,
