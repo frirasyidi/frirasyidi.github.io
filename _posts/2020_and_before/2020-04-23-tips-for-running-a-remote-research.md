@@ -3,7 +3,8 @@ layout: post
 title: Tips for Running a Remote Research
 subtitle: We successfully did a series of remote researches during the COVID-19 situation. Here’s what we did and what we learned from it.
 date: 2020-04-23
-categories: blog
+categories: article
+link: https://medium.com/somiacx/tips-for-running-a-remote-research-2d97d070be19
 tags: research
 publication-notes: This post was originally posted in <a href="https://medium.com/somiacx/tips-for-running-a-remote-research-2d97d070be19">Somia CX Thought</a>.
 ---
