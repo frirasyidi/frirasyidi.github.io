@@ -1,29 +1,29 @@
 ---
 layout: post
 title: Start with the smallest step!
-subtitle: Stories and learnings I get from learning TDD using Jest with Typescript
+subtitle: Stories and learning I get from learning TDD using Jest with Typescript
 date: 2023-10-09
+last-update: 2023-10-19
+last-update-notes: fix typos.
 categories: blog
 ---
 
 Last week I spent a day learning how to do TDD using Jest and Typescript. During which I created a program called **[Sumer](https://github.com/frirasyidi/sumer)**---a program that can sum values in `numbers`, `arrays`, and `objects` simultaneously.
 
-If you'd like to, go check [the code on my Github](https://github.com/frirasyidi/sumer).
+Here's my learning and the stories behind them from the exercise.
 
-### TLDR;
-
-- [Story 1: _Don't overengineer_](#story-1-dont-overengineer)
+- [Story 1: _Don't over-engineer_](#story-1-dont-over-engineer)
 - [Story 2: _Work on the goal right away_](#story-2-work-on-the-goal-right-away)
 - [Story 3: _Start from the simplest working solution_](#story-3-start-from-the-simplest-working-solution)
-- [Story 4: _No need to overanalyze the future_](#story-4-no-need-to-overanalyze-the-future)
+- [Story 4: _No need to over-analyze the future_](#story-4-no-need-to-over-analyze-the-future)
 - [Story 5: _Refactor strictly for ease of maintenance not future improvement_](#story-5-refactor-strictly-for-ease-of-maintenance-not-future-improvement)
 - [Story 6: _Tests help you manage complexity_](#story-6-tests-help-you-manage-complexity)
 - [Story 7: _Commit often_](#story-7-commit-often)
 - [Concluding thoughts](#concluding-thoughts)
 
-## Story 1: _Don't overengineer_
+## Story 1: _Don't over-engineer_
 
-I always love to prepare ahead to make sure that I can minimise problem that might happen in the future. So I was always in the look for "best-practice" or "best-setup" just so that my experience as a beginner learning Typescript is smooth-sailing.
+I always love to prepare ahead to make sure that I can minimize problem that might happen in the future. So I was always in the look for "best-practice" or "best-setup" just so that my experience as a beginner learning Typescript is smooth-sailing.
 
 I then stumbled upon ["The TSConfig Cheat Sheet" by Matt Pocock](https://www.totaltypescript.com/tsconfig-cheat-sheet), a "_configuration options you need to care about_". Since I know nothing and I can see that he is definitely a veteran, I decided to adopt the configuration.
 
@@ -48,7 +48,7 @@ He (_and I, obviously_) focuses too much on the configuration rather than tackli
 
 ## Story 3: _Start from the simplest working solution_
 
-Of course both lessons from [Story 1](#story-1-dont-overengineer) and [Story 2](#story-2-work-on-the-goal-right-away) are results of retroscpetion, so at the time, I was still trying to install Jest with Typescript. I then saw this Medium article ["Jest with Typescript" by Anthony Ng](https://medium.com/swlh/jest-with-typescript-446ea996cc68).
+Of course both lessons from [Story 1](#story-1-dont-over-engineer) and [Story 2](#story-2-work-on-the-goal-right-away) are results of retrospection, so at the time, I was still trying to install Jest with Typescript. I then saw this Medium article ["Jest with Typescript" by Anthony Ng](https://medium.com/swlh/jest-with-typescript-446ea996cc68).
 
 His steps was extremely simple:
 
@@ -62,9 +62,9 @@ This steps asks for nothing more and nothing less than setting up as minimally a
 
 I realize that this is also the embodiment of the TDD principle itself: _Do minimal work required to make it pass_. Once it works, _then and only then_ you are okay to change stuff for the better (read: _refactor_).
 
-## Story 4: _No need to overanalyze the future_
+## Story 4: _No need to over-analyze the future_
 
-Everytime I see videos of TDD, I always thought that there's always a redundant part in the first check return test.
+Every time I see videos of TDD, I always thought that there's always a redundant part in the first check return test.
 
 ```ts
 // sumer.test.ts
@@ -107,7 +107,7 @@ function sumer(a:number[], b:number[]): number[] {
 
 But doing that multiple times during the session changed my mind. Now I am fond of the step.
 
-As you can see from the stories above, I tend to overthink about what would happen in the future and will most-likely ends up overengineer my code.
+As you can see from the stories above, I tend to overthink about what would happen in the future and will most-likely ends up over-engineer my code.
 
 By doing the ridiculous step I allow myself to properly face the issue at hand and that issue only. I also give room for my second test to help me shape the code later. Once I do this, I can see that it resulted in a code that is simpler, fits my tests better, and best of all, I don't spend time nor effort doing wasteful work.
 
@@ -167,7 +167,7 @@ Apparently, my first test for handling `object` requires me to update the functi
 
 So I moved on to the next test case; I still didn't need it. The next; still didn't need it. The next; still nope. Up until I have completed all the test cases for handling `object` and all other types together; I still didn't need it.
 
-Amused, I ended up deleting the helper code. My learning is that refactor should only be dones for the sake of maintenance.
+Amused, I ended up deleting the helper code. My learning is that refactor should only be done for the sake of maintenance.
 
 ## Story 6: _Tests help you manage complexity_
 
@@ -224,7 +224,7 @@ function objectify(item: number | number[] | { [key: string]: number }): {
 }
 ```
 
-Lucky for me, I have all tests ready and I know that it was an issue. Otherwise, I would have shipped an embarassingly buggy code.
+Lucky for me, I have all tests ready and I know that it was an issue. Otherwise, I would have shipped an embarrassingly buggy code.
 
 Once I fixed it and I am sure that all tests passed, I know that I shipped a correct and working code.
 
@@ -240,7 +240,7 @@ I am truly glad that I made lots of small commits.
 
 ## Concluding thoughts
 
-This excercise thaught me:
+This exercise taught me:
 
 - to start small and make the problem simpler to solve,
 - jump right on the problem instead of around it,
@@ -249,3 +249,5 @@ This excercise thaught me:
 - that you don't need to solve all problems at once.
 
 I mainly work as a UX Designer through the majority of my career. As a UX Designer, I have this urge to make sure that all the nitty-gritty details, irks, and probable issues that might appear are covered. That leads me to this mental of feeling the need to overthink and this reminds me that [great experience requires iteration and cannot be baked from the start](/blog/2021/01/25/great-ux-can-be-designed-baked-from-the-start-nope). That all problems should be solved incrementally.
+
+If you'd also like to, feel free and go check [the **Sumer** code on my Github](https://github.com/frirasyidi/sumer).
