@@ -309,4 +309,4 @@ Here are the key take aways from the above.
 
 An additional point to make from my own reflection is that, the technique is helpful in helping us understand what is "enough", but as the principle said, once it is more stable, it is wise to add more test to uncover more defects---keeping in mind that a usable software is more important than a fully defect-free software.
 
-![A process flow from left to right: test enough, useful, test more to improve](../assets/2023-12-06-when-tested-enough/conclusion.png)
+![A process flow from left to right: test enough, useful, test more to improve](/assets/2023-12-06-when-tested-enough/conclusion.png)
