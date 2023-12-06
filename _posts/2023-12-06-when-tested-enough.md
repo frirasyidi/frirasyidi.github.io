@@ -19,10 +19,11 @@ This post aims to answer that question.
   - [Boundary Value Analysis](#boundary-value-analysis)
     - [How to do it](#how-to-do-it-1)
 - [Concluding thoughts](#concluding-thoughts)
+- [Relevant references](#relevant-references)
 
 ## The seven principles of testing
 
-First of all, there is this thing called the seven principles of testing which will be the basic understanding on what is enough.
+First of all, there is this thing called the seven principles of testing that is introduced by International Software Testing Qualification Board (ISTQB) which will be the basic understanding on what is enough.
 
 The seven principles are not as easy to understand without the definition, so here's my version to make it simpler to understand---I suggest reading the meaning from top to bottom:
 
@@ -310,3 +311,14 @@ Here are the key take aways from the above.
 An additional point to make from my own reflection is that, the technique is helpful in helping us understand what is "enough", but as the principle said, once it is more stable, it is wise to add more test to uncover more defects---keeping in mind that a usable software is more important than a fully defect-free software.
 
 ![A process flow from left to right: test enough, useful, test more to improve](/assets/2023-12-06-when-tested-enough/conclusion.png)
+
+## Relevant references
+
+- The seven principles of testing on [ISTQB's Foundation Level (CTFL) Syllabus](https://istqb-main-web-prod.s3.amazonaws.com/media/documents/ISTQB-CTFL_Syllabus_2018_v3.1.1.pdf)
+- Well written description on [the seven principles of testing by box uk](https://www.boxuk.com/insight/the-seven-principles-of-testing/)
+- [Pairwise Independent Combinatorial Testing (PICT) tool](https://github.com/microsoft/pict), a FOSS tool to generate pairwise tests by Microsoft:
+  - [its official site](https://www.pairwise.org/), and
+  - [its documentation](https://github.com/Microsoft/pict/blob/main/doc/pict.md)
+- Good explanation video by Software Testing Mentor on Youtube:
+  -  [Equivalence partitioning](https://www.youtube.com/watch?v=gXZgInvjaqc), and
+  -  [Boundary value analysis](https://www.youtube.com/watch?v=DpDgaGP-jsQ)
