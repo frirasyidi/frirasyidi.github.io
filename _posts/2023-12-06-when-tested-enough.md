@@ -74,9 +74,12 @@ The technique works better for data with discrete values. Check [Boundary value 
 
 > ##### INTERESTING THOUGHT
 >
-> In the fairy tale Goldilocks and the Three Bears, Goldilocks uses this technique to test the bear's porridge:
+> In the fairy tale Goldilocks and the Three Bears, Goldilocks uses similar technique to this when trying the three bear's properties:
+>
+> ![Goldilocks thinking about the three bears' porridges, chairs, and beds](/assets/2023-12-06-when-tested-enough/goldilocks.jpg)
 >
 > | | Papa bear's | Son bear's | Mama bear's |
+> | | invalid | valid | invalid |
 > | Porridge | too hot | just right | too cold |
 > | Chair | too hard | just right | too delicate |
 > | Bed | too hard | just right | too delicate |
