@@ -4,7 +4,7 @@ title: When can we say that a software is tested "enough"?
 subtitle: The principles and technique to help understand when test coverage can be considered as "enough".
 date: 2023-12-06
 last-update: 2023-12-07
-last-update-notes: improve comprehension and add more test techniques.
+last-update-notes: improve reading comprehension and add Decision Table technique.
 categories: blog
 ---
 
@@ -14,7 +14,7 @@ This post aims to answer that question especially for functional black-box testi
 
 - [The seven testing principles](#the-seven-testing-principles)
 - [The testing techniques](#the-testing-techniques)
-  - [Equivalence paritioning](#equivalence-paritioning)
+  - [Equivalence Paritioning](#equivalence-paritioning)
     - [Example](#example)
     - [Step by step](#step-by-step)
   - [Boundary Value Analysis](#boundary-value-analysis)
@@ -46,7 +46,7 @@ This will be our foundation in understanding what is considered enough coverage 
 | **Beware of the pesticide paradox**                          | Repeating the same set of tests will not uncover new defects so test data may need changing and new tests may need to be added.                                                          |
 | **Absence-of-errors is a fallacy**                           | Despite all the test, a defect-free software is still an unusable software if it does _NOT follow_ the user's requirements.                                                              |
 
-For the purpose this post, I intentionally make the sequence and rephrased the meaning of the principles so that it is easier to understand them all cohesively---so try reading only the meaning from top to bottom. If you'd like to, you can see them yourself from [the original document from ISTQB](https://istqb-main-web-prod.s3.amazonaws.com/media/documents/ISTQB-CTFL_Syllabus_2018_v3.1.1.pdf).
+For the purpose this post, I intentionally changed the sequence and rephrased the meaning of the principles so that it is easier to understand them all cohesively---so try reading only the meaning from top to bottom. If you'd like to, you can see them yourself from [the original document from ISTQB](https://istqb-main-web-prod.s3.amazonaws.com/media/documents/ISTQB-CTFL_Syllabus_2018_v3.1.1.pdf).
 
 Now you can see that we can surmise the criteria of what is "enough coverage" as below:
 
@@ -60,9 +60,11 @@ Now you can see that we can surmise the criteria of what is "enough coverage" as
 
 Testing techniques are tools to help us cover enough testing ground. These techniques are generally made to reduce redundancy in test, and focus on area where the defects are most likely to happen.
 
+Note that the techniques listed below is by no means exhaustive, but only a handful that I have learned and understand so far. I will add more over time. 
+
 Just like all other tools, there are no one tool that is right and each shall be applied---solely or in combination with another---accordingly.
 
-### Equivalence paritioning
+### Equivalence Paritioning
 
 This technique split data to multiple valids and invalid partition that are expected to be processed in the same way, and make a test case from the value in each of the partitions. It ensures that each condition is tested at least once.
 
@@ -70,7 +72,7 @@ _Valid partition_ should contain values that are accepted by the system, while _
 
 The technique consider 100% coverage when all partitions are tested by at least one value from each partition.
 
-The technique works better for data with discrete values. Check [Boundary value analysis technique](#boundary-value-analysis) for work with sequential or numerical range data.
+The technique works better for data with discrete values. Check [Boundary Value Analysis technique](#boundary-value-analysis) for work with sequential or numerical range data.
 
 > ##### INTERESTING THOUGHT
 >
@@ -206,26 +208,27 @@ Also called "Cause effect table" because it maps a system's effects and its caus
 
 This is best used to record and test complex business rules that a system must implement.
 
-The technique considers 100% coverage when all the decision rule is covered. Note that the strength of this technique lies on making sure no decisions are left untested, so this might also mean almost all cases needs to be covered.
+The technique considers 100% coverage when all the decision rule is covered. Note that the strength of this technique lies on making sure no decisions are left untested, so this may a huge number of cases needs to be created and run.
 
 #### Example
 
 > Registration form that asked for email, and password.
 
-| **Test case**             | 1   | 2   | 3   | 4   | 5   |
-| ------------------------- | --- | --- | --- | --- | --- |
-| **Conditions**            |     |     |     |     |     |
-| Email                     | Y   | Y   | N   | Y   | N   |
-| Password                  | Y   | Y   | Y   | N   | N   |
-| **Effects**               |     |     |     |     |     |
-| Success message           | Y   | Y   | N   | N   | N   |
-| Error message             | N   | N   | Y   | Y   | Y   |
+| **Test case**   | 1   | 2   | 3   | 4   | 5   |
+| --------------- | --- | --- | --- | --- | --- |
+| **Conditions**  |     |     |     |     |     |
+| Email           | Y   | Y   | N   | Y   | N   |
+| Password        | Y   | Y   | Y   | N   | N   |
+| **Effects**     |     |     |     |     |     |
+| Success message | Y   | Y   | N   | N   | N   |
+| Error message   | N   | N   | Y   | Y   | Y   |
 
 #### Step by step
 
 Let's use this for example:
 
 > Test a registration form that:
+>
 > - requires a valid email
 > - requires a valid password which is 8 or more charactes and is a combination of numbers and letters
 > - optional opt-in to newsletter communication via email
@@ -335,7 +338,7 @@ Instead of doing all 12 combinations to test …
 5. `quick + NTFS  + on`
 6. `slow  + NTFS  + off`
 
-A bigger set of combination will result in a bigger efficiency. For example, the combination below has 4,704 combinations, only 62 are needed when using the pairwise technique. That is a whopping 98.6% decrease!
+A bigger set of combination will result in a bigger efficiency. For example, the combination below has 4,704 combinations, only 62 are needed when using the Pairwise technique. That is a whopping 98.6% decrease!
 
 ```
 Type:          Primary, Logical, Single, Span, Stripe, Mirror, RAID-5
@@ -459,9 +462,10 @@ Here are the key take aways from the above.
 
 - [No software can be defect-free as it is not viable](#the-seven-principles-of-testing), so test should be done just enough to make you confident that it is stable and reliable enough before releasing it to the user
 - There are testing techniques that helps you get an idea of how much can be considered just enough such as:
-  - [Pairwise](#pairwise), for combinatorial values
-  - [Equivalence partitioning](#equivalence-paritioning), ensure all valid and invalid conditions are tested
-  - [Boundary value analysis](#boundary-value-analysis), ensure boudaries between value ranges are properly established
+  - [Equivalence partitioning](#equivalence-paritioning), ensure all valid and invalid conditions are tested.
+  - [Boundary Value Analysis](#boundary-value-analysis), ensure boudaries between value ranges are properly established.
+  - [Decision Table](#decision-table), ensure no decision rules left untested.
+  - [Pairwise](#Pairwise), for combinatorial values.
 
 An additional point to make from my own reflection is that, the technique is helpful in helping us understand what is "enough", but as the principle said, once it is more stable, it is wise to add more test to uncover more defects---keeping in mind that a usable software is more important than a fully defect-free software.
 
@@ -471,14 +475,15 @@ An additional point to make from my own reflection is that, the technique is hel
 
 - The seven testing principles and some of the testing techniques can be found on [ISTQB's Foundation Level (CTFL) Syllabus](https://istqb-main-web-prod.s3.amazonaws.com/media/documents/ISTQB-CTFL_Syllabus_2018_v3.1.1.pdf)
 - Well written description on [the seven testing principles by box uk](https://www.boxuk.com/insight/the-seven-principles-of-testing/)
-- [Pairwise Independent Combinatorial Testing (PICT) tool](https://github.com/microsoft/pict), a FOSS tool to generate pairwise tests by Microsoft:
-  - [its official site](https://www.pairwise.org/), and
+- [Pairwise Independent Combinatorial Testing (PICT) tool](https://github.com/microsoft/pict), a FOSS tool to generate Pairwise tests by Microsoft:
+  - [its official site](https://www.Pairwise.org/), and
   - [its documentation](https://github.com/Microsoft/pict/blob/main/doc/pict.md)
 - Good explanation video by Software Testing Mentor on Youtube:
   - [Equivalence partitioning](https://www.youtube.com/watch?v=gXZgInvjaqc)
-  - [Boundary value analysis](https://www.youtube.com/watch?v=DpDgaGP-jsQ)
+  - [Boundary Value Analysis](https://www.youtube.com/watch?v=DpDgaGP-jsQ)
 
+---
 
 ## End-notes
 
-This post is dedicated to Yustika and Kocoy, the QEs from my previous startup, Farmacare. 
+This post is dedicated to Yustika and Kocoy, the QEs from my previous startup, Farmacare.
