@@ -7,9 +7,9 @@ layout: home
 
 # Hi!
 
-My name is [**Fri**, a digital product craftsman](/about).
+My name is [**Fri**, a software craftsman](/about).
 
-You are visiting my site---where I post some of my thoughts; mostly about things I like or do like digital product design and technology.
+You are visiting my site---where I post some of my thoughts; mostly about things I like or do like software design and technology.
 
 Feel free to read them, I hope that they are helpful to you.
 
