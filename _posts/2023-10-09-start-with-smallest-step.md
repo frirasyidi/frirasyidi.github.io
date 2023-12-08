@@ -33,7 +33,7 @@ Let's be clear, I am not saying Matt's config sucks. I just don't have the level
 
 ## Story 2: _Work on the goal right away_
 
-I have read [Jest and Typescript installation documentation](https://jestjs.io/docs/getting-started#using-typescript). The documentation provides multiple ways to install it. As I am not sure which works best, I decided to find some opinions online. That's when I stumbled upon [Kevin C. Dodds' "Run TypeScript typechecking with Jest" YouTube video](https://www.youtube.com/watch?v=6oHy58OOQkA&pp=ygUTamVzdCBmb3IgdHlwZXNjcmlwdA%3D%3D)---a recording of his live streaming showing his attempt on TDD with Jest with Typescript. The video has 18K viewers and he definitely is an experienced developer.
+I have read [Jest and Typescript installation documentation](https://jestjs.io/docs/getting-started#using-typescript). The documentation provides multiple ways to install it. As I am not sure which works best, I decided to find some opinions online. That's when I stumbled upon [Kevin C. Dodds' "Run TypeScript type-checking with Jest" YouTube video](https://www.youtube.com/watch?v=6oHy58OOQkA&pp=ygUTamVzdCBmb3IgdHlwZXNjcmlwdA%3D%3D)---a recording of his live streaming showing his attempt on TDD with Jest with Typescript. The video has 18K viewers and he is an experienced developer.
 
 So I decided to watch the video and parroting whatever he did in the video.
 
