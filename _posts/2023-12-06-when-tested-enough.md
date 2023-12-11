@@ -8,7 +8,7 @@ last-update-notes: improve reading comprehension and add Decision Table techniqu
 categories: blog
 ---
 
-During my time in Farmacare, it's always been a huge question looming among us on when is enough. These new learnings essentially help me understand what is considered enough and what technique can we use to prove that.
+You're building a very important feature for your customer. You know that a defect found by your customer in your software will hurt their trust for your product so you wanted to be very careful about this, but how do you know that you've tested enough?
 
 This post aims to answer that question, especially for functional black-box testing.
 
