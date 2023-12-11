@@ -35,7 +35,20 @@ This post aims to answer that question, especially for functional black-box test
 First of all, let's take a look at the seven testing principles that are introduced by the International Software Testing Qualification Board (ISTQB). According to ISTQB, the principles "offer general guidelines common for all testing."
 
 This will be our foundation in understanding what is considered enough coverage for testing:
-For this post, I intentionally changed the sequence and rephrased the meaning of the principles so that it is easier to understand them all cohesively---so try reading only the meaning from top to bottom. If you'd like to, you can see them yourself from [the original document from ISTQB](https://istqb-main-web-prod.s3.amazonaws.com/media/documents/ISTQB-CTFL_Syllabus_2018_v3.1.1.pdf).
+
+| Principle                                                    | Meaning                                                                                                                                                                                  |
+| ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Testing is context dependent**                             | Testing is done differently in different contexts, safety-critical software will be tested differently from e-commerce, so keep in mind of the context when testing.                     |
+| **Exhaustive testing is impossible**                         | It is not feasible to test every single possible cases except for trivial cases, so you need to use risk analysis, test techniques, and priorities should be used to focus test efforts. |
+| **Defects cluster together**                                 | A small number of modules usually contains most of the defects, predicting it is an important input into a risk analysis used to focus the test effort.                                  |
+| **Testing shows the presence of defects, not their absence** | Because it is costly to test everything, testing is a mechanism _to show_ the presence of defect and _can NOT prove_ absence of defect nor that the software is correct.                 |
+| **Early testing saves time and money**                       | It is better to detect defect _early_ as it helps reduce or eliminate costly changes.                                                                                                    |
+| **Beware of the pesticide paradox**                          | Repeating the same set of tests will not uncover new defects so test data may need changing and new tests may need to be added.                                                          |
+| **Absence-of-errors is a fallacy**                           | Despite all the test, a defect-free software is still an unusable software if it does _NOT follow_ the user's requirements.                                                              |
+
+For this post, I intentionally changed the sequence and rephrased the meaning of the principles so that it is easier to understand them all cohesively---so try reading only the meaning from top to bottom.
+
+If you'd like to, you can see them yourself from [the original document from ISTQB](https://istqb-main-web-prod.s3.amazonaws.com/media/documents/ISTQB-CTFL_Syllabus_2018_v3.1.1.pdf).
 
 Now you can see that we can surmise the criteria of what is "enough coverage" as below:
 
@@ -57,7 +70,7 @@ Just like all other tools, no one tool is right and each shall be applied---sole
 
 This technique splits data into multiple valid and invalid partitions that are expected to be processed in the same way and makes a test case from the value in each of the partitions. It ensures that each condition is tested at least once.
 
-_Valid \_partitions_ should contain values that are accepted by the system, while _invalid values_ are rejected by the system.
+_Valid partitions_ should contain values that are accepted by the system, while _invalid partitions_ are values rejected by the system.
 
 The technique considers 100% coverage when all partitions are tested by at least one value from each partition.
 
