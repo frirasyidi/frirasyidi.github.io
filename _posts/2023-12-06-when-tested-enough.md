@@ -82,11 +82,12 @@ The technique works better for data with discrete values. Check the [Boundary Va
 >
 > ![Goldilocks thinking about the three bears' porridges, chairs, and beds](/assets/2023-12-06-when-tested-enough/goldilocks.jpg)
 >
-> | | Papa bear's | Son bear's | Mama bear's |
-> | | invalid | valid | invalid |
-> | Porridge | too hot | just right | too cold |
-> | Chair | too hard | just right | too delicate |
-> | Bed | too hard | just right | too delicate |
+> |              | Papa bear's | Son bear's | Mama bear's  |
+> | ------------ | ----------- | ---------- | ------------ |
+> |              | invalid     | valid      | invalid      |
+> | **Porridge** | too hot     | just right | too cold     |
+> | **Chair**    | too hard    | just right | too delicate |
+> | **Bed**      | too hard    | just right | too delicate |
 
 #### Example
 
@@ -124,10 +125,10 @@ Let's use the sample above:
 
 1. Turn the conditional statement into valid and invalid partitions.
 
-   |       | invalid | valid   | invalid |
-   | ----- | ------- | ------- | ------- |
-   | type  | symbols | letters | numbers |
-   | range | ~!@#?/… | A to z  | 0 to 9  |
+   |           | invalid | valid   | invalid |
+   | --------- | ------- | ------- | ------- |
+   | **type**  | symbols | letters | numbers |
+   | **range** | ~!@#?/… | A to z  | 0 to 9  |
 
 2. Take a value from each partition as a test case
 
@@ -168,9 +169,9 @@ Let's use the sample above:
 
 1. Turn the conditional statement into valid and invalid partitions.
 
-   | discount | 0%   | 5%    | 10%   | 15%    |
-   | -------- | ---- | ----- | ----- | ------ |
-   | range    | < $1 | < $11 | < 101 | > $101 |
+   | discount  | 0%   | 5%    | 10%   | 15%    |
+   | --------- | ---- | ----- | ----- | ------ |
+   | **range** | < $1 | < $11 | < 101 | > $101 |
 
 2. Take valid and invalid values on the edge of each partition
 
