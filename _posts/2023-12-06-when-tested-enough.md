@@ -8,7 +8,7 @@ last-update-notes: improve reading comprehension and add Decision Table techniqu
 categories: blog
 ---
 
-You're building a very important feature for your customer. You know that a defect found by your customer in your software will hurt their trust for your product so you wanted to be very careful about this, but how do you know that you've tested enough?
+You're building a very important feature for your customers. You know that a defect found by your customer in your software will hurt their trust in your product so you wanted to be very careful about this, but how do you know that you've tested enough?
 
 This post aims to answer that question, especially for functional black-box testing.
 
@@ -477,7 +477,7 @@ An additional point to make from my reflection is that, the technique helps us u
 ## Relevant references
 
 - The seven testing principles and some of the testing techniques can be found on [ISTQB's Foundation Level (CTFL) Syllabus](https://istqb-main-web-prod.s3.amazonaws.com/media/documents/ISTQB-CTFL_Syllabus_2018_v3.1.1.pdf)
-- Well-written description on [the seven testing principles by Box UK](https://www.boxuk.com/insight/the-seven-principles-of-testing/)
+- Well-written description of [the seven testing principles by Box UK](https://www.boxuk.com/insight/the-seven-principles-of-testing/)
 - [Pairwise Independent Combinatorial Testing (PICT) tool](https://github.com/microsoft/pict), a FOSS tool to generate Pairwise tests by Microsoft:
   - [its official site](https://www.Pairwise.org/), and
   - [its documentation](https://github.com/Microsoft/pict/blob/main/doc/pict.md)
