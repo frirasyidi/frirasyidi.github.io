@@ -1,0 +1,99 @@
+table {
+  // border-collapse: collapse;
+  border-spacing: 0;
+  max-width: 100%;
+  padding: 0;
+  margin: 1rem 0 2rem 0;
+
+  & * {
+    vertical-align: top;
+    text-align: left;
+    font-size: 0.9rem;
+  }
+}
+
+th,
+td {
+  padding: 0.5rem 1rem;
+}
+
+td {
+  border-bottom: 1px solid rgba(grey, 0.5);
+}
+
+th {
+  border-bottom: 2px solid black;
+}
+
+tbody tr:hover {
+  & td {
+    background-color: #f8f8f8;
+  }
+}
+
+// Lock first column in case of overflow
+table {
+  display: block;
+  overflow-x: scroll;
+  // white-space: nowrap;
+
+  & th:first-child,
+  td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    background-color: white;
+  }
+}
+
+/** --------------------
+ *    CUSTOMIZATIONS
+ -------------------- */
+
+// Add no-wrap
+.no-wrap {
+  white-space: nowrap;
+}
+
+// Add row count on the first column
+.with-row-counter {
+  counter-reset: rowNumber;
+
+  & thead > tr:before {
+    content: " ";
+    padding: 0 1ch;
+    text-align: end;
+  }
+
+  & tbody > tr {
+    counter-increment: rowNumber;
+
+    &:before {
+      content: counter(rowNumber) ".";
+      padding: 0 1ch;
+      text-align: end;
+      color: rgba(grey, 0.5);
+      font-style: italic;
+    }
+  }
+}
+
+.with-col-counter thead {
+  counter-reset: colNumber;
+
+  & th:nth-child(1)::before {
+    content: "num.";
+    color: rgba(white, 0);
+    display: block;
+  }
+
+  & th:not(:nth-child(1))::before {
+    counter-increment: colNumber;
+    content: counter(colNumber, lower-latin) ".";
+    display: block;
+    text-align: left;
+    font-weight: normal;
+    color: rgba(grey, 0.5);
+    font-style: italic;
+  }
+}

@@ -20,18 +20,31 @@
 
 title: Fri Rasyidi
 email: fri@frirasyidi.com
-description: >
-  Fri is a software craftsman; he crafts useful softwares
-  by understanding the users and their goals.
+description: A software craftsman's site.
+
+# Site settings
+github_repo: frirasyidi/frirasyidi.github.io
+url: "http://localhost:4000"
 baseurl: ""
-url: "http://frirasyidi.com"
+google_analytics: UA-73100413-1
+
+# Social media accounts
 github_username: frirasyidi
+linkedin_username: frirasyidi
 
 # Build settings
-theme: minima
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
 plugins:
-  - jekyll-feed
-include: ["_pages"]
+  - jekyll-toc
+
+# Jekyll-toc configuration
+toc:
+  min_level: 2
+  max_level: 6
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -41,14 +54,14 @@ include: ["_pages"]
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 
-exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

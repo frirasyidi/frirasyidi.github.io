@@ -1,25 +1,17 @@
 ---
 layout: post
 title: Start with the smallest step!
-subtitle: Stories and learning I get from learning TDD using Jest with Typescript
+description: Stories and learning I get from learning TDD using Jest with Typescript
 date: 2023-10-09
 last-update: 2023-10-19
 last-update-notes: fix typos.
-categories: blog
+categories: writings
+toc: true
 ---
 
 Last week I spent a day learning how to do TDD using Jest and Typescript. During this I created a program called **[Sumer](https://github.com/frirasyidi/sumer)**---a program that can sum values in `numbers`, `arrays`, and `objects` simultaneously.
 
 Here's my learning and the stories behind them from the exercise.
-
-- [Story 1: _Don't over-engineer_](#story-1-dont-over-engineer)
-- [Story 2: _Work on the goal right away_](#story-2-work-on-the-goal-right-away)
-- [Story 3: _Start from the simplest working solution_](#story-3-start-from-the-simplest-working-solution)
-- [Story 4: _No need to over-analyze the future_](#story-4-no-need-to-over-analyze-the-future)
-- [Story 5: _Refactor strictly for ease _of maintenance, not future improvement__](#story-5-refactor-strictly-for-ease-of-maintenance-not-future-improvement)
-- [Story 6: _Tests help you manage complexity_](#story-6-tests-help-you-manage-complexity)
-- [Story 7: _Commit often_](#story-7-commit-often)
-- [Concluding thoughts](#concluding-thoughts)
 
 ## Story 1: _Don't over-engineer_
 

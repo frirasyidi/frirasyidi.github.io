@@ -4,8 +4,9 @@ title: Hello, World!
 date: 2016-11-20
 last-update: 2016-11-21
 last-update-notes: provide additional links to more information
-categories: blog
+categories: writings
 tags: development
+toc: true
 ---
 
 Last month I’ve been thinking to updating my site.

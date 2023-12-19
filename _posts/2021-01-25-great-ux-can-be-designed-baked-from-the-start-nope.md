@@ -2,9 +2,10 @@
 layout: post
 title: Great UX can be designed, baked from the start—nope.
 date: 2021-01-25
-categories: blog
+categories: writings
 tags: design
 publication-notes: This post was originally posted in <a href="https://medium.com/farmacare/great-ux-can-be-designed-baked-from-the-start-nope-ca1919fd839">Farmacare Crew</a>.
+toc: true
 ---
 
 Let me make it clear:

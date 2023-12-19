@@ -1,34 +1,17 @@
 ---
 layout: post
 title: When can we say that a software is tested "enough"?
-subtitle: The principles and technique to help understand when test coverage can be considered as "enough".
+description: The principles and technique to help understand when test coverage can be considered as "enough".
 date: 2023-12-06
 last-update: 2023-12-07
 last-update-notes: improve reading comprehension and add Decision Table technique.
-categories: blog
+categories: writings
+toc: true
 ---
 
 You're building a very important feature for your customers. You know that a defect found by your customer in your software will hurt their trust in your product so you wanted to be very careful about this, but how do you know that you've tested enough?
 
 This post aims to answer that question, especially for functional black-box testing.
-
-- [The seven testing principles](#the-seven-testing-principles)
-- [The testing techniques](#the-testing-techniques)
-  - [Equivalence Partitioning](#equivalence-partitioning)
-    - [Example](#example)
-    - [Step by step](#step-by-step)
-  - [Boundary Value Analysis](#boundary-value-analysis)
-    - [Example](#example-1)
-    - [Step by step](#step-by-step-1)
-  - [Decision Table](#decision-table)
-    - [Example](#example-2)
-    - [Step by step](#step-by-step-2)
-  - [Pairwise](#pairwise)
-    - [Example](#example-3)
-    - [Step by step](#step-by-step-3)
-- [Concluding thoughts](#concluding-thoughts)
-- [Relevant references](#relevant-references)
-- [End-notes](#end-notes)
 
 ## The seven testing principles
 

@@ -1,9 +1,20 @@
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-73100413-1"></script>
+<!-- 
+  Script to add Google Analytics to the site.
+  Add the following snippet to the head for use:
+    
+    {% include google-analytics.html %}
+  
+  And add the following to _config.yml:
+  
+    google_analytics: UA-XXXXXXXX-X
+-->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
 <script>
+  window['ga-disable-{{ site.google_analytics }}'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag(){window.dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-73100413-1');
+  gtag('config', '{{ site.google_analytics }}');
 </script>

@@ -1,0 +1,21 @@
+footer {
+  margin: 2rem auto 0 28ch;
+  padding: 3rem 0;
+  max-width: 70ch;
+  border-top: 2px solid grey;
+  overflow-x: hidden;
+  display: flex;
+  gap: 4rem;
+
+  & nav {
+    padding-bottom: 1rem;
+  }
+
+  & p, nav * {
+    font-size: 0.9rem;
+  }
+
+  & h5 {
+    margin-top: 0;
+  }
+}
