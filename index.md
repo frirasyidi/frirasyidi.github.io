@@ -16,13 +16,13 @@ permalink: /
 
 I hope you find something interesting!
 
-<table style="width:100%;" class='with-row-counter'>
+<table style="width:100%;" class='with-row-counter mobile-friendly'>
   <tbody>
     {% assign writings_posts = site.posts | where: "categories", "writings" %}
     {% for post in writings_posts limit:5 %}
       <tr>
-        <td><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y&nbsp;%b&nbsp;%d" }}</time></td>
-        <td style="width:100%;"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></td>
+        <td><strong><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y&nbsp;%b&nbsp;%d" }}</time></strong></td>
+        <td style="width:100%;"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><br/>{{ post.description }}</td>
       </tr>
     {% endfor %}
   </tbody>

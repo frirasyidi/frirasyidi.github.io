@@ -19,15 +19,44 @@ First of all, let's take a look at the seven testing principles that are introdu
 
 This will be our foundation in understanding what is considered enough coverage for testing:
 
-| Principle                                                    | Meaning                                                                                                                                                                                  |
-| ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Testing is context dependent**                             | Testing is done differently in different contexts, safety-critical software will be tested differently from e-commerce, so keep in mind of the context when testing.                     |
-| **Exhaustive testing is impossible**                         | It is not feasible to test every single possible cases except for trivial cases, so you need to use risk analysis, test techniques, and priorities should be used to focus test efforts. |
-| **Defects cluster together**                                 | A small number of modules usually contains most of the defects, predicting it is an important input into a risk analysis used to focus the test effort.                                  |
-| **Testing shows the presence of defects, not their absence** | Because it is costly to test everything, testing is a mechanism _to show_ the presence of defect and _can NOT prove_ absence of defect nor that the software is correct.                 |
-| **Early testing saves time and money**                       | It is better to detect defect _early_ as it helps reduce or eliminate costly changes.                                                                                                    |
-| **Beware of the pesticide paradox**                          | Repeating the same set of tests will not uncover new defects so test data may need changing and new tests may need to be added.                                                          |
-| **Absence-of-errors is a fallacy**                           | Despite all the test, a defect-free software is still an unusable software if it does _NOT follow_ the user's requirements.                                                              |
+<table class='mobile-friendly'>
+   <thead>
+      <tr>
+         <th>Principle</th>
+         <th>Meaning</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td><strong>Testing is context dependent</strong></td>
+         <td>Testing is done differently in different contexts, safety-critical software will be tested differently from e-commerce, so keep in mind of the context when testing.</td>
+      </tr>
+      <tr>
+         <td><strong>Exhaustive testing is impossible</strong></td>
+         <td>It is not feasible to test every single possible cases except for trivial cases, so you need to use risk analysis, test techniques, and priorities should be used to focus test efforts.</td>
+      </tr>
+      <tr>
+         <td><strong>Defects cluster together</strong></td>
+         <td>A small number of modules usually contains most of the defects, predicting it is an important input into a risk analysis used to focus the test effort.</td>
+      </tr>
+      <tr>
+         <td><strong>Testing shows the presence of defects, not their absence</strong></td>
+         <td>Because it is costly to test everything, testing is a mechanism <em>to show</em> the presence of defect and <em>can NOT prove</em> absence of defect nor that the software is correct.</td>
+      </tr>
+      <tr>
+         <td><strong>Early testing saves time and money</strong></td>
+         <td>It is better to detect defect <em>early</em> as it helps reduce or eliminate costly changes.</td>
+      </tr>
+      <tr>
+         <td><strong>Beware of the pesticide paradox</strong></td>
+         <td>Repeating the same set of tests will not uncover new defects so test data may need changing and new tests may need to be added.</td>
+      </tr>
+      <tr>
+         <td><strong>Absence-of-errors is a fallacy</strong></td>
+         <td>Despite all the test, a defect-free software is still an unusable software if it does <em>NOT follow</em> the user's requirements.</td>
+      </tr>
+   </tbody>
+</table>
 
 For this post, I intentionally changed the sequence and rephrased the meaning of the principles so that it is easier to understand them all cohesively---so try reading only the meaning from top to bottom.
 
