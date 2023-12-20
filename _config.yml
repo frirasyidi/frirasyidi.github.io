@@ -36,7 +36,6 @@ linkedin_username: frirasyidi
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-toc
 include: ["_pages"]
 
 # Jekyll-toc configuration

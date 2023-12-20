@@ -12,7 +12,7 @@
   <section id="toc" class="toc-container">
     {% if page.toc %}
       <h5>Table of contents</h5>
-      {{ content | toc_only }}
+      {% include toc.html html=content h_min=2%}
     {% else %}
       <p>
         <strong>Fri</strong> is a passionate and pragmatic problem solver. He builds products
@@ -40,4 +40,5 @@
       </ul>
     {% endif %}
   </section>
+
 </header>
