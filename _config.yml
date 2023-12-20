@@ -20,41 +20,36 @@
 
 title: Fri Rasyidi
 email: fri@frirasyidi.com
-description: A passionate and pragmatic problem solver's site.
-
-# Site settings
-github_repo: frirasyidi/frirasyidi.github.io
-url: "https://frirasyidi.com"
+description: >
+  Fri is a digital product craftsman; he crafts useful digital products
+  by understanding the users and their goals.
 baseurl: ""
+url: "http://frirasyidi.com"
 google_analytics: UA-73100413-1
-
-# Social media accounts
 github_username: frirasyidi
-linkedin_username: frirasyidi
 
 # Build settings
-sass:
-  sass_dir: _sass
-include: ['_pages']
-kramdown:
-  input: GFM
+theme: minima
 plugins:
-  - jekyll-toc
-  - jekyll-seo-tag
-
-# Jekyll-toc configuration
-toc:
-  min_level: 2
-  max_level: 6
+  - jekyll-feed
+include: ["_pages"]
 
 # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

@@ -1,10 +1,62 @@
 ---
-layout: default
+layout: base
 ---
 
-<a href="/writings">← Back to <img src='/assets/icons/writings.svg' alt='' class="icon"/>&nbsp;Writings</a>
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date: "%b %-d, %Y" }}</p>
-<p>{{ page.description }}</p>
+<article
+  class="post h-entry"
+  itemscope
+  itemtype="http://schema.org/BlogPosting"
+>
+  <header class="post-header">
+    <p class="post-meta">
+      {% assign date_format = "%Y %b %-d" %}
+      <time
+        class="dt-published"
+        datetime="{{ page.date | date_to_xmlschema }}"
+        itemprop="datePublished"
+      >
+        {{ page.date | date: date_format }}
+      </time>
+      {% if page.modified_date %} ~ {% assign mdate = page.modified_date |
+      date_to_xmlschema %}
+      <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
+        {{ mdate | date: date_format }}
+      </time>
+      {% endif %} {% if page.author %} • {% for author in page.author %}
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span class="p-author h-card" itemprop="name">{{ author }}</span>
+      </span>
+      {% if forloop.last == false %}, {% endif %} {% endfor %} {% endif %}
+    </p>
 
-{{ content }}
+    <h1 class="post-title p-name" itemprop="name headline">
+      {{ page.title | escape }}
+    </h1>
+
+    {% if page.co-author %}
+    <p><em>Co-authored with {{ page.co-author }}</em></p>
+    {% endif %} {% if page.subtitle %}
+    <p>
+      <big><em>{{ page.subtitle }}</em></big>
+    </p>
+    {% endif %} {% if page.publication-notes %}
+    <p>
+      <em><strong>Publication's note:</strong> {{ page.publication-notes }}</em>
+    </p>
+    {% endif %} {% if page.last-update %}
+    <p>
+      <em
+        ><strong>Editor's note:</strong> This page is updated at {{
+        page.last-update | date: date_format }} to {{ page.last-update-notes
+        }}</em
+      >
+    </p>
+    {% endif %}
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">{{ content }}</div>
+
+  {% if site.disqus.shortname %} {% include disqus_comments.html %} {% endif %}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
