@@ -40,6 +40,7 @@ kramdown:
   input: GFM
 plugins:
   - jekyll-toc
+  - jekyll-seo-tag
 
 # Jekyll-toc configuration
 toc:
