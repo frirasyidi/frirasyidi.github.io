@@ -2,26 +2,23 @@
 layout: compress
 ---
 
-{% comment %}
-  This is the default template for my Jekyll Site
-{% endcomment %}
 <!DOCTYPE html>
 <html lang="en" >
 
   {% include head.html %}
 
-<body>
+  <body>
 
-  {% include header.html %}
-  
-  <main>
+    {% include header.html %}
     
-    {{ content }}
+    <main>
+      
+      {{ content }}
+      
+    </main>
     
-  </main>
-  
-  {% include footer.html %}
+    {% include footer.html %}
 
-</body>
+  </body>
 
 </html>
