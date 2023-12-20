@@ -38,3 +38,6 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 # Required to run in Ruby version 3.0.0 or higher
 gem "webrick", "~> 1.8"
+
+# TODEL condition; it was added as a workaround for https://github.com/actions/jekyll-build-pages/issues/104
+gem 'faraday-retry', '~> 2.2.0' if ENV["GITHUB_ACTIONS"] != "true"
