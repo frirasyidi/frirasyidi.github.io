@@ -4,7 +4,8 @@ title: How to Pick the Right Fruits
 date: 2017-08-10
 last-update: 2017-11-14
 last-update-notes: add banana and orange in the list.
-categories: blog
+categories: writings
+toc: true
 ---
 
 For the past year, I've been working in HappyFresh&mdash;a groceries delivery startup. Last week, I was trusted by my friends to pick the best fruits but I have no idea how to do it.

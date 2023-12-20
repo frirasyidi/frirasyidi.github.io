@@ -1,10 +1,11 @@
 ---
 layout: post
 title: What needs to be said about Non-Disclosure Agreement and Consent in Design Research
-subtitle: Yes, everyone knows it’s important but why is it important though?
+description: Yes, everyone knows it’s important but why is it important though?
 date: 2019-07-17
-categories: blog
+categories: writings
 tags: research
+toc: true
 publication-notes: This post was originally posted in <a href="https://medium.com/somiacx/what-needs-to-be-said-about-non-disclosure-agreement-and-consent-in-design-research-9dbe4153e2d2">Somia CX Thought</a>.
 ---
 

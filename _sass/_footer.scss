@@ -1,0 +1,65 @@
+footer {
+  margin: 2rem auto 0 28ch;
+  padding: 3rem 0;
+  max-width: 70ch;
+  border-top: 2px solid grey;
+  display: flex;
+  gap: 2rem;
+
+  & nav {
+    padding-bottom: 1rem;
+  }
+
+  & p,
+  nav * {
+    font-size: 0.9rem;
+  }
+
+  & h5 {
+    font-size: 1rem;
+    margin-top: 0;
+
+    & a {
+      color: black;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+        background-color: #fff374;
+      }
+    }
+  }
+
+  .site-description {
+    min-width: 15ch;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  footer {
+    margin: 2rem auto 0 24ch;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  footer {
+    display: block;
+    margin: 4rem 0 0 0;
+  }
+
+  .site-description * {
+    margin: 0;
+  }
+
+  .nav-credits {
+    & nav {
+      margin: 1rem 0;
+      padding:0;
+    }
+
+    & p {
+      margin: 1rem 0 2rem 0;
+    }
+
+  }
+}

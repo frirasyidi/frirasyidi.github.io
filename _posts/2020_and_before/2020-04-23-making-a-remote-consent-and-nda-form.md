@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Making a Remote Consent and NDA Form
-subtitle: Due to COVID-19, we no longer able to sign the Consent and NDA (Non-disclosure Agreement) Form with the participants when we meet them. Here’s how we redesigned the way we do it.
+description: Due to COVID-19, we no longer able to sign the Consent and NDA (Non-disclosure Agreement) Form with the participants when we meet them. Here’s how we redesigned the way we do it.
 date: 2020-04-23
-categories: blog
+categories: writings
 tags: research
 publication-notes: This post was originally posted in <a href="https://medium.com/somiacx/tips-for-running-a-remote-research-2d97d070be19">Somia CX Thought</a>.
 ---

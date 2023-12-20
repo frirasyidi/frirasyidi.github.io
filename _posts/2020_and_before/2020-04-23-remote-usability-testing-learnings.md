@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Remote Usability Testing Learnings
-subtitle: Here’s how we did our fully remote Usability Testing sessions during COVID-19 and what we learned from it.
+description: Here’s how we did our fully remote Usability Testing sessions during COVID-19 and what we learned from it.
 date: 2020-04-23
-categories: blog
+categories: writings
 tags: research
+toc: true
 publication-notes: This post was originally posted in <a href="https://medium.com/somiacx/remote-usability-testing-learnings-2def217d91b9">Somia CX Thought</a>.
 ---
 

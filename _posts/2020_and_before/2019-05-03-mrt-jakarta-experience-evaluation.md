@@ -1,10 +1,11 @@
 ---
 layout: post
 title: MRT Jakarta Experience Evaluation — an Independent Study
-subtitle: We did a full day observation of MRT Jakarta, exploring all 13 stations, spent more than 12 hours in and out, went over 30 trips, and talked to more than 20 people ranging from students to businessmen.
+description: We did a full day observation of MRT Jakarta, exploring all 13 stations, spent more than 12 hours in and out, went over 30 trips, and talked to more than 20 people ranging from students to businessmen.
 date: 2019-05-03
-categories: blog
+categories: writings
 tags: research
+toc: true
 co-author: <a href="https://id.linkedin.com/in/donofirman">Dono Firman</a>, Senior Consultant of Somia CX
 publication-notes: This post was originally posted in <a href="https://medium.com/somiacx/mrt-jakarta-experience-evaluation-an-independent-study-721ac5e5089c">Somia CX Thought</a>.
 ---
@@ -36,7 +37,7 @@ From the perspective of the management, we also see that this type of attitude r
 
 Despite the friendly and helpful staffs, we found that there are several other areas that still need improvements which gets us to the next point:
 
-## 3 main issues: the walk, the ticketing, and the wayfinding
+## 3 main issues: the walk, the ticketing, and the way-finding
 
 We keep having problems in navigating our way throughout our experience with MRT.
 
@@ -114,7 +115,7 @@ We understand that in the long run, the queuing issue might be gone as people wo
 
 Another thing that we experienced is that as we moved around from station to station, we found a situation where our electronic money’s balance is no longer sufficient, that we need to top it up. But it’s difficult as there is no place to do so in the MRT so we were required to get out of the station to find the nearest ATM. Before getting out, we do get the chance to ask the information staff and she said you will soon be able to top-up your electronic money in the locket, so look out for it.
 
-### The wayfinding
+### The way-finding
 
 This is the main issue when you’re using MRT; especially on your first trips.
 

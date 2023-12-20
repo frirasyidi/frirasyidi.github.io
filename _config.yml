@@ -20,19 +20,29 @@
 
 title: Fri Rasyidi
 email: fri@frirasyidi.com
-description: >
-  Fri is a digital product craftsman; he crafts useful digital products
-  by understanding the users and their goals.
+description: A passionate and pragmatic problem solver's site.
+
+# Site settings
+github_repo: frirasyidi/frirasyidi.github.io
+url: "http://localhost:4000"
 baseurl: ""
-url: "http://frirasyidi.com"
 google_analytics: UA-73100413-1
+
+# Social media accounts
 github_username: frirasyidi
+linkedin_username: frirasyidi
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-toc
 include: ["_pages"]
+
+# Jekyll-toc configuration
+toc:
+  min_level: 2
+  max_level: 6
 
 # Exclude from processing.
 # The following items will not be processed, by default.
