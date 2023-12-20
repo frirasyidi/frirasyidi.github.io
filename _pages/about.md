@@ -7,23 +7,27 @@ toc: true
 
 # <img src='/assets/icons/about.svg' alt='' class="icon"/>&nbsp;<span class='jump-effect'>**Fri**</span>, a problem solver
 
-<big>I do <img src='/assets/icons/research.svg' alt='' class="icon"/>&nbsp;_research_, <img src='/assets/icons/design.svg' alt='' class="icon"/>&nbsp;_design_, <img src='/assets/icons/code.svg' alt='' class="icon"/>&nbsp;_develop_, <img src='/assets/icons/test.svg' alt='' class="icon"/>&nbsp;_test_, and <img src='/assets/icons/track.svg' alt='' class="icon"/>&nbsp;_management_ using <img src='/assets/icons/iterative.svg' alt='' class="icon"/>&nbsp;_iterative_ and <img src='/assets/icons/human-centric.svg' alt='' class="icon"/>&nbsp;_human centric_ approach.</big>
+<big>I do <img src='/assets/icons/research.svg' alt='' class="icon"/>&nbsp;*research*, <img src='/assets/icons/design.svg' alt='' class="icon"/>&nbsp;*design*, <img src='/assets/icons/code.svg' alt='' class="icon"/>&nbsp;*develop*, <img src='/assets/icons/test.svg' alt='' class="icon"/>&nbsp;*test*, <img src='/assets/icons/track.svg' alt='' class="icon"/>&nbsp;*track*, and <img src='/assets/icons/lead.svg' alt='' class="icon"/>&nbsp;*lead* utilizing an <img src='/assets/icons/iterative.svg' alt='' class="icon"/>&nbsp;*iterative* and <img src='/assets/icons/human-centric.svg' alt='' class="icon"/>&nbsp;*human centric* approach.</big>
+
+Whilst my main trade is in Design and Product Management, I see myself as a *problem solver*. And to make sure that the solution is working, I am eager to learn and do what's necessary. Just like Dave Thomas and Andy Hunt said in their book:
 
 > “If you’re a Pragmatic Programmer, you’ll share many of the following characteristics:
 >
 > **Jack of all trades:**
 > … Although your current job may require you to be a specialist, you will always be able to move on to new areas and new challenges.”
 >
-> <span class='source' alt='source'>--- **The Pragmatic Programmer**, David Hunt & Andrew Thomas</span>
+> <span class='source' alt='source'>&mdash; **The Pragmatic Programmer**, David Thomas & Andrew Hunt</span>
+
+And I see myself not as a *Pragmatic Programmer*, but as a *_pragmatic problem_ solver*.
 
 ## <img src='/assets/icons/learnings.svg' alt='' class="icon"/>&nbsp;Learning journeys
 
-_If you're more interested in list of achievements, you can see them on [my <img src="/assets/social-media/linkedin.svg" class="icon"/>&nbsp;Linkedin page][linkedin] or [download my <img src="/assets/icons/resume.svg" class="icon"/>&nbsp;latest resume (PDF, 529KB)](/assets/docs/Fri%20Rasyidi%20-%20Resume.pdf)._
+_If you're more interested in a list of achievements, you can see them on [my <img src="/assets/social-media/linkedin.svg" class="icon"/>&nbsp;Linkedin page][linkedin] or [download my <img src="/assets/icons/resume.svg" class="icon"/>&nbsp;latest resume (PDF, 529KB)](/assets/docs/Fri%20Rasyidi%20-%20Resume.pdf)._
 
 <table class='mobile-friendly'>
   <tr>
     <td>2020&ndash;2023</td>
-    <td><strong>Co-founder and Chief of Product & Development</strong> of <a href="https://www.farmacare.id">Farmacare.id</a><br/>I learned an even deeper awareness that to create an excellent product, understanding of design, development, and business is a must; I learned how to help my team take full ownership on their work; help them on the path to learn. I start to learn to code.</td>
+    <td><strong>Co-founder and Chief of Product & Development</strong> of <a href="https://www.farmacare.id">Farmacare.id</a><br/>I was trusted by the Co-founder of SomiaCX to build this together with her. In this venture, I pushed forward my previous learnings and got more hands-on with the development process&mdash;going as far as setting up and coding the automation tests myself.</td>
   </tr>
   <tr>
     <td>2018&ndash;2020</td>
@@ -31,10 +35,10 @@ _If you're more interested in list of achievements, you can see them on [my <img
       <strong>Senior UX Consultant & Interaction Designer</strong> for <a href="https://www.somiacx.com">Somia CX</a><br/>Being a curious person, I look for experience to broaden my views and understanding of the craft. In SomiaCX, I learned:
       <ul>
         <li>about multiple different industries' challenges and similarities,</li>
-        <li>to manage a rigorous research and design projects,</li>
-        <li>to be critical and quick in adapting to various different user and business contexts,</li>
+        <li>to manage rigorous research and design projects,</li>
+        <li>to be critical and quick in adapting to various user and business contexts,</li>
         <li>facilitation and aligning multiple stakeholders from C-level to the field workers,</li>
-        <li>to be versatile in applying my skills on a wide array of different contexts, and</li>
+        <li>to be versatile in applying my skills to a wide array of different contexts, and</li>
         <li>to coach and mentor others on the craft,</li>
       </ul>
     </td>
@@ -42,12 +46,12 @@ _If you're more interested in list of achievements, you can see them on [my <img
   <tr>
     <td>2017&ndash;2018</td>
     <td>
-      <strong>Growth Product Manager</strong> for <a href="https://www.happyfresh.com">HappyFresh</a><br/>After talking with my CTO, I was given the trust and the opportunity be a product manager. I changed the way we work so that no unnecessary work are done and we achieved it. The result is that we:
+      <strong>Growth Product Manager</strong> for <a href="https://www.happyfresh.com">HappyFresh</a><br/>After talking with my CTO, I was given the trust and the opportunity to be a product manager. I changed the way we work so that no unnecessary work is done and we achieved it. The result is that we:
       <ul>
         <li>hardly do any wasted work</li>
-        <li>have a bigger ownership to the work,</li>
+        <li>have a bigger ownership of the work,</li>
         <li>build more practical and effective solutions that previously never thought of (one of them becomes a major contributor to the company's revenue),</li>
-        <li>have better relation with our stakeholders, and</li>
+        <li>have better relations with our stakeholders, and</li>
         <li>as a team, have fun from our successes and learn from our failures</li>
       </ul>
     </td>
@@ -55,7 +59,7 @@ _If you're more interested in list of achievements, you can see them on [my <img
   <tr>
     <td>2016&ndash;2018</td>
     <td>
-      <strong>UX UI Designer</strong> for <a href="https://www.happyfresh.com">HappyFresh</a><br/>I learned that well-researched design alone is not enough. I completed a lot of design works as well as the necessary research to produce it, but only a handful of my work are ended up getting developed despite the team already practicing Scrum. I then talked to my CTO aiming to change things around.
+      <strong>UX UI Designer</strong> for <a href="https://www.happyfresh.com">HappyFresh</a><br/>I learned that well-researched design alone is not enough. I completed a lot of design work as well as the necessary research to produce it, but only a handful of my work ended up getting developed despite the team already practicing Scrum. I then talked to my CTO aiming to change things around.
     </td>
   </tr>
   <tr>
@@ -73,7 +77,7 @@ _If you're more interested in list of achievements, you can see them on [my <img
   <tr>
     <td>2015&ndash;2016</td>
     <td>
-      <strong>UX UI Designer</strong> for <a href="https://www.happy5.co">Indonesia Untuk Dunia</a><br/>I learned deeper interaction design and how to work tightly with the developers on an Agile settings.
+      <strong>UX UI Designer</strong> for <a href="https://www.happy5.co">Indonesia Untuk Dunia</a><br/>I learned deeper interaction design and how to work tightly with the developers in an Agile setting.
     </td>
   </tr>
   <tr>
@@ -98,7 +102,7 @@ _If you're more interested in list of achievements, you can see them on [my <img
   </tr>
   <tr>
     <td>2010&ndash;2018</td>
-    <td><strong>Freelance Graphic & User Interface Designer</strong><br/>I learned how to work professionally with local and international clients, learned the fundamentals of design works, and develop care to my crafts.</td>
+    <td><strong>Freelance Graphic & User Interface Designer</strong><br/>I learned how to work professionally with local and international clients, learned the fundamentals of design works, and developed care for my crafts.</td>
   </tr>
   <tr>
     <td>2008&ndash;2011</td>

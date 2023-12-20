@@ -8,7 +8,7 @@ permalink: /writings/
 
   <h1><img src='/assets/icons/writings.svg' alt='' class="icon"/>&nbsp;Writings</h1>
   <p>
-    These writings contains learnings, insights, and thoughts that I found interesting---mostly around design and development. I hope you find something interesting here as well!
+    These writings contain learnings, insights, and thoughts that I found interesting---mostly around design and development. I hope you find something interesting here as well!
   </p>
   <table class='mobile-friendly'>
     <tbody>
