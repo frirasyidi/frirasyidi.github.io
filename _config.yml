@@ -33,7 +33,7 @@ github_username: frirasyidi
 linkedin_username: frirasyidi
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
   - jekyll-toc
