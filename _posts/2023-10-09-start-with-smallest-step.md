@@ -240,6 +240,6 @@ This exercise taught me:
 - make a checkpoint so that it's easy for you to go back if you screw up, and
 - that you don't need to solve all problems at once.
 
-I mainly work as a UX Designer for the majority of my career. As a UX Designer, I have this urge to make sure that all the nitty-gritty details, irks, and probable issues that might appear are covered. That leads me to this mentality of feeling the need to overthink and this reminds me that [great experience requires iteration and cannot be baked from the start](/blog/2021/01/25/great-ux-can-be-designed-baked-from-the-start-nope). That all problems should be solved incrementally.
+I mainly work as a UX Designer for the majority of my career. As a UX Designer, I have this urge to make sure that all the nitty-gritty details, irks, and probable issues that might appear are covered. That leads me to this mentality of feeling the need to overthink and this reminds me that [great experience requires iteration and cannot be baked from the start](/writings/2021/01/25/great-ux-can-be-designed-baked-from-the-start-nope). That all problems should be solved incrementally.
 
 If you'd also like to, feel free and go check [the **Sumer** code on my Github](https://github.com/frirasyidi/sumer).

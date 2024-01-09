@@ -8,7 +8,7 @@ tags: research
 publication-notes: This post was originally posted in <a href="https://medium.com/somiacx/tips-for-running-a-remote-research-2d97d070be19">Somia CX Thought</a>.
 ---
 
-As I’ve mentioned in my other article, a [Non-disclosure Agreement is a very important piece of an ethical research study](/blog/2019/07/17/what-needs-to-be-said-about-nda-in-design-research). It serves as the researcher’s commitment to ensure our participant’s privacy.
+As I’ve mentioned in my other article, a [Non-disclosure Agreement is a very important piece of an ethical research study](/writings/2019/07/17/what-needs-to-be-said-about-nda-in-design-research). It serves as the researcher’s commitment to ensure our participant’s privacy.
 
 In [Somia CX](https://www.somiacx.com), we usually do it with both the moderator and the participant signing the documents together just before the session starts. Due to the COVID-19 situation, this is not possible so we need to think of a different way.
 
