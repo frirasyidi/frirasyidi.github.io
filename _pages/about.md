@@ -22,7 +22,7 @@ And I see myself not as a *Pragmatic Programmer*, but as a *_pragmatic problem_ 
 
 ## <img src='/assets/icons/learnings.svg' alt='' class="icon"/>&nbsp;Learning journeys
 
-_If you're more interested in a list of achievements, you can see them on [my <img src="/assets/social-media/linkedin.svg" class="icon"/>&nbsp;Linkedin page][linkedin] or [download my <img src="/assets/icons/resume.svg" class="icon"/>&nbsp;latest resume (PDF, 529KB)](/assets/docs/Fri%20Rasyidi%20-%20Resume.pdf)._
+_If you're more interested in a list of achievements, you can see them on [my <img src="/assets/social-media/linkedin.svg" class="icon"/>&nbsp;Linkedin page][linkedin] or [download my <img src="/assets/icons/resume.svg" class="icon"/>&nbsp;latest resume (PDF, 555KB)](/assets/docs/Fri%20Rasyidi%20-%20Resume.pdf)._
 
 <table class='mobile-friendly'>
   <tr>
