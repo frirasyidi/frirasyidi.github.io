@@ -26,7 +26,7 @@ The reason for this is the same reason why I fell in love with a good design: _i
 
 Every time you encounter a good design, it feels natural and intuitive, as if it should always be like that forever; that it only makes sense to do it like that and never the other way. It makes us automatically think that people who build bad designs are just stupid, lazy, or wrong in the head. But it’s not.
 
-And then there’s the commoditization of technology. Today, more and more people gain access to good design, especially in technology. But because good design is now everywhere, we feel like it’s a common thing. We forgot that they are not built in a single night.
+And then there’s the commodification of technology. Today, more and more people gain access to good design, especially in technology. But because good design is now everywhere, we feel like it’s a common thing. We forgot that they are not built in a single night.
 
 Since it becomes clearer that great UX is largely preferred by the customers, we are now fully aware of how important great UX is to a product. So we expect them to naturally be in our requirement and forgot to count the effort to build them.
 
@@ -52,7 +52,7 @@ For most of us startup owners, it’s pretty easy to navigate. We usually have v
 To be able to plan, I want us to break down what constitutes a great UX by taking a look at UX’s Maslow’s pyramid.
 
 <figure>
-<img alt="A triangle where its horizontally split into three parts; written on each part top-to-bottom: 'delightful', 'usable', 'useful'" src="/assets/2021-01-25-great-ux-can-be-designed-baked-from-the-start-nope/the-quality-triangle.webp" />
+<img alt="A triangle where its horizontally split into three parts; written on each part top-to-bottom: 'delightful', 'usable', 'useful'" src="/assets/2021-01-25-great-ux-can-be-designed-baked-from-the-start-nope/ux-maslows-pyramid.webp" />
 <figcaption style="width:100%; text-align:center;">There are versions of these pyramids that essentially tell you the same thing, so I’ll stick to this one for simplicity.</figcaption>
 </figure>
 
