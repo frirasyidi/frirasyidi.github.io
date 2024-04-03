@@ -22,7 +22,7 @@ So, when my colleague Anin mentioned their two-year project, I was curious! I wa
 *If you’d like to quickly read the learnings, feel free to jump to the conclusion at the end of this writing.*
 
 <figure>
-<img alt="The team is walking on a path towards a big green hill and the end of the road is hidden behind the hill." src="../assets/2024-04-02-two-years-long-research/walk-to-unknown.png" />
+<img alt="The team is walking on a path towards a big green hill and the end of the road is hidden behind the hill." src="/assets/2024-04-02-two-years-long-research/walk-to-unknown.png" />
 <figcaption style="width:100%; text-align:center;">It’s like going through a long journey where you cannot see where the end lies…</figcaption>
 </figure>
 
@@ -78,7 +78,7 @@ As mentioned above, 2 years project makes sense when you need a high level of re
 To assess this question, you need to understand who the target audience of your research is and how big is the risk of action taken from the research insight. In principle, the higher the risk is the higher confidence is needed. Keep in mind that the size of the risk is determined not by the researcher, but by the one who will utilize the research result.
 
 <figure>
-<img alt="Pictures of the team doing research in different situations and contexts." src="../assets/2024-04-02-two-years-long-research/research-multi-contexts.png" />
+<img alt="Pictures of the team doing research in different situations and contexts." src="/assets/2024-04-02-two-years-long-research/research-multi-contexts.png" />
 <figcaption style="width:100%; text-align:center;">The team talks with 200 people with different backgrounds, settings, and contexts to make sure their findings are valid across the nation.</figcaption>
 </figure>
 
@@ -126,7 +126,7 @@ So the team decided to disseminate their findings during the project, in between
 The feedback they gained from these dissemination processes also helped them understand what kind of insights their audience was already aware of and what not. This allowed them to adjust their next research phase to make sure that the insights were actionable at the end of the project.
 
 <figure>
-<img alt="The team shares the research's findings on multiple different occasions." src="../assets/2024-04-02-two-years-long-research/multi-disseminations.png" />
+<img alt="The team shares the research's findings on multiple different occasions." src="/assets/2024-04-02-two-years-long-research/multi-disseminations.png" />
 <figcaption style="width:100%; text-align:center;">The team did multiple dissemination efforts throughout the project to make sure their insights were shared when they were relevant.</figcaption>
 </figure>
 
@@ -162,7 +162,7 @@ On this project, the team can be considered lucky as both have a passion for the
 - spent more time with the research’s target audience to gain fresh feedbacks — good feedbacks lifted their spirits and bad ones helped them know what was missing.
 
 <figure>
-<img alt="The team can be seen doing some sightseeing, looking at some local crafts, and enjoying local cuisine." src="../assets/2024-04-02-two-years-long-research/enjoy-environment.png" />
+<img alt="The team can be seen doing some sightseeing, looking at some local crafts, and enjoying local cuisine." src="/assets/2024-04-02-two-years-long-research/enjoy-environment.png" />
 <figcaption style="width:100%; text-align:center;">The team spends a lot of time moving around and talking in different contexts and areas; partially as an effort to be more immersed with the researched context but as well to keep things interesting for themselves.</figcaption>
 </figure>
 
