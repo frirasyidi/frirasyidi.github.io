@@ -8,6 +8,7 @@ tags: research
 toc: true
 co-author: <a href="https://id.linkedin.com/in/donofirman">Dono Firman</a>, Senior Consultant of Somia CX
 publication-notes: This post was originally posted in <a href="https://medium.com/somiacx/mrt-jakarta-experience-evaluation-an-independent-study-721ac5e5089c">Somia CX Thought</a>.
+canonical_url: "https://medium.com/somiacx/mrt-jakarta-experience-evaluation-an-independent-study-721ac5e5089c"
 ---
 
 ![test](/assets/2019-05-03-mrt-jakarta-experience-evaluation/cover.webp)

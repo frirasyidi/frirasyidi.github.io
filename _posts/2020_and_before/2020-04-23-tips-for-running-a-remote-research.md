@@ -7,6 +7,7 @@ categories: article
 link: https://medium.com/somiacx/tips-for-running-a-remote-research-2d97d070be19
 tags: research
 publication-notes: This post was originally posted in <a href="https://medium.com/somiacx/tips-for-running-a-remote-research-2d97d070be19">Somia CX Thought</a>.
+canonical_url: "https://medium.com/somiacx/tips-for-running-a-remote-research-2d97d070be19"
 ---
 
 _**Disclaimer:** (1) we’re talking about moderated sessions here. (2) Unfortunately, this post does not address research in remote areas where there’s no decent internet connection, so if you happen to work for that particular demographic, sorry, this article is not for you._

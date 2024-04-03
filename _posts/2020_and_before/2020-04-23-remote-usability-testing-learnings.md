@@ -7,6 +7,7 @@ categories: writings
 tags: research
 toc: true
 publication-notes: This post was originally posted in <a href="https://medium.com/somiacx/remote-usability-testing-learnings-2def217d91b9">Somia CX Thought</a>.
+canonical_url: "https://medium.com/somiacx/remote-usability-testing-learnings-2def217d91b9"
 ---
 
 In [Somia CX](https://www.somiacx.com), we believe that direct observation is preferable to remote as you can get immersed in the context so we hardly ever do remote Usability Testing sessions. Unfortunately, the situation provides us with no choice. We know this will not be easy, but we accepted the challenge, and here’s what we learned.

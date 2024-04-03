@@ -7,6 +7,7 @@ categories: writings
 tags: research
 toc: true
 publication-notes: This post was originally posted in <a href="https://medium.com/somiacx/what-needs-to-be-said-about-non-disclosure-agreement-and-consent-in-design-research-9dbe4153e2d2">Somia CX Thought</a>.
+canonical_url: "https://medium.com/somiacx/what-needs-to-be-said-about-non-disclosure-agreement-and-consent-in-design-research-9dbe4153e2d2"
 ---
 
 ## More about your participants than you
