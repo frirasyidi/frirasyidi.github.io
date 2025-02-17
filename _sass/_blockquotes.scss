@@ -4,25 +4,25 @@ blockquote {
 
   // Add left border for nested contents
   & > * {
-    border-left: .5ch solid rgba(grey, 0.2) ;
-    padding: 0.5rem 0 0.5rem 2ch ;
-    margin: 0 ;
-    font-style: italic ;
+    border-left: 0.5ch solid rgba(grey, 0.2);
+    padding: 0.5rem 0 0.5rem 2ch;
+    margin: 0;
+    font-style: italic;
     font-size: 1.1rem;
   }
 
   // Realign nested lists (responding to _lists.scss)
   & > ul,
   > ol {
-    margin: 0 ;
-    padding-left: 1.5rem ;
+    margin: 0;
+    padding-left: 1.5rem;
   }
-  
+
   // Readjust table margin (responding to _tables.scss)
   & > table {
-    padding: 1rem 0 2rem 1.5rem ;
+    padding: 1rem 0 2rem 1.5rem;
   }
-  
+
   & .source {
     font-size: 1rem;
     font-style: normal;

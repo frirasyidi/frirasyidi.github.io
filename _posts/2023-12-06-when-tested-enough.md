@@ -9,15 +9,23 @@ categories: writings
 toc: true
 ---
 
-You're building a very important feature for your customers. You know that a defect found by your customer in your software will hurt their trust in your product so you wanted to be very careful about this, but how do you know that you've tested enough?
+You're building a very important feature for your customers. You know that a
+defect found by your customer in your software will hurt their trust in your
+product so you wanted to be very careful about this, but how do you know that
+you've tested enough?
 
-This post aims to answer that question, especially for functional black-box testing.
+This post aims to answer that question, especially for functional black-box
+testing.
 
 ## The seven testing principles
 
-First of all, let's take a look at the seven testing principles that are introduced by the International Software Testing Qualification Board (ISTQB). According to ISTQB, the principles "offer general guidelines common for all testing."
+First of all, let's take a look at the seven testing principles that are
+introduced by the International Software Testing Qualification Board (ISTQB).
+According to ISTQB, the principles "offer general guidelines common for all
+testing."
 
-This will be our foundation in understanding what is considered enough coverage for testing:
+This will be our foundation in understanding what is considered enough coverage
+for testing:
 
 <table class='mobile-friendly'>
    <thead>
@@ -58,39 +66,56 @@ This will be our foundation in understanding what is considered enough coverage 
    </tbody>
 </table>
 
-For this post, I intentionally changed the sequence and rephrased the meaning of the principles so that it is easier to understand them all cohesively---so try reading only the meaning from top to bottom.
+For this post, I intentionally changed the sequence and rephrased the meaning of
+the principles so that it is easier to understand them all cohesively---so try
+reading only the meaning from top to bottom.
 
-If you'd like to, you can see them yourself from [the original document from ISTQB](https://istqb-main-web-prod.s3.amazonaws.com/media/documents/ISTQB-CTFL_Syllabus_2018_v3.1.1.pdf).
+If you'd like to, you can see them yourself from
+[the original document from ISTQB](https://istqb-main-web-prod.s3.amazonaws.com/media/documents/ISTQB-CTFL_Syllabus_2018_v3.1.1.pdf).
 
-Now you can see that we can surmise the criteria of what is "enough coverage" as below:
+Now you can see that we can surmise the criteria of what is "enough coverage" as
+below:
 
-- There is no other meaningful test that can be run (redundancy-free), judged by doing risk assessment and testing techniques
+- There is no other meaningful test that can be run (redundancy-free), judged by
+  doing risk assessment and testing techniques
 - The software can be considered as usable by the user
 - Tests are made with the software's context in mind:
   - the environment (such as viewport, OS, hardware, etc.)
-  - the user (such as tech-saviness, while multi-tasking, low internet connection, etc.)
+  - the user (such as tech-saviness, while multi-tasking, low internet
+    connection, etc.)
 
 ## The testing techniques
 
-Testing techniques are tools to help us cover enough testing ground. These techniques are generally made to reduce redundancy in tests and focus on areas where the defects are most likely to happen.
+Testing techniques are tools to help us cover enough testing ground. These
+techniques are generally made to reduce redundancy in tests and focus on areas
+where the defects are most likely to happen.
 
-Note that the techniques listed below are by no means exhaustive, but only a handful that I have learned and understand so far. I will add more over time.
+Note that the techniques listed below are by no means exhaustive, but only a
+handful that I have learned and understand so far. I will add more over time.
 
-Just like all other tools, no one tool is right and each shall be applied---solely or in combination with another---accordingly.
+Just like all other tools, no one tool is right and each shall be
+applied---solely or in combination with another---accordingly.
 
 ### Equivalence Partitioning
 
-This technique splits data into multiple valid and invalid partitions that are expected to be processed in the same way and makes a test case from the value in each of the partitions. It ensures that each condition is tested at least once.
+This technique splits data into multiple valid and invalid partitions that are
+expected to be processed in the same way and makes a test case from the value in
+each of the partitions. It ensures that each condition is tested at least once.
 
-_Valid partitions_ should contain values that are accepted by the system, while _invalid partitions_ are values rejected by the system.
+_Valid partitions_ should contain values that are accepted by the system, while
+_invalid partitions_ are values rejected by the system.
 
-The technique considers 100% coverage when all partitions are tested by at least one value from each partition.
+The technique considers 100% coverage when all partitions are tested by at least
+one value from each partition.
 
-The technique works better for data with discrete values. Check the [Boundary Value Analysis technique](#boundary-value-analysis) for work with sequential or numerical range data.
+The technique works better for data with discrete values. Check the
+[Boundary Value Analysis technique](#boundary-value-analysis) for work with
+sequential or numerical range data.
 
 > ##### INTERESTING THOUGHT
 >
-> In the fairy tale Goldilocks and the Three Bears, Goldilocks uses similar technique to this when trying the three bear's properties:
+> In the fairy tale Goldilocks and the Three Bears, Goldilocks uses similar
+> technique to this when trying the three bear's properties:
 >
 > ![Goldilocks thinking about the three bears' porridges, chairs, and beds](/assets/2023-12-06-when-tested-enough/goldilocks.jpg)
 >
@@ -111,7 +136,8 @@ The technique works better for data with discrete values. Check the [Boundary Va
 >
 > Minimum purchase is $1 and maximum is $500
 
-Instead of testing sporadically and without knowing if the condition is tested enough …
+Instead of testing sporadically and without knowing if the condition is tested
+enough …
 
 - $6 should get a 5% discount
 - $10 should get a 5% discount
@@ -121,7 +147,8 @@ Instead of testing sporadically and without knowing if the condition is tested e
 - $120 should get a 15% discount
 - $400 should get a 15% discount
 
-… the technique allows clarity in defining "enough" by demanding exactly 5 tests to ensure all conditions are tested:
+… the technique allows clarity in defining "enough" by demanding exactly 5 tests
+to ensure all conditions are tested:
 
 - $0.5 should be invalid
 - $6 should get a 5% discount
@@ -150,11 +177,16 @@ Let's use the sample above:
 
 ### Boundary Value Analysis
 
-Most often, the defect of a numeric range or sequential data can be found on its edges rather than the middle value. This technique is an extension of the [Equivalence Partitioning technique](#equivalence-Partitioning) that focuses on those edges to make sure the boundaries are set correctly as values on the boundaries are more prone to defect than ones that are within.
+Most often, the defect of a numeric range or sequential data can be found on its
+edges rather than the middle value. This technique is an extension of the
+[Equivalence Partitioning technique](#equivalence-Partitioning) that focuses on
+those edges to make sure the boundaries are set correctly as values on the
+boundaries are more prone to defect than ones that are within.
 
 In this context, each partition will have _valid values_ and _invalid values_.
 
-The technique considers 100% coverage if all valid and invalid values for all partitions are tested at least once.
+The technique considers 100% coverage if all valid and invalid values for all
+partitions are tested at least once.
 
 #### Example
 
@@ -219,24 +251,29 @@ Let's use the sample above:
 
 ### Decision Table
 
-Also called the "Cause Effect Table" because it maps a system's effects and its causes. Laying down each variable and its states (boolean or discrete) alongside the effect it causes.
+Also called the "Cause Effect Table" because it maps a system's effects and its
+causes. Laying down each variable and its states (boolean or discrete) alongside
+the effect it causes.
 
-This is best used to record and test complex business rules that a system must implement.
+This is best used to record and test complex business rules that a system must
+implement.
 
-The technique considers 100% coverage when all the decision rule is covered. Note that the strength of this technique lies in making sure no decisions are left untested, so this may a huge number of cases need to be created and run.
+The technique considers 100% coverage when all the decision rule is covered.
+Note that the strength of this technique lies in making sure no decisions are
+left untested, so this may a huge number of cases need to be created and run.
 
 #### Example
 
 > Registration form that asked for email, and password.
 
-| **Test case**   | 1   | 2   | 3   | 4   | 5   |
-| --------------- | --- | --- | --- | --- | --- |
-| **Conditions**  |     |     |     |     |     |
-| Email           | Y   | Y   | N   | Y   | N   |
-| Password        | Y   | Y   | Y   | N   | N   |
-| **Effects**     |     |     |     |     |     |
-| Success message | Y   | Y   | N   | N   | N   |
-| Error message   | N   | N   | Y   | Y   | Y   |
+| **Test case**   | 1 | 2 | 3 | 4 | 5 |
+| --------------- | - | - | - | - | - |
+| **Conditions**  |   |   |   |   |   |
+| Email           | Y | Y | N | Y | N |
+| Password        | Y | Y | Y | N | N |
+| **Effects**     |   |   |   |   |   |
+| Success message | Y | Y | N | N | N |
+| Error message   | N | N | Y | Y | Y |
 
 #### Step by step
 
@@ -245,10 +282,13 @@ Let's use this as an example:
 > Test a registration form that:
 >
 > - requires a valid email
-> - requires a valid password which is 8 or more charactes and is a combination of numbers and letters
+> - requires a valid password which is 8 or more charactes and is a combination
+>   of numbers and letters
 > - optional opt-in to newsletter communication via email
 
-1. List down the conditions and possible effects that may happen---make sure to list down the effect rather than putting it in the table to make it easier to comprehend
+1. List down the conditions and possible effects that may happen---make sure to
+   list down the effect rather than putting it in the table to make it easier to
+   comprehend
 
    | **Test case**                            |
    | ---------------------------------------- |
@@ -264,62 +304,72 @@ Let's use this as an example:
    | Error message                            |
    | Send welcoming newsletter                |
 
-2. Jot down the different conditions that are met as well as their appropriate effects; you may use:
+2. Jot down the different conditions that are met as well as their appropriate
+   effects; you may use:
 
    - 'Y' or 'N' to represent 'Yes' or 'No',
    - 'T' or 'F' to represent 'True' or 'False',
    - '1' or '0' to represent boolean,
-   - the discrete value (such as "red", "green", "XXL", etc.) if that is the data type requested, or
+   - the discrete value (such as "red", "green", "XXL", etc.) if that is the
+     data type requested, or
    - '-' if not relevant
 
-   | **Test case**                            | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   |
-   | ---------------------------------------- | --- | --- | --- | --- | --- | --- | --- | --- |
-   | **Conditions**                           |     |     |     |     |     |     |     |     |
-   | Email                                    | Y   | Y   | N   | Y   | Y   | Y   | Y   | N   |
-   | Password (8 char with numbers & letters) | Y   | Y   | Y   | N   | -   | -   | -   | N   |
-   | Password (8 char, only numbers)          | -   | -   | -   | -   | Y   | -   | -   | -   |
-   | Password (8 char, only letters)          | -   | -   | -   | -   | -   | Y   | -   | -   |
-   | Password (7 char with numbers & letters) | -   | -   | -   | -   | -   | -   | Y   | -   |
-   | Newsletter opt-in                        | Y   | N   | -   | -   | -   | -   | -   | -   |
-   | **Effects**                              |
-   | Success message                          |
-   | Error message                            |
-   | Send welcoming newsletter                |
+   | **Test case**                            | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+   | ---------------------------------------- | - | - | - | - | - | - | - | - |
+   | **Conditions**                           |   |   |   |   |   |   |   |   |
+   | Email                                    | Y | Y | N | Y | Y | Y | Y | N |
+   | Password (8 char with numbers & letters) | Y | Y | Y | N | - | - | - | N |
+   | Password (8 char, only numbers)          | - | - | - | - | Y | - | - | - |
+   | Password (8 char, only letters)          | - | - | - | - | - | Y | - | - |
+   | Password (7 char with numbers & letters) | - | - | - | - | - | - | Y | - |
+   | Newsletter opt-in                        | Y | N | - | - | - | - | - | - |
+   | **Effects**                              |   |   |   |   |   |   |   |   |
+   | Success message                          |   |   |   |   |   |   |   |   |
+   | Error message                            |   |   |   |   |   |   |   |   |
+   | Send welcoming newsletter                |   |   |   |   |   |   |   |   |
 
-3. Jot down the respective effects given the conditions you've listed; which can be expressed by:
+3. Jot down the respective effects given the conditions you've listed; which can
+   be expressed by:
 
    - Use 'X', 'Y', 'T', or '1 to mark that an action should occur, and
-   - Blank (preferable for ease of reading), 'N', 'F', or '0' to indicate the action will not occur.
-   - It is also okay to put a specific message shown in or beside the table if relevant.
+   - Blank (preferable for ease of reading), 'N', 'F', or '0' to indicate the
+     action will not occur.
+   - It is also okay to put a specific message shown in or beside the table if
+     relevant.
 
-   | **Test case**                            | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   |
-   | ---------------------------------------- | --- | --- | --- | --- | --- | --- | --- | --- |
-   | **Conditions**                           |     |     |     |     |     |     |     |     |
-   | Email                                    | Y   | Y   | N   | Y   | Y   | Y   | Y   | N   |
-   | Password (8 char with numbers & letters) | Y   | Y   | Y   | N   | -   | -   | -   | N   |
-   | Password (8 char, only numbers)          | -   | -   | -   | -   | Y   | -   | -   | -   |
-   | Password (8 char, only letters)          | -   | -   | -   | -   | -   | Y   | -   | -   |
-   | Password (7 char with numbers & letters) | -   | -   | -   | -   | -   | -   | Y   | -   |
-   | Newsletter opt-in                        | Y   | N   | -   | -   | -   | -   | -   | -   |
-   | **Effects**                              |
-   | Success message                          | X   | X   |
-   | Error message                            |     |     | X-1 | X-2 | X-2 | X-2 | X-2 | X-2 |
-   | Send welcoming newsletter                | X   | X   |
+   | **Test case**                            | 1 | 2 | 3   | 4   | 5   | 6   | 7   | 8   |
+   | ---------------------------------------- | - | - | --- | --- | --- | --- | --- | --- |
+   | **Conditions**                           |   |   |     |     |     |     |     |     |
+   | Email                                    | Y | Y | N   | Y   | Y   | Y   | Y   | N   |
+   | Password (8 char with numbers & letters) | Y | Y | Y   | N   | -   | -   | -   | N   |
+   | Password (8 char, only numbers)          | - | - | -   | -   | Y   | -   | -   | -   |
+   | Password (8 char, only letters)          | - | - | -   | -   | -   | Y   | -   | -   |
+   | Password (7 char with numbers & letters) | - | - | -   | -   | -   | -   | Y   | -   |
+   | Newsletter opt-in                        | Y | N | -   | -   | -   | -   | -   | -   |
+   | **Effects**                              |   |   |     |     |     |     |     |     |
+   | Success message                          | X | X |     |     |     |     |     |     |
+   | Error message                            |   |   | X-1 | X-2 | X-2 | X-2 | X-2 | X-2 |
+   | Send welcoming newsletter                | X | X |     |     |     |     |     |     |
 
    **Notes**
 
    - Success message: "Your account has been successfully created!"
    - Error messages:
      1. "Email is required."
-     2. "Password must contain 8 or more characters and is a combination of number and letter."
+     2. "Password must contain 8 or more characters and is a combination of
+        number and letter."
 
 ### Pairwise
 
-The technique is based on the observation that most faults are caused by interactions of at most two factors. It significantly reduces the amount of test needed simply by making sure a pair of each test are only tested once whenever possible.
+The technique is based on the observation that most faults are caused by
+interactions of at most two factors. It significantly reduces the amount of test
+needed simply by making sure a pair of each test are only tested once whenever
+possible.
 
 This is best applied to settings or configurational features.
 
-The technique considers 100% coverage when all variable value pairs are represented in a test at least once.
+The technique considers 100% coverage when all variable value pairs are
+represented in a test at least once.
 
 #### Example
 
@@ -344,7 +394,9 @@ Instead of doing all 12 combinations to test …
 1. `slow  + NTFS  + on`
 1. `slow  + NTFS  + off`
 
-… the technique allows us to only do 6 tests with a high degree of confidence since all variables' values are paired at least once with another variable's value. That is a 50% decrease.
+… the technique allows us to only do 6 tests with a high degree of confidence
+since all variables' values are paired at least once with another variable's
+value. That is a 50% decrease.
 
 1. `quick + FAT   + on`
 2. `quick + FAT32 + off`
@@ -353,7 +405,9 @@ Instead of doing all 12 combinations to test …
 5. `quick + NTFS  + on`
 6. `slow  + NTFS  + off`
 
-A bigger set of combinations will result in a bigger efficiency. For example, the combination below has 4,704 combinations, only 62 are needed when using the Pairwise technique. That is a whopping 98.6% decrease!
+A bigger set of combinations will result in a bigger efficiency. For example,
+the combination below has 4,704 combinations, only 62 are needed when using the
+Pairwise technique. That is a whopping 98.6% decrease!
 
 ```
 Type:          Primary, Logical, Single, Span, Stripe, Mirror, RAID-5
@@ -429,9 +483,13 @@ Compression:   on, off
 
 #### Step by step
 
-The simplest way is, of course, to use a generator. One that I found incredibly easy to use is the [Pairwise Independent Combinatorial Testing (PICT) tool](https://github.com/microsoft/pict) which is a FOSS made by Microsoft.
+The simplest way is, of course, to use a generator. One that I found incredibly
+easy to use is the
+[Pairwise Independent Combinatorial Testing (PICT) tool](https://github.com/microsoft/pict)
+which is a FOSS made by Microsoft.
 
-But if you'd like to do it manually, I'll guide you on the step by step on how to do it using this as a context:
+But if you'd like to do it manually, I'll guide you on the step by step on how
+to do it using this as a context:
 
 ```
 We need to test our system works well on any of the following configuration:
@@ -441,7 +499,8 @@ File system:   FAT, FAT32, NTFS
 Compression:   on, off
 ```
 
-1. You make a pair for each variable, making sure all pair combinations are made.
+1. You make a pair for each variable, making sure all pair combinations are
+   made.
 
    - `quick + FAT`
    - `quick + FAT32`
@@ -466,31 +525,48 @@ Compression:   on, off
    - `quick + FAT32 + off` ---> `quick + FAT32` & `FAT32 + off` & `quick + off`
    - `slow + FAT + off` --> `slow + FAT` & `FAT + off` & `slow + off`
    - `slow + FAT32 + on` --> `slow + FAT32` & `FAT32 + on` & `slow + on`
-   - `quick + NTFS + on` --> `quick + NTFS` & `NTFS + on` & redundancy of `quick + on`
-   - `slow + NTFS + off` --> `slow + NTFS` & `NTFS + off` & redundancy of `slow + off`
+   - `quick + NTFS + on` --> `quick + NTFS` & `NTFS + on` & redundancy of
+     `quick + on`
+   - `slow + NTFS + off` --> `slow + NTFS` & `NTFS + off` & redundancy of
+     `slow + off`
 
-3. As you can see, the last two on the list have a repeat combination of `quick + on` and `slow + off`, but since this is inevitable, this is a necessary redundancy.
+3. As you can see, the last two on the list have a repeat combination of
+   `quick + on` and `slow + off`, but since this is inevitable, this is a
+   necessary redundancy.
 
 ## Concluding thoughts
 
 Here are the key takeaways from the above.
 
-- [No software can be defect-free as it is not viable](#the-seven-principles-of-testing), so tests should be done just enough to make you confident that it is stable and reliable enough before releasing it to the user
-- There are testing techniques that help you get an idea of how much can be considered just enough such as:
-  - [Equivalence partitioning](#equivalence-Partitioning), ensures all valid and invalid conditions are tested.
-  - [Boundary Value Analysis](#boundary-value-analysis), ensure boundaries between value ranges are properly established.
-  - [Decision Table](#decision-table), ensure no decision rules are left untested.
+- [No software can be defect-free as it is not viable](#the-seven-principles-of-testing),
+  so tests should be done just enough to make you confident that it is stable
+  and reliable enough before releasing it to the user
+- There are testing techniques that help you get an idea of how much can be
+  considered just enough such as:
+  - [Equivalence partitioning](#equivalence-Partitioning), ensures all valid and
+    invalid conditions are tested.
+  - [Boundary Value Analysis](#boundary-value-analysis), ensure boundaries
+    between value ranges are properly established.
+  - [Decision Table](#decision-table), ensure no decision rules are left
+    untested.
   - [Pairwise](#Pairwise), for combinatorial values.
 
-An additional point to make from my reflection is that, the technique helps us understand what is "enough", but as the principle said, once it is more stable, it is wise to add more tests to uncover more defects---keeping in mind that a usable software is more important than a fully defect-free software.
+An additional point to make from my reflection is that, the technique helps us
+understand what is "enough", but as the principle said, once it is more stable,
+it is wise to add more tests to uncover more defects---keeping in mind that a
+usable software is more important than a fully defect-free software.
 
 ![A process flows from left to right: test enough, useful, test more to improve](/assets/2023-12-06-when-tested-enough/conclusion.png)
 
 ## Relevant references
 
-- The seven testing principles and some of the testing techniques can be found on [ISTQB's Foundation Level (CTFL) Syllabus](https://istqb-main-web-prod.s3.amazonaws.com/media/documents/ISTQB-CTFL_Syllabus_2018_v3.1.1.pdf)
-- Well-written description of [the seven testing principles by Box UK](https://www.boxuk.com/insight/the-seven-principles-of-testing/)
-- [Pairwise Independent Combinatorial Testing (PICT) tool](https://github.com/microsoft/pict), a FOSS tool to generate Pairwise tests by Microsoft:
+- The seven testing principles and some of the testing techniques can be found
+  on
+  [ISTQB's Foundation Level (CTFL) Syllabus](https://istqb-main-web-prod.s3.amazonaws.com/media/documents/ISTQB-CTFL_Syllabus_2018_v3.1.1.pdf)
+- Well-written description of
+  [the seven testing principles by Box UK](https://www.boxuk.com/insight/the-seven-principles-of-testing/)
+- [Pairwise Independent Combinatorial Testing (PICT) tool](https://github.com/microsoft/pict),
+  a FOSS tool to generate Pairwise tests by Microsoft:
   - [its official site](https://www.Pairwise.org/), and
   - [its documentation](https://github.com/Microsoft/pict/blob/main/doc/pict.md)
 - Good explanation video by Software Testing Mentor on YouTube:
@@ -501,4 +577,5 @@ An additional point to make from my reflection is that, the technique helps us u
 
 ## End-notes
 
-This post is dedicated to Yustika and Kocoy, the QEs from my previous startup, Farmacare.
+This post is dedicated to Yustika and Kocoy, the QEs from my previous startup,
+Farmacare.

@@ -7,22 +7,41 @@ toc: true
 
 # <img src='/assets/icons/about.svg' alt='' class="icon"/>&nbsp;<span class='jump-effect'>**Fri**</span>, a problem solver
 
-<big>I do <img src='/assets/icons/research.svg' alt='' class="icon"/>&nbsp;*research*, <img src='/assets/icons/design.svg' alt='' class="icon"/>&nbsp;*design*, <img src='/assets/icons/code.svg' alt='' class="icon"/>&nbsp;*develop*, <img src='/assets/icons/test.svg' alt='' class="icon"/>&nbsp;*test*, <img src='/assets/icons/track.svg' alt='' class="icon"/>&nbsp;*track*, and <img src='/assets/icons/lead.svg' alt='' class="icon"/>&nbsp;*lead* utilizing an <img src='/assets/icons/iterative.svg' alt='' class="icon"/>&nbsp;*iterative* and <img src='/assets/icons/human-centric.svg' alt='' class="icon"/>&nbsp;*human centric* approach.</big>
+<big>I do
+<img src='/assets/icons/research.svg' alt='' class="icon"/>&nbsp;_research_,
+<img src='/assets/icons/design.svg' alt='' class="icon"/>&nbsp;_design_,
+<img src='/assets/icons/code.svg' alt='' class="icon"/>&nbsp;_develop_,
+<img src='/assets/icons/test.svg' alt='' class="icon"/>&nbsp;_test_,
+<img src='/assets/icons/track.svg' alt='' class="icon"/>&nbsp;_track_, and
+<img src='/assets/icons/lead.svg' alt='' class="icon"/>&nbsp;_lead_ utilizing an
+<img src='/assets/icons/iterative.svg' alt='' class="icon"/>&nbsp;_iterative_
+and <img src='/assets/icons/human-centric.svg' alt='' class="icon"/>&nbsp;_human
+centric_ approach.</big>
 
-Whilst my main trade is in Design and Product Management, I see myself as a *problem solver*. And to make sure that the solution is working, I am eager to learn and do what's necessary. Just like Dave Thomas and Andy Hunt said in their book:
+Whilst my main trade is in Design and Product Management, I see myself as a
+_problem solver_. And to make sure that the solution is working, I am eager to
+learn and do what's necessary. Just like Dave Thomas and Andy Hunt said in their
+book:
 
-> “If you’re a Pragmatic Programmer, you’ll share many of the following characteristics:
+> “If you’re a Pragmatic Programmer, you’ll share many of the following
+> characteristics:
 >
-> **Jack of all trades:**
-> … Although your current job may require you to be a specialist, you will always be able to move on to new areas and new challenges.”
+> **Jack of all trades:** … Although your current job may require you to be a
+> specialist, you will always be able to move on to new areas and new
+> challenges.”
 >
-> <span class='source' alt='source'>&mdash; **The Pragmatic Programmer**, David Thomas & Andrew Hunt</span>
+> <span class='source' alt='source'>&mdash; **The Pragmatic Programmer**, David
+> Thomas & Andrew Hunt</span>
 
-And I see myself not as a *Pragmatic Programmer*, but as a *_pragmatic problem_ solver*.
+And I see myself not as a _Pragmatic Programmer_, but as a __pragmatic problem_
+solver_.
 
 ## <img src='/assets/icons/learnings.svg' alt='' class="icon"/>&nbsp;Learning journeys
 
-_If you're more interested in a list of achievements, you can see them on [my <img src="/assets/social-media/linkedin.svg" class="icon"/>&nbsp;Linkedin page][linkedin] or [download my <img src="/assets/icons/resume.svg" class="icon"/>&nbsp;latest resume (PDF, 555KB)](/assets/docs/Fri%20Rasyidi%20-%20Resume.pdf)._
+_If you're more interested in a list of achievements, you can see them on
+[my <img src="/assets/social-media/linkedin.svg" class="icon"/>&nbsp;Linkedin page][linkedin]
+or
+[download my <img src="/assets/icons/resume.svg" class="icon"/>&nbsp;latest resume (PDF, 555KB)](/assets/docs/Fri%20Rasyidi%20-%20Resume.pdf)._
 
 <table class='mobile-friendly'>
   <tr>

@@ -13,7 +13,7 @@ Blockquote can nest itself
 
 > This is a simple blockquote.
 >
-> > With another blockquote nested in it.
+>> With another blockquote nested in it.
 
 Here's another blockquotes with other markdown syntax nested inside:
 
@@ -41,14 +41,14 @@ Here's another blockquotes with other markdown syntax nested inside:
 
 > This is a blockquote with a table inside of it:
 >
-> | One | Two | Three |
-> | --- | --- | ----- |
-> | Two | Four | Seven |
+> | One   | Two  | Three |
+> | ----- | ---- | ----- |
+> | Two   | Four | Seven |
 > | Three | Five | Eight |
-> | Four | Six | Nine |
+> | Four  | Six  | Nine  |
 >
 > With a link to [the source of the data](/somelink).
-> 
+>
 > **And a note as well:**
 >
 > - Note 1

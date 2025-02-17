@@ -16,10 +16,10 @@ describes me. She told me that I need to read the book, so I did. This is my
 takeaways from the book.
 
 _Note: This is my takeaways, not a summary. This means, it's not a one-to-one
-comparison to the book. I have rephrased the contents and added some related concepts/knowledges. My goal here is
-to help other learners in understanding the informations provided in the book.
-Please read the original source if you'd like to read the actual passage or
-terms used by the author. Feel free to
+comparison to the book. I have rephrased the contents and added some related
+concepts/knowledges. My goal here is to help other learners in understanding the
+informations provided in the book. Please read the original source if you'd like
+to read the actual passage or terms used by the author. Feel free to
 [send me feedback](mailto:fri%40frirasyidi.com?subject=Feedback%20on%20your%20George%20Leonard%27s%20Mastery%20Takeaways)
 on the takeaways._
 

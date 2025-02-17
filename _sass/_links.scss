@@ -1,13 +1,13 @@
 a {
-  padding: .2ch .5ch;
-  margin: -.2ch -.5ch;
+  padding: 0.2ch 0.5ch;
+  margin: -0.2ch -0.5ch;
   color: blue;
 
   &:hover, :focus {
     text-decoration: underline;
     background-color: #fff374;
     color: black;
-    border-radius: .5ch;
+    border-radius: 0.5ch;
   }
 
   &:visited {
@@ -16,7 +16,7 @@ a {
 }
 
 a.button {
-  padding: .2ch .5ch;
+  padding: 0.2ch 0.5ch;
   border-radius: 0.5rem;
   background-color: blue;
   color: white;

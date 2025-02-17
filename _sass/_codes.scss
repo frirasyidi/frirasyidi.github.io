@@ -1,17 +1,17 @@
 pre > code {
   display: block;
   overflow-x: scroll;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   white-space: pre;
 }
 
 code {
   background-color: rgb(48, 52, 52);
   color: white;
-  padding: .15rem .3rem;
-  margin: -.15rem 0;
-  font-size: .8rem;
-  border-radius: .2rem;
+  padding: 0.15rem 0.3rem;
+  margin: -0.15rem 0;
+  font-size: 0.8rem;
+  border-radius: 0.2rem;
   border: 1px solid rgb(70, 72, 72);
   white-space: nowrap;
 }
