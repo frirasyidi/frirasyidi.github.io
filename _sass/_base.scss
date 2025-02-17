@@ -28,6 +28,10 @@ img {
   margin: 0rem 0 3rem 0;
 }
 
+.nowrap { 
+  white-space: nowrap;
+}
+
 h1,
 h2,
 h3,
@@ -41,6 +45,7 @@ p {
     margin: -0.25em 0;
     vertical-align: middle;
     height: 1.5em;
+    margin-right: 2pt;
 
     &:hover {
       vertical-align: top;
