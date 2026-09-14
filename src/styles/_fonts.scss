@@ -1,0 +1,12 @@
+// Self-hosted headline typeface (see _config.scss's $font-family-headline).
+// Weight 400 / normal / latin subset only - headings never use bold or
+// italic anywhere in this codebase, so no other variant is vendored.
+// Atkinson Hyperlegible is licensed under the SIL Open Font License; see
+// public/assets/fonts/AtkinsonHyperlegible-OFL.txt.
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/AtkinsonHyperlegible-Regular.woff2") format("woff2");
+}

@@ -9,10 +9,10 @@ pre > code {
 
 code {
   background-color: $color-code-bg;
-  color: white;
+  color: $color-paper;
   padding: 0.15rem 0.3rem;
   margin: -0.15rem 0;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   border-radius: 0.2rem;
   border: 1px solid $color-code-border;
   white-space: nowrap;

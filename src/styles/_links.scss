@@ -8,7 +8,7 @@ a {
   &:hover, &:focus {
     text-decoration: underline;
     background-color: $color-highlight;
-    color: black;
+    color: $color-ink;
     border-radius: 0.5ch;
   }
 
@@ -21,7 +21,7 @@ a.button {
   padding: 0.2ch 0.5ch;
   border-radius: 0.5rem;
   background-color: $color-link;
-  color: white;
+  color: $color-paper;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.1rem;
@@ -30,23 +30,29 @@ a.button {
     border: 2px solid $color-highlight;
   }
 
+  // Text color alone can't distinguish a visited state here: the base
+  // background stays $color-link, and $color-link-visited (purple) is
+  // nearly the same luminance as $color-link (blue), so pairing them
+  // directly is unreadable. Dropping the fill to $color-paper is the
+  // minimal change that keeps the visited text legible.
   &:visited {
-    color: $color-link;
+    background-color: $color-paper;
+    color: $color-link-visited;
   }
 }
 
 a.secondary-button {
   background-color: $color-highlight;
-  color: black;
+  color: $color-ink;
   border: 2px solid $color-highlight;
 
   &:hover, &:focus {
     background-color: $color-link;
-    color: white;
+    color: $color-paper;
     border: 2px solid $color-link;
   }
 
   &:visited {
-    color: $color-highlight;
+    color: $color-link-visited;
   }
 }

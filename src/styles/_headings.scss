@@ -1,3 +1,5 @@
+@use "config" as *;
+
 // Margin scales with each heading's own font-size (larger headings get more
 // surrounding whitespace); kept in em, which - now that font-size is in rem
 // below - resolves off each heading's own stable size rather than an
@@ -5,6 +7,14 @@
 // inside a blockquote's resized text).
 h1, h2, h3, h4, h5, h6 {
   margin: 3em 0 1em;
+}
+
+// Headline typeface (see DESIGN.md's Two-Stack Rule); h4-h6 stay on the
+// base body stack.
+h1, h2, h3 {
+  font-family: $font-family-headline;
+  font-weight: 400; // only the regular weight is vendored; don't let the
+                    // browser fall back to a synthesized (fake) bold
 }
 
 h1 {
@@ -49,7 +59,7 @@ h6 {
   margin-bottom: 1rem;
 
   & a {
-    color: black;
+    color: $color-ink;
     text-decoration: none;
   }
 }

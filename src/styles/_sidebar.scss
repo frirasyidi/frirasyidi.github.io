@@ -82,12 +82,12 @@
     padding: 0;
     top: 0;
     left: 0;
-    overflow-x: hidden;
+    overflow-x: auto;
     z-index: 10;
-    background-color: white;
+    background-color: $color-paper;
     border-bottom: 1px solid $color-hairline;
     border-top: 1px solid $color-hairline;
-    box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+    box-shadow: 0 0 5px rgba($color-ink, 0.1);
     display: flex;
     gap: 2rem;
     white-space: nowrap;

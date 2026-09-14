@@ -24,7 +24,7 @@ td {
 }
 
 th {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid $color-ink;
 }
 
 tbody tr:hover {
@@ -45,7 +45,7 @@ table {
     position: sticky;
     left: 0;
     z-index: 1;
-    background-color: white;
+    background-color: $color-paper;
   }
 }
 
@@ -56,6 +56,11 @@ table {
 
   & td:last-child {
     width: 100%;
+
+    // Title + description are primary reading content, not metadata -
+    // restore body-copy scale over the table-wide 0.9rem. The date column
+    // intentionally stays at that metadata scale.
+    font-size: 1rem;
   }
 }
 
@@ -73,7 +78,7 @@ table {
       position: relative;
       left: 0;
       z-index: 1;
-      background-color: white;
+      background-color: $color-paper;
     }
 
     & th,
@@ -87,7 +92,7 @@ table {
     }
 
     & th {
-      border-bottom: 2px solid black;
+      border-bottom: 2px solid $color-ink;
     }
 
     & td {

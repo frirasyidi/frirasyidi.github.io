@@ -41,7 +41,7 @@ _If you're more interested in a list of achievements, you can see them on
 or
 [download my <img src="/assets/icons/resume.svg" class="icon"/>&nbsp;latest resume (PDF, 555KB)](/assets/docs/Fri%20Rasyidi%20-%20Resume.pdf)._
 
-<table class='mobile-friendly'>
+<table class='mobile-friendly listing-table'>
   <tr>
     <td>2020&ndash;2023</td>
     <td><strong>Co-founder and Chief of Product & Development</strong> of <a href="https://www.farmacare.id">Farmacare.id</a><br/>I was trusted by the Co-founder of SomiaCX to build this together with her. In this venture, I pushed forward my previous learnings and got more hands-on with the development process&mdash;going as far as setting up and coding the automation tests myself.</td>

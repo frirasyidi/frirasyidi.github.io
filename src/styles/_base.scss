@@ -11,6 +11,8 @@ body {
   margin: 0 auto;
   overflow: auto;
   font-family: $font-family-base;
+  background-color: $color-paper;
+  color: $color-ink;
 }
 
 main {

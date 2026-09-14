@@ -15,23 +15,41 @@ $font-family-base:
   "Apple Color Emoji",
   "Segoe UI Emoji";
 
+// Headline-only stack (h1-h3; see DESIGN.md's Two-Stack Rule). Self-hosted
+// via _fonts.scss's @font-face; falls back to the same base stack above.
+$font-family-headline:
+  "Atkinson Hyperlegible",
+  system-ui,
+  "Segoe UI",
+  roboto,
+  helvetica,
+  arial,
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji";
+
 // ---- Colors ----
 $color-highlight: #fff374;
-$color-link: blue;
-$color-link-visited: purple;
+$color-link: #00f;
+$color-link-visited: #800080;
 $color-focus-ring: $color-link;
 
+// Warm base pair, replacing plain black/white everywhere they were used
+// directly (see DESIGN.md's Warm Ink / Warm Paper).
+$color-ink: #2b2521;
+$color-paper: #fdfbf7;
+
 // Real text content (e.g. .meta, blockquote source) needs to clear WCAG AA
-// (4.5:1) against a white background; #4d4d4d gives ~8.4:1.
-$color-text-muted: #4d4d4d;
+// (4.5:1) against $color-paper; #5c5248 gives ~7.3:1.
+$color-text-muted: #5c5248;
 
 // Decorative-only grey (list markers, table borders, row-counter numerals) -
 // not text content, so it can stay lighter than $color-text-muted.
-$color-decorative: grey;
-$color-code-bg: rgb(48 52 52);
-$color-code-border: rgb(70 72 72);
-$color-table-hover-bg: #f8f8f8;
-$color-hairline: #ddd; // subtle divider, e.g. the mobile top nav bar
+$color-decorative: #948b7e;
+$color-code-bg: rgb(54 48 44);
+$color-code-border: rgb(78 70 64);
+$color-table-hover-bg: #f2ede3;
+$color-hairline: #e8e1d6; // subtle divider, e.g. the mobile top nav bar
 
 // ---- Layout ----
 $content-max-width: 70ch;
