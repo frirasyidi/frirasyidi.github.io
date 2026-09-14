@@ -11,24 +11,42 @@ const { toc = false, headings = [] } = Astro.props;
 ---
 
 <header class="sidebar">
-    <h1 class="site-title">
-        <a href="/">
-            <span class="jump-effect">Fri</span> Rasyidi
-        </a>
-    </h1>
-    <nav>
-        <span class="hide-mobile">
-            <a href="/" class="nowrap">
-                <img src="/assets/icons/home.svg" alt="" class="icon" />
-                Home
-            </a>{" "}
-            &middot;{" "}
-        </span>
+    <div class="sidebar-top">
+        <h1 class="site-title">
+            <a href="/">
+                <span class="jump-effect">Fri</span> Rasyidi
+            </a>
+        </h1>
+        <button
+            type="button"
+            class="nav-toggle"
+            aria-expanded="false"
+            aria-controls="primary-nav"
+            aria-label="Toggle navigation menu"
+        >
+            <img
+                src="/assets/icons/menu.svg"
+                alt=""
+                class="icon nav-toggle-icon-open"
+            />
+            <img
+                src="/assets/icons/close.svg"
+                alt=""
+                class="icon nav-toggle-icon-close"
+            />
+        </button>
+    </div>
+    <nav id="primary-nav">
+        <a href="/" class="nowrap">
+            <img src="/assets/icons/home.svg" alt="" class="icon" />
+            Home
+        </a>{" "}
+        <span class="separator">&middot;</span>{" "}
         <a href="/writings" class="nowrap">
             <img src="/assets/icons/writings.svg" alt="" class="icon" />
             Writings
         </a>{" "}
-        &middot;{" "}
+        <span class="separator">&middot;</span>{" "}
         <a href="/reading-takeaways" class="nowrap">
             <img
                 src="/assets/icons/reading-takeaways.svg"
@@ -37,7 +55,7 @@ const { toc = false, headings = [] } = Astro.props;
             />
             Reading Takeaways
         </a>{" "}
-        &middot;{" "}
+        <span class="separator">&middot;</span>{" "}
         <a href="/about" class="nowrap">
             <img src="/assets/icons/about.svg" alt="" class="icon" />
             About
@@ -87,3 +105,23 @@ const { toc = false, headings = [] } = Astro.props;
         )}
     </section>
 </header>
+
+<script>
+    const toggle = document.querySelector<HTMLButtonElement>(".nav-toggle");
+    const sidebar = document.querySelector<HTMLElement>(".sidebar");
+
+    if (toggle && sidebar) {
+        toggle.addEventListener("click", () => {
+            const isOpen = sidebar.classList.toggle("nav-open");
+            toggle.setAttribute("aria-expanded", String(isOpen));
+        });
+
+        sidebar.addEventListener("keydown", (e) => {
+            if (e.key === "Escape" && sidebar.classList.contains("nav-open")) {
+                sidebar.classList.remove("nav-open");
+                toggle.setAttribute("aria-expanded", "false");
+                toggle.focus();
+            }
+        });
+    }
+</script>
