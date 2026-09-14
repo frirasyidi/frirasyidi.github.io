@@ -82,7 +82,7 @@ or
   <tr>
     <td>2016</td>
     <td>
-      <strong>UX Consultant</strong> for <abbr title="Special Task Force for Acceleration of Renewable Energy Development">Satgas P2EBT</abbr> of <abbr title="Ministry of Energy and Mineral Resources">Kementerian ESDM</abbr><br/>Working alongside <a href="http://wri-indonesia.org">World Resources Institute</a>I learned how to work with the government and navigating different views from multitude stakeholders to design a working solution.
+      <strong>UX Consultant</strong> for <abbr title="Special Task Force for Acceleration of Renewable Energy Development">Satgas P2EBT</abbr> of <abbr title="Ministry of Energy and Mineral Resources">Kementerian ESDM</abbr><br/>Working alongside <a href="http://wri-indonesia.org">World Resources Institute</a><br/>I learned how to work with the government and navigating different views from multitude stakeholders to design a working solution.
     </td>
   </tr>
   <tr>
