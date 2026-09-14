@@ -1,0 +1,46 @@
+---
+interface FlatHeading {
+  depth: number;
+  slug: string;
+  text: string;
+}
+
+interface HeadingNode extends FlatHeading {
+  children: HeadingNode[];
+}
+
+interface Props {
+  headings?: FlatHeading[];
+  nodes?: HeadingNode[];
+  minLevel?: number;
+}
+
+const { headings, nodes, minLevel = 2 } = Astro.props;
+
+function buildTree(items: FlatHeading[]): HeadingNode[] {
+  const root: HeadingNode = { depth: minLevel - 1, slug: '', text: '', children: [] };
+  const stack: HeadingNode[] = [root];
+  for (const item of items) {
+    const node: HeadingNode = { ...item, children: [] };
+    while (stack.length > 1 && stack[stack.length - 1].depth >= node.depth) {
+      stack.pop();
+    }
+    stack[stack.length - 1].children.push(node);
+    stack.push(node);
+  }
+  return root.children;
+}
+
+const list = nodes ?? buildTree((headings ?? []).filter((h) => h.depth >= minLevel));
+---
+
+{list.length > 0 && (
+  <ul>
+    {list.map((node) => (
+      <li>
+        <a href={`#${node.slug}`}>{node.text}</a>
+        {node.children.length > 0 && <Astro.self nodes={node.children} />}
+      </li>
+    ))}
+  </ul>
+)}

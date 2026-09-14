@@ -1,0 +1,30 @@
+big {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+small {
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+
+// Centered, full-width caption under a figure's image (replaces a
+// `style="width:100%; text-align:center;"` repeated across post content).
+.figcaption {
+  width: 100%;
+  text-align: center;
+}
+
+// Post header/body treatment (PostLayout.astro).
+.post-title {
+  margin-bottom: 0;
+}
+
+.post-description {
+  font-size: large;
+  font-style: oblique;
+}
+
+.post-content {
+  margin-top: 4em;
+}

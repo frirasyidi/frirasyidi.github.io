@@ -1,0 +1,44 @@
+---
+import '../styles/global.scss';
+import SEO from '../components/SEO.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE } from '../consts';
+
+interface Props {
+  title?: string;
+  description?: string;
+  canonicalUrl?: string;
+  toc?: boolean;
+  headings?: { depth: number; slug: string; text: string }[];
+}
+
+const { title, description, canonicalUrl, toc = false, headings = [] } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <SEO title={title} description={description} canonicalUrl={canonicalUrl} />
+    <link rel="stylesheet" href="/assets/css/modern-normalize.css" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title={SITE_TITLE}
+      href="/feed.xml"
+    />
+  </head>
+  <body>
+    <a href="#content" class="visually-hidden-until-focus">Skip to content</a>
+
+    <Header toc={toc} headings={headings} />
+
+    <main id="content">
+      <slot />
+    </main>
+
+    <Footer />
+  </body>
+</html>

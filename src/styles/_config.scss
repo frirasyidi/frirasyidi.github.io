@@ -1,0 +1,64 @@
+// Design tokens shared across every partial.
+// Import with `@use "config" as *;` to get these unprefixed.
+
+// ---- Typography ----
+// Matches modern-normalize.css's html{font-family} stack (see
+// public/assets/css/modern-normalize.css) so declaring it here is a no-op
+// override that just makes the choice explicit and overridable in one place.
+$font-family-base:
+  system-ui,
+  "Segoe UI",
+  roboto,
+  helvetica,
+  arial,
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji";
+
+// ---- Colors ----
+$color-highlight: #fff374;
+$color-link: blue;
+$color-link-visited: purple;
+$color-focus-ring: $color-link;
+
+// Real text content (e.g. .meta, blockquote source) needs to clear WCAG AA
+// (4.5:1) against a white background; #4d4d4d gives ~8.4:1.
+$color-text-muted: #4d4d4d;
+
+// Decorative-only grey (list markers, table borders, row-counter numerals) -
+// not text content, so it can stay lighter than $color-text-muted.
+$color-decorative: grey;
+$color-code-bg: rgb(48 52 52);
+$color-code-border: rgb(70 72 72);
+$color-table-hover-bg: #f8f8f8;
+$color-hairline: #ddd; // subtle divider, e.g. the mobile top nav bar
+
+// ---- Layout ----
+$content-max-width: 70ch;
+$content-gutter: 4ch; // gap between the fixed sidebar and the content column
+
+$sidebar-width: 24ch;
+$sidebar-width-tablet: 20ch;
+
+// Content columns (main/footer) sit to the right of the sidebar, so their
+// left margin is the sidebar's own width plus the gutter between them.
+$content-margin-left: $sidebar-width + $content-gutter;
+$content-margin-left-tablet: $sidebar-width-tablet + $content-gutter;
+
+// ---- Breakpoints ----
+$breakpoint-tablet: 820px;
+$breakpoint-mobile: 640px;
+
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == tablet {
+    @media screen and (max-width: $breakpoint-tablet) {
+      @content;
+    }
+  } @else if $breakpoint == mobile {
+    @media screen and (max-width: $breakpoint-mobile) {
+      @content;
+    }
+  } @else {
+    @error "Unknown breakpoint: #{$breakpoint}. Use 'tablet' or 'mobile'.";
+  }
+}

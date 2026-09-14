@@ -1,0 +1,19 @@
+@use "config" as *;
+
+pre > code {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5rem 1rem;
+  white-space: pre;
+}
+
+code {
+  background-color: $color-code-bg;
+  color: white;
+  padding: 0.15rem 0.3rem;
+  margin: -0.15rem 0;
+  font-size: 0.8rem;
+  border-radius: 0.2rem;
+  border: 1px solid $color-code-border;
+  white-space: nowrap;
+}

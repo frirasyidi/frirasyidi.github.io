@@ -1,0 +1,38 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getPostUrl } from '../../lib/postUrl';
+import { formatListingDate } from '../../lib/formatDate';
+import { sortPosts } from '../../lib/sortPosts';
+
+const posts = (await getCollection('posts', ({ data }) => data.section === 'writings')).sort(
+  sortPosts
+);
+---
+
+<BaseLayout title="Writings">
+  <h1><img src="/assets/icons/writings.svg" alt="" class="icon" />&nbsp;Writings</h1>
+
+  <p>
+    These writings contain learnings, insights, and thoughts that I found
+    interesting—mostly around design and development. I hope you find something
+    interesting here as well!
+  </p>
+
+  <table class="mobile-friendly">
+    <tbody>
+      {posts.map((post) => (
+        <tr>
+          <td
+            ><strong
+              ><time datetime={post.data.date.toISOString()}
+                set:html={formatListingDate(post.data.date).replaceAll(' ', '&nbsp;')}
+              /></strong
+            ></td
+          >
+          <td><a href={getPostUrl(post)}>{post.data.title}</a><br />{post.data.description}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</BaseLayout>

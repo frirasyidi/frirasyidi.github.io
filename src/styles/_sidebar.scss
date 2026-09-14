@@ -1,0 +1,116 @@
+@use "config" as *;
+
+.sidebar {
+  // height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: $sidebar-width; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  // left: 0;
+  // overflow-x: hidden; /* Disable horizontal scroll */
+  margin: 2rem 0 0;
+
+  & p,
+  nav {
+    font-size: 0.9rem;
+  }
+
+  & ul {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  & li {
+    font-size: 0.9rem;
+    list-style-type: "- ";
+    list-style-position: outside;
+  }
+
+  & h5 {
+    margin-top: 1rem;
+    line-height: 1.2rem;
+  }
+}
+
+.social-media-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  & ::marker {
+    content: "";
+  }
+
+  & img,
+  a {
+    display: inline;
+    padding: 0.2ch 0.5ch;
+    margin: -0.2ch 0;
+  }
+
+  & img {
+    height: 1.7rem;
+  }
+
+  & img:hover {
+    vertical-align: top;
+  }
+
+  & * {
+    padding: 0;
+    border: none;
+    vertical-align: middle;
+    line-height: 1.7rem;
+  }
+}
+
+// sidebar width will reduce depending on the screen width
+@include respond-to(tablet) {
+  .sidebar {
+    width: $sidebar-width-tablet;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+}
+
+@include respond-to(mobile) {
+  .sidebar {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    z-index: 10;
+    background-color: white;
+    border-bottom: 1px solid $color-hairline;
+    border-top: 1px solid $color-hairline;
+    box-shadow: 0 0 5px rgb(0 0 0 / 10%);
+    display: flex;
+    gap: 2rem;
+    white-space: nowrap;
+
+    h1 {
+      margin: 1rem 0 1rem 1rem;
+    }
+
+    nav {
+      margin: 1rem 0;
+      text-align: right;
+    }
+
+    hr {
+      display: none;
+    }
+
+    .hide-mobile {
+      display: none;
+    }
+  }
+
+  .toc-container {
+    display: none;
+  }
+}

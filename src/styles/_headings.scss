@@ -1,0 +1,55 @@
+// Margin scales with each heading's own font-size (larger headings get more
+// surrounding whitespace); kept in em, which - now that font-size is in rem
+// below - resolves off each heading's own stable size rather than an
+// ancestor's, so it no longer compounds unpredictably when nested (e.g.
+// inside a blockquote's resized text).
+h1, h2, h3, h4, h5, h6 {
+  margin: 3em 0 1em;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+
+  // Explicit top+bottom instead of only overriding margin-top: the generic
+  // rule above computed margin-bottom off a stale pre-rem font-size,
+  // leaving h1 with a mismatched 32px/40px top/bottom pair.
+  margin: 2rem 0 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+h5 {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+h6 {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-variant: small-caps;
+}
+
+.site-title {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+
+  & a {
+    color: black;
+    text-decoration: none;
+  }
+}

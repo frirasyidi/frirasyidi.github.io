@@ -1,0 +1,52 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+import { humanizeSlug } from '../lib/postTitle';
+
+interface Props {
+  title?: string;
+  description?: string;
+  date: Date;
+  section?: string;
+  slug: string;
+  toc?: boolean;
+  canonicalUrl?: string;
+  headings?: { depth: number; slug: string; text: string }[];
+}
+
+const { title, description, date, section, slug, toc = false, canonicalUrl, headings = [] } =
+  Astro.props;
+
+const displayTitle = title ?? humanizeSlug(slug);
+
+const formattedDate = date.toLocaleDateString('en-US', {
+  month: 'short',
+  day: 'numeric',
+  year: 'numeric',
+});
+---
+
+<BaseLayout title={displayTitle} description={description} canonicalUrl={canonicalUrl} toc={toc} headings={headings}>
+  {section === 'writings' && (
+    <a href="/writings" class="nowrap"
+      >← Back to <img src="/assets/icons/writings.svg" alt="" class="icon" />Writings</a
+    >
+  )}
+  {section === 'reading-takeaways' && (
+    <a href="/reading-takeaways" class="nowrap"
+      >← Back to <img
+        src="/assets/icons/reading-takeaways.svg"
+        alt=""
+        class="icon"
+      />Reading Takeaways</a
+    >
+  )}
+
+  <h1 class="post-title">{displayTitle}</h1>
+  <p class="post-description">{description}</p>
+  <p class="meta">{formattedDate}</p>
+
+  <div class="post-content">
+    <slot />
+  </div>
+</BaseLayout>

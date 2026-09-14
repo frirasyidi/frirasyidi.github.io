@@ -1,0 +1,89 @@
+---
+import { GITHUB_USERNAME, LINKEDIN_USERNAME, SITE_EMAIL } from "../consts";
+import Toc from "./Toc.astro";
+
+interface Props {
+    toc?: boolean;
+    headings?: { depth: number; slug: string; text: string }[];
+}
+
+const { toc = false, headings = [] } = Astro.props;
+---
+
+<header class="sidebar">
+    <h1 class="site-title">
+        <a href="/">
+            <span class="jump-effect">Fri</span> Rasyidi
+        </a>
+    </h1>
+    <nav>
+        <span class="hide-mobile">
+            <a href="/" class="nowrap">
+                <img src="/assets/icons/home.svg" alt="" class="icon" />
+                Home
+            </a>{" "}
+            &middot;{" "}
+        </span>
+        <a href="/writings" class="nowrap">
+            <img src="/assets/icons/writings.svg" alt="" class="icon" />
+            Writings
+        </a>{" "}
+        &middot;{" "}
+        <a href="/reading-takeaways" class="nowrap">
+            <img
+                src="/assets/icons/reading-takeaways.svg"
+                alt=""
+                class="icon"
+            />
+            Reading Takeaways
+        </a>{" "}
+        &middot;{" "}
+        <a href="/about" class="nowrap">
+            <img src="/assets/icons/about.svg" alt="" class="icon" />
+            About
+        </a>
+    </nav>
+    <hr />
+
+    <section id="toc" class="toc-container">
+        {toc ? (
+            <>
+                <h5>Table of contents</h5>
+                <Toc headings={headings} minLevel={2} />
+            </>
+        ) : (
+            <>
+                <p>
+                    <strong>Fri</strong> is a passionate and pragmatic problem
+                    solver. He builds products and services to learn and improve
+                    people’s life.
+                </p>
+                <ul class="social-media-links">
+                    <li>
+                        <a href={`https://github.com/${GITHUB_USERNAME}`}>
+                            <img src="/assets/social-media/github.svg" alt="" />
+                            @{GITHUB_USERNAME}
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href={`https://linkedin.com/in/${LINKEDIN_USERNAME}`}
+                        >
+                            <img
+                                src="/assets/social-media/linkedin.svg"
+                                alt=""
+                            />
+                            /in/{LINKEDIN_USERNAME}
+                        </a>
+                    </li>
+                    <li>
+                        <a href={`mailto:${SITE_EMAIL}`}>
+                            <img src="/assets/social-media/email.svg" alt="" />
+                            {SITE_EMAIL}
+                        </a>
+                    </li>
+                </ul>
+            </>
+        )}
+    </section>
+</header>

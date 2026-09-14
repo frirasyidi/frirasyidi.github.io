@@ -1,0 +1,21 @@
+{
+  "name": "frirasyidi.github.io",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "lint:css": "stylelint \"src/**/*.scss\""
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.11",
+    "astro": "^7.3.2",
+    "sass": "^1.83.4"
+  },
+  "devDependencies": {
+    "stylelint": "^17.15.0",
+    "stylelint-config-standard-scss": "^17.0.0"
+  }
+}

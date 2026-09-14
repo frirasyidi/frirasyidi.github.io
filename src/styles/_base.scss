@@ -1,0 +1,107 @@
+@use "config" as *;
+
+:root {
+  line-height: 1.5;
+}
+
+body {
+  padding: 0 1.5rem;
+  max-width: 100ch;
+  width: 100%;
+  margin: 0 auto;
+  overflow: auto;
+  font-family: $font-family-base;
+}
+
+main {
+  margin: 2rem auto 0 $content-margin-left;
+  padding-bottom: 10rem;
+  max-width: $content-max-width;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.meta {
+  font-size: 0.9rem;
+  color: $color-text-muted;
+  margin: 0 0 3rem;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+// Visually hidden until focused - used for the skip-to-content link.
+.visually-hidden-until-focus {
+  position: absolute;
+  top: -3rem;
+  left: 1rem;
+  z-index: 100;
+
+  &:focus {
+    top: 1rem;
+  }
+}
+
+// Consistent, visible keyboard-focus indicator for every interactive element.
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid $color-focus-ring;
+  outline-offset: 2px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+p {
+  & img.icon {
+    display: inline;
+    padding: 0;
+    margin: -0.25em 0;
+    vertical-align: middle;
+    height: 1.5em;
+    margin-right: 2pt;
+
+    &:hover {
+      vertical-align: top;
+    }
+  }
+}
+
+h1,
+h2,
+h3 {
+  & img.icon {
+    height: 1.2em;
+  }
+}
+
+.jump-effect:hover {
+  line-height: 1.2rem;
+  vertical-align: top;
+  background-color: $color-highlight;
+  padding: 0 0.5rem;
+  border-radius: 0.5ch;
+  margin: 0 -0.5rem;
+}
+
+@include respond-to(tablet) {
+  main {
+    margin: 2rem auto 0 $content-margin-left-tablet;
+  }
+}
+
+@include respond-to(mobile) {
+  main {
+    margin: 6rem 0 0;
+  }
+}

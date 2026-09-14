@@ -1,0 +1,55 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getPostUrl } from '../../lib/postUrl';
+import { formatListingDate } from '../../lib/formatDate';
+import { sortPosts } from '../../lib/sortPosts';
+
+const posts = (
+  await getCollection('posts', ({ data }) => data.section === 'reading-takeaways')
+).sort(sortPosts);
+---
+
+<BaseLayout title="Reading Takeaways">
+  <h1>
+    <img src="/assets/icons/reading-takeaways.svg" alt="" class="icon" />&nbsp;Reading
+    Takeaways
+  </h1>
+
+  <p>
+    This is my takeaways, not a summary. This means, it’s not a one-to-one
+    comparison to the book. I have rephrased the contents and added some
+    related concepts/knowledges.
+  </p>
+
+  <p>
+    My goal here is to help other learners in understanding the informations
+    provided in the book. Please read the original source if you’d like to
+    read the actual passage or terms used by the author.
+  </p>
+
+  <p>
+    Feel free to
+    <a
+      href="mailto:fri%40frirasyidi.com?subject=Feedback%20on%20your%20George%20Leonard%27s%20Mastery%20Takeaways"
+      >send me feedback</a
+    > on the takeaways.
+  </p>
+
+  <table class="mobile-friendly">
+    <tbody>
+      {posts.map((post) => (
+        <tr>
+          <td
+            ><strong
+              ><time datetime={post.data.date.toISOString()}
+                set:html={formatListingDate(post.data.date).replaceAll(' ', '&nbsp;')}
+              /></strong
+            ></td
+          >
+          <td><a href={getPostUrl(post)}>{post.data.title}</a><br />{post.data.description}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</BaseLayout>

@@ -1,6 +1,5 @@
-_site
+node_modules
+dist
+.astro
 .DS_Store
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
 .vscode

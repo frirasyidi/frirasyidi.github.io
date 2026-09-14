@@ -1,0 +1,52 @@
+@use "config" as *;
+
+a {
+  padding: 0.2ch 0.5ch;
+  margin: -0.2ch -0.5ch;
+  color: $color-link;
+
+  &:hover, &:focus {
+    text-decoration: underline;
+    background-color: $color-highlight;
+    color: black;
+    border-radius: 0.5ch;
+  }
+
+  &:visited {
+    color: $color-link-visited;
+  }
+}
+
+a.button {
+  padding: 0.2ch 0.5ch;
+  border-radius: 0.5rem;
+  background-color: $color-link;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+
+  &:hover, &:focus {
+    border: 2px solid $color-highlight;
+  }
+
+  &:visited {
+    color: $color-link;
+  }
+}
+
+a.secondary-button {
+  background-color: $color-highlight;
+  color: black;
+  border: 2px solid $color-highlight;
+
+  &:hover, &:focus {
+    background-color: $color-link;
+    color: white;
+    border: 2px solid $color-link;
+  }
+
+  &:visited {
+    color: $color-highlight;
+  }
+}

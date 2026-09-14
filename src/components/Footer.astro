@@ -1,0 +1,70 @@
+---
+import { SITE_DESCRIPTION } from "../consts";
+---
+
+<footer>
+    <section class="site-description" aria-label="Site description">
+        <h5>
+            <a href="/">frirasyidi.com</a>
+        </h5>
+        <p>{SITE_DESCRIPTION}</p>
+    </section>
+    <section class="nav-credits" aria-label="Acknowledgements">
+        <nav>
+            <a href="/" class="nowrap">
+                <img src="/assets/icons/home.svg" alt="" class="icon" />
+                Home
+            </a>{" "}
+            &middot;{" "}
+            <a href="/writings" class="nowrap">
+                <img src="/assets/icons/writings.svg" alt="" class="icon" />
+                Writings
+            </a>{" "}
+            &middot;
+            <a href="/reading-takeaways" class="nowrap">
+                <img
+                    src="/assets/icons/reading-takeaways.svg"
+                    alt=""
+                    class="icon"
+                />
+                Reading Takeaways
+            </a>{" "}
+            &middot;{" "}
+            <a href="/about" class="nowrap">
+                <img src="/assets/icons/about.svg" alt="" class="icon" />
+                About
+            </a>
+        </nav>
+        <p>
+            This site is powered by{" "}
+            <a href="https://astro.build" class="nowrap">
+                <img src="/assets/icons/code.svg" alt="" class="icon" />
+                Astro
+            </a>{" "}
+            and{" "}
+            <a href="https://github.io" class="nowrap">
+                <img
+                    src="/assets/social-media/github.svg"
+                    alt=""
+                    class="icon"
+                />
+                Github Pages
+            </a>
+            ,{" "}
+            <a
+                href="https://github.com/frirasyidi/frirasyidi.github.io"
+                class="nowrap"
+            >
+                <img src="/assets/icons/code.svg" alt="" class="icon" />
+                custom styled
+            </a>{" "}
+            with the goal of improving readability and understandability. Some
+            SVG icons are sourced from{" "}
+            <a href="https://tabler.io/icons" class="nowrap">
+                <img src="/assets/icons/tabler.svg" alt="" class="icon" />
+                Tabler.io
+            </a>
+            .
+        </p>
+    </section>
+</footer>
